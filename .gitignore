@@ -1,7 +1,7 @@
-# data/ は台帳・統計・本文テキストを公開対象とする。
-# ただし kanpo_state.json は収集の運用状態（チェック済み日付）なので含めない。
+# data/ は台帳・統計・本文テキストに加え、収集の状態ファイル
+# （kanpo_state.json）も含めて管理する。GitHub Actions での週次実行が
+# 前回の続きから再開できるようにするため。
 __pycache__/
 *.pyc
 run.log
 nohup.out
-data/kanpo_state.json
