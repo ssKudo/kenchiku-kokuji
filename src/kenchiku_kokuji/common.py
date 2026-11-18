@@ -85,6 +85,9 @@ ISSUER_KEYS = [
     ("文部科学省", "mext"),
     ("外務省", "mofa"),
     ("防衛省", "mod"),
+    ("消防庁", "fdma"),
+    ("自治省", "mha"),
+    ("国家公安委員会", "npsc"),
 ]
 
 
@@ -97,9 +100,12 @@ def parse_notice_number(number_raw: str, date_iso: str | None) -> dict:
       "建設省告示第千三百九十九号" + date       -> kensetsu / year / 1399
       "令和8年国土交通省告示第1316号"           -> mlit / 2026 / 1316
       "令和8年厚生労働省・国土交通省・環境省告示第2号" -> joint / 2026 / 2
+      "昭和39年消防庁告示7"                     -> fdma / 1964 / 7
     """
     raw = number_raw.translate(FULLWIDTH)
     m = re.search(r"第([〇一二三四五六七八九十百千万\d]+)号", raw)
+    if not m:
+        m = re.search(r"告示(?:第)?([〇一二三四五六七八九十百千万\d]+)(?:号)?", raw)
     number = kanji_to_int(m.group(1)) if m else None
 
     year = None

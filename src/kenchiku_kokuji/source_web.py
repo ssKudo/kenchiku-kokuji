@@ -6,16 +6,60 @@
 """
 from __future__ import annotations
 
+import html as html_mod
 import re
 from urllib.parse import urljoin
 
 from .common import fetch, make_id, parse_era_date, parse_notice_number
 
 PAGE_URL = "https://www.mlit.go.jp/jutakukentiku/build/jutakukentiku_house_tk_000096.html"
+SHOENE_URL = "https://www.mlit.go.jp/jutakukentiku/house/29.html"
 
 HEADING = re.compile("【([^】]*公布[^】]*)】")
 ENTRY = re.compile("○\\s*([^（\n]+?)\\s*[（(]([^）)]*告示第[^）)]*号)[）)]")
 LINK = re.compile('<a[^>]+href="([^"]+\\.pdf)"[^>]*>([^<]*)</a>', re.I)
+SHOENE_LINK = re.compile(r'<a[^>]+href="([^"]+\.pdf)"[^>]*>(.*?)</a>', re.I | re.S)
+SHOENE_TITLE = re.compile(r'^(.+?)[（(]([^）)]*告示第[^）)]*号)[）)]')
+
+
+def parse_shoene_html(html: str, page_url: str = SHOENE_URL) -> list[dict]:
+    """住宅局「建築物省エネ法 最新の法令」(29.html) の #cont4 告示セクションを抽出する。"""
+    m4 = re.search(r'id=["\']cont4["\']', html)
+    if not m4:
+        return []
+    m5 = re.search(r'id=["\']cont5["\']', html[m4.end():])
+    sec = html[m4.end(): m4.end() + m5.start()] if m5 else html[m4.end():]
+    records: list[dict] = []
+    seen: set[str] = set()
+    for href, raw_text in SHOENE_LINK.findall(sec):
+        text = re.sub(r"\s+", " ", html_mod.unescape(re.sub(r"<[^>]+>", "", raw_text))).strip()
+        text = re.sub(r"\s*\(PDF形式[^)]*\)\s*$", "", text).strip()
+        tm = SHOENE_TITLE.match(text)
+        if not tm:
+            continue
+        title = tm.group(1).strip()
+        number_raw = tm.group(2).strip()
+        parsed = parse_notice_number(number_raw, None)
+        rid = make_id(parsed["issuer"], parsed["year"], parsed["number"],
+                      fallback=f"shoene-{len(records)}")
+        if rid in seen:
+            continue
+        seen.add(rid)
+        records.append({
+            "id": rid,
+            "title": title,
+            "number_raw": number_raw,
+            "issuer": parsed["issuer"],
+            "year": parsed["year"],
+            "number": parsed["number"],
+            "date": None,
+            "kind": "amendment" if "一部を改正" in title else "enactment",
+            "org": "住宅局",
+            "sources": [{"type": "web_shoene", "page_url": page_url}],
+            "document_url": urljoin(page_url, href),
+            "attachments": [],
+        })
+    return records
 
 
 def load_inventory() -> list[dict]:
@@ -70,4 +114,13 @@ def load_inventory() -> list[dict]:
                 "document_url": doc_url,
                 "attachments": attachments,
             })
+    seen = {r["id"] for r in records}
+    try:
+        shoene_html = fetch(SHOENE_URL).decode("utf-8", "ignore")
+        for rec in parse_shoene_html(shoene_html, SHOENE_URL):
+            if rec["id"] not in seen:
+                seen.add(rec["id"])
+                records.append(rec)
+    except Exception:  # noqa: BLE001 - 補助ページ取得失敗時は主ページ分を返す
+        pass
     return records

@@ -7,8 +7,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
 from kenchiku_kokuji.common import load_domain  # noqa: E402
 from kenchiku_kokuji.source_kanpo_archive import (  # noqa: E402
-    classify, find_headings, issuer_key_of, parse_toc, promulgation_offset,
-    segment_issue)
+    classify, find_headings, hit_to_record, issuer_key_of, parse_toc,
+    promulgation_offset, segment_issue)
 
 
 class TestFindHeadings(unittest.TestCase):
@@ -108,6 +108,22 @@ class TestFindHeadings(unittest.TestCase):
         domain = load_domain()
         tier, src = classify(segs[0], domain, set())
         self.assertEqual((tier, src), ("tier1", "body"))
+
+    def test_hit_to_record(self):
+        hit = {
+            "issuer_key": "mlit",
+            "number": 1316,
+            "chain": "国土交通省",
+            "text": "国土交通省告示第千三百十六号\n建築基準法施行令の規定に基づき定める。",
+            "toc_title": "建築基準法施行令に基づく告示",
+            "title_source": "toc",
+        }
+        rec = hit_to_record(hit, "2026-10-30", "https://github.com/kanpo-downloader/kanpo-2026/blob/main/20261030/test.pdf")
+        self.assertEqual(rec["id"], "mlit-2026-1316")
+        self.assertEqual(rec["title"], "建築基準法施行令に基づく告示")
+        self.assertEqual(rec["title_how"], "toc")
+        self.assertEqual(rec["sources"][0]["type"], "kanpo_archive")
+        self.assertIn("\n", rec["text_inline"])
 
 
 if __name__ == "__main__":

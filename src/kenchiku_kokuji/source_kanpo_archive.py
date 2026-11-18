@@ -20,12 +20,13 @@ GitHub 組織 kanpo-downloader のアーカイブ(kanpo-2025 / kanpo-2026)
 """
 from __future__ import annotations
 
+import json
 import re
 import time
 from urllib.request import Request, urlopen
 
 from .common import (ISSUER_KEYS, USER_AGENT, is_excluded, kanji_to_int,
-                     slice_raw_by_norm, strip_ws_with_map)
+                     make_id, slice_raw_by_norm, strip_ws_with_map)
 from .source_kanpo import ABBREV, _parse_entry_number, extract_amend_targets
 
 ARCHIVE_ORG = "kanpo-downloader"
@@ -319,3 +320,95 @@ def scan_issue(pdf_bytes: bytes, domain: dict,
                known_ids: set) -> tuple[list[dict], int, list[dict]]:
     """1号分を走査し (ドメイン内セグメント列, 見出し総数, 発令未確認列) を返す。"""
     return scan_issue_pages(pages_of(pdf_bytes), domain, known_ids)
+
+
+_ARCHIVE_PDF_RE = re.compile(r"^(\d{8})/\1([hgt])(\d+).*\.pdf$")
+_KEY_TO_FULL = {k: f for _, (k, f) in ABBREV.items()} | {k: n for n, k in ISSUER_KEYS}
+
+
+def list_archive_pdfs(repo: str) -> list[str]:
+    """kanpo-downloader リポジトリから本紙・号外・特別号外PDFのパス一覧を取得する。"""
+    api = f"https://api.github.com/repos/{ARCHIVE_ORG}/{repo}/git/trees/main?recursive=1"
+    req = Request(api, headers={"User-Agent": USER_AGENT, "Accept": "application/vnd.github+json"})
+    with urlopen(req, timeout=60) as resp:
+        tree = json.loads(resp.read().decode("utf-8"))
+    return sorted(
+        item["path"] for item in tree.get("tree", [])
+        if item.get("type") == "blob" and _ARCHIVE_PDF_RE.match(item.get("path", ""))
+    )
+
+
+def hit_to_record(hit: dict, date_iso: str, page_url: str, pdf_url: str = "") -> dict:
+    """scan_issue_pages のヒット1件を統合用レコードに変換する。"""
+    year = int(date_iso[:4])
+    issuer_key = hit["issuer_key"]
+    number = hit["number"]
+    rid = make_id(issuer_key, year, number, fallback=f"archive-{date_iso}-{number}")
+    issuer_full = _KEY_TO_FULL.get(issuer_key, hit.get("chain", issuer_key))
+    if hit.get("toc_title") and hit.get("title_source") == "toc":
+        title = hit["toc_title"]
+        title_how = "toc"
+    else:
+        norm = re.sub(r"\s+", "", hit["text"])
+        body_start = norm.find("号")
+        head = norm[body_start + 1: body_start + 81] if body_start >= 0 else norm[:80]
+        title = head
+        title_how = "body_head"
+    return {
+        "id": rid,
+        "title": title,
+        "title_how": title_how,
+        "number_raw": f"{issuer_full}告示第{number}号",
+        "issuer": issuer_key,
+        "year": year,
+        "number": number,
+        "date": date_iso,
+        "kind": "amendment" if "一部を改正" in title else "enactment",
+        "org": "",
+        "sources": [{"type": "kanpo_archive", "page_url": page_url}],
+        "document_url": pdf_url or page_url,
+        "attachments": [],
+        "text_inline": hit["text"],
+    }
+
+
+def load_inventory(domain: dict, known_ids: set,
+                   repos: tuple[str, ...] = ("kanpo-2025", "kanpo-2026"),
+                   since_date: str | None = None,
+                   until_date: str | None = None,
+                   max_issues: int | None = None) -> list[dict]:
+    """kanpo-downloader アーカイブから告示レコード列を取得する。"""
+    records: list[dict] = []
+    seen: set[str] = set()
+    issues_done = 0
+    for repo in repos:
+        paths = list_archive_pdfs(repo)
+        by_issue: dict[tuple[str, str, str], list[str]] = {}
+        for p in paths:
+            m = _ARCHIVE_PDF_RE.match(p)
+            if not m:
+                continue
+            ymd, sec, issue_no = m.group(1), m.group(2), m.group(3)
+            date_iso = f"{ymd[:4]}-{ymd[4:6]}-{ymd[6:8]}"
+            if since_date and date_iso < since_date:
+                continue
+            if until_date and date_iso > until_date:
+                continue
+            by_issue.setdefault((date_iso, sec, issue_no), []).append(p)
+
+        for (date_iso, _sec, _ino), issue_paths in sorted(by_issue.items()):
+            if max_issues is not None and issues_done >= max_issues:
+                return records
+            issues_done += 1
+            issue_pages = [pages_of(fetch_pdf(repo, p)) for p in issue_paths]
+            toc, _ = parse_toc(issue_pages)
+            merged_pages = [pg for pages in issue_pages for pg in pages]
+            hits, _, _ = scan_issue_pages(merged_pages, domain, known_ids, toc=toc)
+            page_url = f"https://github.com/{ARCHIVE_ORG}/{repo}/blob/main/{issue_paths[0]}"
+            for hit in hits:
+                rec = hit_to_record(hit, date_iso, page_url)
+                if rec["id"] not in seen:
+                    seen.add(rec["id"])
+                    records.append(rec)
+            time.sleep(0.3)
+    return records

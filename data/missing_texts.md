@@ -1,0 +1,222 @@
+# 本文未取得・補完対象一覧
+
+## メタデータのみ（無料一次ソースに本文なし・オフライン/有料補完対象） (164件)
+
+- `kensetsu-1971-396` （未取得・被改正告示）kensetsu-1971-396 [被改正参照: mlit-2026-535]
+- `kensetsu-1981-1627` （未取得・被改正告示）kensetsu-1981-1627 [被改正参照: mlit-2025-311]
+- `kensetsu-1991-2124` （未取得・被改正告示）kensetsu-1991-2124 [被改正参照: kensetsu-1988-1318]
+- `kensetsu-1997-1974` （未取得・被改正告示）kensetsu-1997-1974 [被改正参照: kensetsu-1988-1318]
+- `kensetsu-1999-1287` （未取得・被改正告示）kensetsu-1999-1287 [被改正参照: mlit-2026-1109, mlit-2026-1352]
+- `kensetsu-2000-1813` （未取得・被改正告示）kensetsu-2000-1813 [被改正参照: mlit-2026-1007]
+- `kensetsu-2000-2189` （未取得・被改正告示）kensetsu-2000-2189 [被改正参照: kensetsu-1988-1318]
+- `kensetsu-2000-2345` （未取得・被改正告示）kensetsu-2000-2345 [被改正参照: kensetsu-1972-351, kensetsu-1988-1318]
+- `kensetsu-2000-2465` （未取得・被改正告示）kensetsu-2000-2465 [被改正参照: kensetsu-1970-1837, kensetsu-1993-1436, kensetsu-1993-1437, kensetsu-1993-1438, kensetsu-1993-1439]
+- `mlit-2003-188` （未取得・被改正告示）mlit-2003-188 [被改正参照: mlit-2001-420]
+- `mlit-2004-618` （未取得・被改正告示）mlit-2004-618 [被改正参照: mlit-2001-420]
+- `mlit-2006-1169` （未取得・被改正告示）mlit-2006-1169 [被改正参照: mlit-2002-1112]
+- `mlit-2013-1061` （未取得・被改正告示）mlit-2013-1061 [被改正参照: mlit-2006-185]
+- `mlit-2014-417` （未取得・被改正告示）mlit-2014-417 [被改正参照: mlit-2021-286, mlit-2024-325, mlit-2026-464]
+- `mlit-2015-188` （未取得・被改正告示）mlit-2015-188 [被改正参照: mlit-2013-1130]
+- `mlit-2016-1136` （未取得・被改正告示）mlit-2016-1136 [被改正参照: mlit-2025-426]
+- `mlit-2017-214` （未取得・被改正告示）mlit-2017-214 [被改正参照: mlit-2025-986]
+- `mlit-2024-68` （未取得・被改正告示）mlit-2024-68 [被改正参照: mlit-2025-346]
+- `mha-1960-15` 予算科目に係る補助金等の交付に関する事務を消防庁長官に委任 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000052194]
+- `fdma-1964-7` 消防水利の基準 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000056117]
+- `kensetsu-1969-1730` 地下街の各構えの接する地下道に設ける非常用の照明設備、排煙設備及び排水設備の構造方法を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000059898]
+- `kensetsu-1970-1547` 地方住宅供給公社法施行規則第一条に規定する国土交通大臣が定める率 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000061060]
+- `fdma-1973-7` 開放型散水ヘッドの基準 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000063192]
+- `fdma-1973-11` 防炎性能に係る耐洗たく性能の基準 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000063473]
+- `fdma-1975-7` キュービクル式非常電源専用受電設備の基準 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000065115]
+- `kensetsu-1980-1792` 建築基準法施行令の規定に基づくＤｓ及びＦｅｓを算出する方法 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000069125]
+- `fdma-1981-10` 配電盤及び分電盤の基準 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000069973]
+- `kensetsu-1983-1034` 農地所有者等賃貸住宅建設融資利子補給臨時措置法施行規則第四条第二項第二号の規定に基づく国土交通大臣が定める住宅 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000070893]
+- `kensetsu-1987-60` ダム工事総括管理業務に関する知識及び技術の審査・証明事業認定規程 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000073612]
+- `kensetsu-1993-1601` 認定事業者が特定優良賃貸住宅の管理を行うに当たって配慮すべき事項 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000079422]
+- `kensetsu-1993-1602` 特定優良賃貸住宅の供給の促進に関する法律施行令第二条第一号及び第二号に規定する国土交通大臣が定める算定の方法 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000079421]
+- `kensetsu-1994-1636` 農地所有者等賃貸住宅建設融資利子補給臨時措置法の規定に基づく利子補給率 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000080294]
+- `kensetsu-1994-2379` 国家機関の建築物及びその附帯施設の位置、規模及び構造に関する基準 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000080635]
+- `fdma-1996-1` 火災通報装置の基準 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000081850]
+- `kensetsu-1996-1108` 農地所有者等賃貸住宅建設融資利子補給臨時措置法第二条第三項第二号の規定に基づく国土交通大臣が財務大臣と協議して定める率 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000082029]
+- `kensetsu-1996-1783` 公営住宅法第四十四条第三項並びに公営住宅法施行令第二条第一項第一号及び第三号並びに第三条第一項に規定する国土交通大臣が定 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000082432]
+- `fdma-1997-8` 加圧送水装置の基準 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000083287]
+- `fdma-1997-9` 地区音響装置の基準 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000083288]
+- `fdma-1997-11` 耐熱電線の基準 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000083694]
+- `fdma-1999-2` 誘導灯及び誘導標識の基準 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000085232]
+- `mha-2000-106` 予算科目に係る補助金のうち補助事業者が市町村等であるものの交付に関する事務を都道府県の知事が行う事務 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000086984]
+- `kensetsu-2000-1457` 損傷限界変位、Ｔｄ、Ｂｄｉ、層間変位、安全限界変位、Ｔｓ、Ｂｓｉ、Ｆｈ及びＧｓを計算する方法並びに屋根ふき材等及び外壁等 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000087109]
+- `kensetsu-2000-1458` 屋根ふき材及び屋外に面する帳壁の風圧に対する構造耐力上の安全性を確かめるための構造計算の基準を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000087141]
+- `kensetsu-2000-1653` 住宅紛争処理の参考となるべき技術的基準 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000087473]
+- `kensetsu-2000-1655` 住宅型式性能認定の対象となる住宅又はその部分を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000087474]
+- `kensetsu-2000-1656` 規格化された型式の住宅の部分又は住宅を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000087468]
+- `kensetsu-2000-1657` 品質保持に必要な技術的生産条件に係る技術的基準を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000087485]
+- `kensetsu-2000-1660` 設計住宅性能評価のために必要な図書を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000087477]
+- `kensetsu-2000-1661` 住宅性能評価を受けなければならない性能表示事項を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000087475]
+- `kensetsu-2000-1666` 住宅型式性能認定のために必要な図書を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000087476]
+- `kensetsu-2000-1667` 認証のために必要な図書を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000087479]
+- `kensetsu-2000-1668` 構造の安定に関する性能表示事項を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000087469]
+- `fdma-2001-19` 合成樹脂製の管及び管継手の基準 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000089650]
+- `mlit-2001-1024` 特殊な許容応力度及び特殊な材料強度を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000090316]
+- `mlit-2001-1113` 地盤の許容応力度及び基礎ぐいの許容支持力を求めるための地盤調査の方法並びにその結果に基づき地盤の許容応力度及び基礎ぐいの [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000090491]
+- `mlit-2001-1280` マンション管理業者登録簿閲覧規則 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000090665]
+- `mlit-2001-1284` マンションの管理の適正化の推進に関する法律施行規則第二条第一項第三号の同項第一号又は第二号に掲げる者と同等以上の知識及び [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000090666]
+- `mlit-2001-1326` マンション管理適正化推進センターの指定 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000090697]
+- `mlit-2002-617` 公営住宅法施行令第一条第一項第二号イの規定に基づき国土交通大臣の定める基準 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000092953]
+- `mlit-2002-667` テント倉庫建築物の構造方法に関する安全上必要な技術的基準を定める等の件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000092973]
+- `mlit-2002-727` 建設住宅性能評価のために必要な図書を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000093112]
+- `mlit-2002-731` 住宅性能評価を行った住宅に関する基本的な事項及びその確認の方法を定める等の件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000093113]
+- `mlit-2004-246` 特定優良賃貸住宅の供給の促進に関する法律施行規則第四条第二項及び第七条第六号の規定に基づき国土交通大臣が定める基準 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000097260]
+- `fdma-2004-7` 総合操作盤の基準 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000098275]
+- `fdma-2004-8` 総合操作盤の設置方法 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000098276]
+- `mlit-2005-551` 国家機関の建築物及びその附帯施設の保全に関する基準 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000102204]
+- `mlit-2005-631` エネルギーの釣合いに基づく耐震計算等の構造計算を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000102485]
+- `mlit-2005-921` 登録住宅型式性能認定等機関の登録の区分を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000103185]
+- `mlit-2005-922` 登録試験機関の登録の区分を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000103186]
+- `mlit-2005-1078` マンションの管理の適正化の推進に関する法律施行規則第四十二条の四第二号及び第三号の規定に基づき国土交通大臣が定める時間等 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000103651]
+- `mlit-2006-304` 評価の業務の公正な実施に支障を及ぼすおそれがあるものとして国土交通大臣が定める場合 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000104865]
+- `mlit-2006-305` 認定等の業務の公正な実施に支障を及ぼすおそれがあるものとして国土交通大臣が定める場合 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000104869]
+- `mlit-2006-306` 試験の業務の公正な実施に支障を及ぼすおそれがあるものとして国土交通大臣が定める場合 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000104864]
+- `mlit-2006-307` 住宅の品質確保の促進等に関する法律施行規則第三十条第二号及び第三号の規定に基づき国土交通大臣が定める時間等 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000104866]
+- `mlit-2006-309` 住宅の品質確保の促進等に関する法律第十三条の講習に相当するもの [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000104867]
+- `mlit-2006-320` 地方住宅供給公社法第三十四条第一号及び第二号の規定に基づき国土交通大臣の指定する有価証券及び金融機関を定める告示 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000104962]
+- `fdma-2006-20` 戸外表示器の基準 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000106695]
+- `mlit-2007-594` 保有水平耐力計算及び許容応力度等計算の方法を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000110147]
+- `mlit-2007-817` 応力図、基礎反力図及び断面検定比図の様式を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000110377]
+- `mlit-2007-823` 建築基準法施行令第八十一条第二項第一号イ若しくはロ、同項第二号イ又は同条第三項に規定する国土交通大臣が定める基準に従った [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000110395]
+- `mlit-2007-824` 建築基準法施行令第八十一条第二項第一号ロに規定する国土交通大臣が定める基準に従った構造計算により免震建築物の安全性を確か [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000110396]
+- `mlit-2007-825` 建築基準法施行令第八十一条第二項第一号イに規定する国土交通大臣が定める基準に従った構造計算により壁式ラーメン鉄筋コンクリ [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000110397]
+- `mlit-2007-826` 建築基準法施行令第八十一条第二項第一号イ又は同項第二号イに規定する国土交通大臣が定める基準に従った構造計算により枠組壁工 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000110398]
+- `mlit-2007-827` 建築基準法施行令第八十一条第三項に規定する国土交通大臣が定める基準に従った構造計算により特定畜舎等建築物の安全性を確かめ [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000110399]
+- `mlit-2007-828` 建築基準法施行令第八十一条第二項第一号イ若しくは第二号イ又は第三項に規定する国土交通大臣が定める基準に従った構造計算によ [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000110400]
+- `mlit-2007-829` 建築基準法施行令第八十一条第三項に規定する国土交通大臣が定める基準に従った構造計算によりテント倉庫建築物の安全性を確かめ [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000110401]
+- `mlit-2007-830` 建築基準法施行令第八十一条第二項第一号イ又は同条第二項第二号イに規定する国土交通大臣が定める基準に従った構造計算により鉄 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000110402]
+- `mlit-2007-831` 建築基準法施行令第八十一条第二項第一号ロの規定に基づきエネルギーの釣合いに基づく耐震計算等の構造計算によって建築物の安全 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000110403]
+- `mlit-2007-835` 確認審査等に関する指針 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000110411]
+- `mlit-2007-885` 確認審査等に関する指針に従って確認審査等を行ったことを証する書類の様式を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000110582]
+- `mlit-2008-345` 特定住宅瑕疵担保責任の履行の確保等に関する法律施行規則第三条第三号及び第十四条第三号の規定に基づき住宅建設瑕疵担保保証金 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000112809]
+- `fdma-2008-9` 消防法第十六条の三の二第四項において準用する第十六条の三の二第三項において準用する第四条第二項及び第三十五条の三の二第二 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000114602]
+- `fdma-2008-13` 自衛消防組織の要員に対する教育に関する事項のうち、統括管理者の直近下位の内部組織で消防法施行規則第四条の二の十一各号に掲 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000114861]
+- `fdma-2008-14` 消防法施行規則第四条の二の十三第一号及び第二号に掲げる者に準ずる者 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000114858]
+- `fdma-2008-15` 自衛消防業務再講習 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000114862]
+- `fdma-2008-16` 自衛消防組織の業務に関する講習の実施細目 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000114863]
+- `fdma-2008-17` 防災管理再講習 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000114865]
+- `fdma-2008-18` 防災管理に関する講習の実施細目 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000114866]
+- `fdma-2008-20` 消防法施行規則第五十一条の十二第四項第六号の期間 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000114859]
+- `fdma-2008-21` 消防法施行規則第五十一条の十三第二項において準用する第一条の四第十項の規定に基づき登録講習機関の行う講習に係る基準 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000114860]
+- `fdma-2008-22` 防災管理対象物の点検基準に係る事項等 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000114868]
+- `fdma-2008-23` 防災管理対象物の点検済表示に記載する事項等 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000114869]
+- `mlit-2008-1350` 国家機関の建築物の敷地及び構造の定期点検における点検の項目、方法及び結果の判定基準を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000115395]
+- `mlit-2008-1351` 国家機関の建築物の昇降機以外の建築設備の定期点検における点検の項目、事項、方法及び結果の判定基準を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000115396]
+- `fdma-2008-31` 金属製管継手及びバルブ類の基準 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000115919]
+- `fdma-2008-32` 配管の摩擦損失計算の基準 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000115931]
+- `mlit-2009-209` 長期使用構造等とするための措置及び維持保全の方法の基準 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000116249]
+- `mlit-2010-558` 特定住宅瑕疵担保責任の履行の確保等に関する法律施行規則の規定に基づき支払備金として積み立てるべき金額 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000120475]
+- `mlit-2011-432` 鉄筋コンクリート造の柱に取り付けるはりの構造耐力上の安全性を確かめるための構造計算の基準を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000122814]
+- `mlit-2011-1002` 建築基準法及びこれに基づく命令の規定による規制と同等の規制を受けるものとして国土交通大臣が指定する工作物を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000124198]
+- `mic-2013-133` 消防用ホースの技術上の規格を定める省令等の施行に伴う消防法施行令第三十条第二項及び危険物の規制に関する政令第二十二条第二 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000128750]
+- `mlit-2013-732` 構造設計に関し建築士法第十条の二の二第一項第一号に掲げる一級建築士と同等以上の知識及び技能を有する一級建築士及び設備設計 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000129995]
+- `mlit-2013-771` 特定天井及び特定天井の構造耐力上安全な構造方法を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000130082]
+- `mlit-2013-1046` 地震その他の震動によってエスカレーターが脱落するおそれがない構造方法を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000130603]
+- `mlit-2013-1052` 乗用エレベーター及び寝台用エレベーター以外のエレベーターの安全装置について安全上支障がない構造方法を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000130608]
+- `fdma-2013-20` 型式適合検定の方法をデータ審査方式による方法とすることができる製造工程における検査の信頼性が確保されているもの [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000130731]
+- `fdma-2014-9` 自主表示対象機械器具等に係る技術上の規格に適合するものであることを確認した試験結果に係る様式並びに試験の方法及び試験に使 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000131991]
+- `mlit-2014-877` 住宅リフォーム事業者団体登録規程 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000133422]
+- `mlit-2014-1137` マンションの再生等の円滑化に関する基本的な方針 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000134161]
+- `mlit-2015-179` 構造計算適合性判定の業務と同等以上の知識及び能力を要する業務の指定 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000134506]
+- `mlit-2015-248` 建築基準法第七条の六第一項第二号及び第十八条第三十八項第二号に規定する国土交通大臣が定める基準に従って認定を行ったことを [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000134675]
+- `mlit-2015-691` 建築基準法の規定に基づく指定構造計算適合性判定機関の指定等 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000136221]
+- `mlit-2015-1009` 登録特定建築基準適合判定資格者講習に用いる教材の内容として国土交通大臣が定める事項を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000136902]
+- `mlit-2016-611` ＣＬＴパネル工法を用いた建築物又は建築物の構造部分の構造方法に関する安全上必要な技術的基準を定める等の件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000139124]
+- `mlit-2017-81` 既存住宅状況調査技術者講習登録規程 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000141194 / 被改正参照: mlit-2025-986]
+- `mlit-2017-82` 既存住宅状況調査方法基準 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000141195]
+- `fdma-2017-1` 消防署の組織の管轄区域を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000141212]
+- `mlit-2017-247` 走行又は回転時の衝撃及び非常止め装置の作動時の衝撃が加えられた場合に客席にいる人を落下させない遊戯施設の客席部分の構造方 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000141618]
+- `mlit-2017-898` 家賃債務保証業者登録規程 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000143360]
+- `mlit-2017-940` 住宅確保要配慮者に対する賃貸住宅の供給の促進に関する法律施行規則第三条第十二号の著しく異常かつ激甚な非常災害として国土交 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000143413]
+- `mlit-2017-941` 住宅確保要配慮者に対する賃貸住宅の供給の促進に関する法律施行規則第十条第四号及び第十一条第二号ロの国土交通大臣が定める基 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000143414]
+- `mlit-2017-1013` 特定既存住宅情報提供事業者団体登録規程 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000143510]
+- `mlit-2018-1167` 特定住宅瑕疵担保責任の履行の確保等に関する法律施行規則の規定に基づき保険法人が資産の運用として取得することができる有価証 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000146223]
+- `mlit-2019-745` 建築士法第四条第二項第一号の国土交通大臣の指定する建築に関する科目を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000150449]
+- `mlit-2019-746` 建築士法第四条第二項第二号の国土交通大臣の指定する建築に関する科目を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000150450]
+- `mlit-2019-747` 建築士法第四条第二項第三号の国土交通大臣の指定する建築に関する科目を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000150451]
+- `mlit-2019-748` 建築士法第四条第二項第一号から第四号までに掲げる者と同等以上の知識及び技能を有する者を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000150452]
+- `mlit-2019-749` 建築士法第四条第四項第一号の国土交通大臣の指定する建築に関する科目を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000150453]
+- `mlit-2019-750` 建築士法第四条第四項第二号の国土交通大臣の指定する建築に関する科目を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000150454]
+- `mlit-2019-751` 建築士法第十四条第一号の国土交通大臣の指定する建築に関する科目を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000150455]
+- `mlit-2019-752` 建築士法第十四条第一号又は第二号に掲げる者と同等以上の知識及び技能を有する者を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000150456]
+- `mlit-2019-753` 建築士法第十五条第一号の国土交通大臣の指定する建築に関する科目を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000150457]
+- `mlit-2019-755` 建築士法施行規則第二十一条第四項第一号ハの国土交通大臣が定める技術的基準を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000150459]
+- `fdma-2021-3` 消防法施行規則第四条の二の四第一項ただし書及び第三十一条の六第四項の規定に基づき消防庁長官が定める事由及び期間 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000154356]
+- `mlit-2021-378` 賃貸住宅の管理業務等の適正化に関する法律施行規則の一部を改正する省令附則第二条の賃貸住宅の管理業務等の適正化に関する法律 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000155751]
+- `mlit-2021-379` 賃貸住宅の管理業務等の適正化に関する法律施行規則の一部を改正する省令附則第二条の講習に相当する講習 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000155752]
+- `mlit-2021-380` 賃貸住宅の管理業務等の適正化に関する法律施行規則の一部を改正する省令による改正後の賃貸住宅の管理業務等の適正化に関する法 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000155753]
+- `mlit-2021-474` 火災により生じた煙又はガスの高さに基づく区画避難安全検証法に関する算出方法等を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000155760]
+- `mlit-2021-485` 賃貸住宅の管理業務等の適正化に関する法律施行規則の一部を改正する省令附則第二条の講習を指定するための基準等 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000155763]
+- `mlit-2021-486` 管理業務に関する実務についての講習を指定するための基準等 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000155764]
+- `mlit-2021-1286` マンションの管理の適正化の推進を図るための基本的な方針 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000156475]
+- `mlit-2021-1366` 住宅の品質確保の促進等に関する法律第六条の二第三項の規定による確認のために必要な図書を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000157022]
+- `mlit-2021-1367` 住宅の品質確保の促進等に関する法律第六条の二第四項の規定による確認のために必要な図書を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000157023]
+- `mlit-2021-1522` 除却等の必要性に係る認定に関する基準等を定める告示 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000157031]
+- `fdma-2022-2` 畜舎等に係る基準の特例の細目 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000157584]
+- `mlit-2022-412` 遊戯施設の維持保全に関する準則又は計画の作成に関し必要な指針 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000158291]
+- `mlit-2022-741` 建築基準法第六十条第二項の歩廊の柱その他これに類するものを指定する件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000159514]
+- `mlit-2022-836` 長期優良住宅の普及の促進に関する法律第六条第八項の国土交通省令で定める基準としてマンションの管理の適正化の推進に関する法 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000159532]
+- `mlit-2022-1024` 構造及び周囲の状況に関し安全上支障がない鉄筋コンクリート造の柱等の基準を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000159543]
+- `mlit-2023-209` 建築基準法施行規則第十条の四の四の国土交通大臣が定める給湯設備を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000161423]
+- `fdma-2023-7` 蓄電池設備の出火防止措置及び延焼防止措置に関する基準 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000161823]
+- `joint-mic-mlit-2023-3` 空家等に関する施策を総合的かつ計画的に実施するための基本的な指針 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000162980]
+- `mlit-2024-8` 建築士事務所の開設者がその業務に関して請求することのできる報酬の基準 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000164633]
+- `mlit-2024-219` 建築基準法第二条第九号の二イ（２）に規定する性能と同等の性能を有する特定部分の基準を定める件 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000164671]
+
+## 画像PDF（OCR未実施のため0文字） (2件)
+
+- `fdma-1987-1` 防火管理に関する講習の実施細目 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000073625]
+- `mlit-2020-821` 構造耐力上主要な部分である柱及び横架材に使用する集成材その他の木材の品質の強度及び耐久性に関する基準を定める件等の一部を
+
+## 取得失敗・本文未検出 (3件)
+
+- `mlit-2026-1180` 令和九年度における公営住宅法第十六条第二項の規定による近傍同種の住宅の家賃及び同法第四十四条第一項の規定による譲渡の対価 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000172875]
+- `mlit-2026-1181` 改良住宅の家賃の変更に係る率並びに改良住宅の家賃の変更に係る修繕費及び管理事務費に係る率を定める告示 [NDL: https://hourei.ndl.go.jp/simple/detail?lawId=0000172876]
+- `mlit-2026-117` 浄化槽の型式の認定を更新した件
+
+## 12,000字で打ち切られたレコード（再取得推奨） (40件)
+
+- `mic-2025-141` 消防法（昭和二十三年法律第百八十六号）第二十一条の四第二項の規定により、次の検定対象機械器具等について型式承認をしたので
+- `mlit-2025-285` 砂防法（明治三十年法律第二十九号）第二条の規定により、同条の土地を次のとおり指定するので、砂防法施行規程（明治三十年勅令
+- `mlit-2025-311` 都市公園法施行令（昭和三十一年政令第二百九十号）第二十条第一項第二号の規定に基づき、昭和五十六年建設省告示第千六百二十七
+- `mlit-2025-346` 港湾法（昭和二十五年法律第二百十八号）第四十八条の四第三項の規定に基づき、令和六年国土交通省告示第六十八号の一部を改正す
+- `mlit-2025-365` 船舶安全法（昭和八年法律第十一号）第二十五条の七十、第二十九条ノ三第三項、海洋汚染等及び海上災害の防止に関する法律（昭和
+- `mlit-2025-373` 建築基準法（昭和二十五年法律第二百一号）第七十七条の三十九第三項の規定に基づき、平成十二年建設省告示第千八百十二号の一部
+- `mlit-2025-389` 住宅の品質確保の促進等に関する法律（平成十一年法律第八十一号）第五十八条第一項の規定により特別評価方法認定をしたので、同
+- `mlit-2025-397` 建築基準法（昭和二十五年法律第二百一号）第七十七条の五十六第二項において準用する同法第七十七条の三十九第三項の規定に基づ
+- `mlit-2025-468` 国土交通省所管の補助金等の交付に関する事務の一部を地方整備局長、北海道開発局長及び沖縄総合事務局長に委任した件（平成十三
+- `mlit-2025-469` 道路運送車両の保安基準（昭和二十六年運輸省令第六十七号）第八条第八項、第九条第一項及び第二項、第十七条第一項、第二十一条
+- `mlit-2025-535` 建築物の耐震改修の促進に関する法律（平成七年法律第百二十三号）第四条第一項の規定に基づき、建築物の耐震診断及び耐震改修の
+- `mlit-2025-830` 砂防法（明治三十年法律第二十九号）第二条の規定により指定した次の土地の指定を解除する。令和七年八月二十日国土交通大臣中野
+- `mlit-2025-844` 建築基準法（昭和二十五年法律第二百一号）第七十七条の二十一第三項の規定に基づき、平成十一年建設省告示第千二百八十七号の一
+- `mlit-2025-917` 港湾法（昭和二十五年法律第二百十八号）第三条の二の規定に基づき、港湾の開発、利用及び保全並びに開発保全航路の開発に関する
+- `mlit-2025-922` 建築基準法（昭和二十五年法律第二百一号）第七十七条の五十六第二項において準用する同法第七十七条の三十九第三項の規定に基づ
+- `mlit-2025-938` 都市計画法（昭和四十三年法律第百号）第五十九条第三項の規定により、都市計画事業の承認をしたので、同法第六十二条第一項の規
+- `mlit-2025-971` 地すべり等防止法（昭和三十三年法律第三十号）第三条第一項の規定により、次の地域を地すべり防止区域に指定する。令和七年十月
+- `mlit-2025-986` 既存住宅状況調査技術者講習登録規程（平成二十九年国土交通省告示第八十一号）第十九条第二号の規定に基づき、平成二十九年国土
+- `mlit-2025-1021` 老朽化マンション等の管理及び再生の円滑化等を図るための建物の区分所有等に関する法律等の一部を改正する法律（令和七年法律第
+- `mlit-2025-1026` 小値賀空港の飛行場灯火について告示した事項に変更があったので、航空法（昭和二十七年法律第二百三十一号）第四十六条の規定に
+- `mlit-2025-1080` 紋別空港の飛行場灯火について告示した事項に変更があったので、航空法（昭和二十七年法律第二百三十一号）第四十六条の規定に基
+- `mlit-2025-1086` 船舶設備規程（昭和九年逓信省令第六号）第百十五条の二十三の三第二項、第百四十六条の二十七の二及び第百四十六条の四十六、船
+- `mlit-2026-3` 建築基準法（昭和二十五年法律第二百一号）第七十七条の三十五の五第二項の規定による届出があったので、同条第三項の規定に基づ
+- `mlit-2026-262` 建設業法（昭和二十四年法律第百号）第二十七条の二十三第三項並びに建設業法施行規則（昭和二十四年建設省令第十四号）第十九条
+- `mlit-2026-435` 航空法施行規則（昭和二十七年運輸省令第五十六号）第二百三十六条の七十二の規定に基づき、地上及び水上の人及び物件の安全が損
+- `mlit-2026-502` 租税特別措置法施行令の一部を改正する政令（令和八年政令第九十八号）の施行に伴い、平成十四年国土交通省告示第二百七十一号の
+- `mlit-2026-523` 砂防法（明治三十年法律第二十九号）第二条の規定により、同条の土地を次のとおり指定するので、砂防法施行規程（明治三十年勅令
+- `mlit-2026-548` 砂防法（明治三十年法律第二十九号）第二条の規定により指定した次の土地の指定を解除する。令和八年四月十日国土交通大臣金子恭
+- `mlit-2026-574` 航空保安無線施設の名称、位置等に関する告示（昭和五十二年運輸省告示第六百七号）について告示した事項に変更を加えたので、航
+- `mlit-2026-630` 船舶安全法（昭和八年法律第十一号）第六条ノ二の規定に基づき、次の事業場を次に掲げる物件の改造修理工事に係る事業場として認
+- `mlit-2026-636` 土砂災害警戒区域等における土砂災害防止対策の推進に関する法律（平成十二年法律第五十七号）第三条第一項の規定に基づき、土砂
+- `mlit-2026-761` 東京都から新島空港の施設変更許可申請があったので、航空法（昭和二十七年法律第二百三十一号）第四十三条第二項において準用す
+- `mlit-2026-784` 外国人の育成就労の適正な実施及び育成就労外国人の保護に関する法律施行規則（令和七年法務省・厚生労働省令第四号）第十三条第
+- `mlit-2026-832` 建築基準法（昭和二十五年法律第二百一号）第七十七条の二十一第一項及び第三頂並びに第七十七条の二十二第四項の規定に基づき、
+- `mlit-2026-841` 国土交通省所管の補助金等の交付に関する事務の一部を地方整備局長、北海道開発局長及び沖縄総合事務局長に委任した件（平成十三
+- `mlit-2026-986` 高齢者、障害者等の移動等の円滑化の促進に関する法律施行規則（平成十八年国土交通省令第百十号）第六条の三、第六条の四及び第
+- `mlit-2026-998` 船舶等型式承認規則（昭和四十八年運輸省令第五十号）第八条の規定に基づき、令和八年七月八日付けをもって次のように型式の変更
+- `mlit-2026-1007` 建築基準法（昭和二十五年法律第二百一号）第七十七条の五十六第二項において準用する同法第七十七条の三十九第三項の規定に基づ
+- `mlit-2026-1017` 老朽化マンション等の管理及び再生の円滑化等を図るための建物の区分所有等に関する法律等の一部を改正する法律（令和七年法律第
+- `mlit-2026-1020` 中部圏開発整備法（昭和四十一年法律第百二号）第十二条第三項において準用する第十一条第三項の規定に基づき、中部圏開発整備計

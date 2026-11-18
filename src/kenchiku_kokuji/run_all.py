@@ -14,7 +14,8 @@ from collections import Counter
 from pathlib import Path
 
 from . import build as build_mod
-from . import source_excel, source_kanpo, source_web
+from . import (source_excel, source_fdma, source_kanpo,
+               source_kanpo_archive, source_ndl, source_web)
 from .common import load_domain
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -24,6 +25,13 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--data", default=str(ROOT / "data"))
     ap.add_argument("--force", action="store_true", help="本文を再取得する")
+    ap.add_argument("--include-kanpo-archive", action="store_true",
+                    help="kanpo-downloader アーカイブ(2025〜2026)の遡り取得を含める")
+    ap.add_argument("--archive-since", default=None, help="アーカイブ取得の開始日(YYYY-MM-DD)")
+    ap.add_argument("--archive-until", default=None, help="アーカイブ取得の終了日(YYYY-MM-DD)")
+    ap.add_argument("--include-fdma", action="store_true", help="消防庁告示一覧を含める")
+    ap.add_argument("--include-ndl", action="store_true", help="日本法令索引マスター台帳を含める")
+    ap.add_argument("--ndl-details", action="store_true", help="日本法令索引の詳細ページも取得する")
     args = ap.parse_args()
     data_dir = Path(args.data)
 
@@ -42,6 +50,24 @@ def main() -> None:
                       for l in ledger.read_text(encoding="utf-8").splitlines() if l.strip()}
     inv_kanpo, kanpo_state = source_kanpo.load_inventory(data_dir, domain, known_ids)
     print(f"  {len(inv_kanpo)} records")
+    inv_archive: list[dict] = []
+    if args.include_kanpo_archive:
+        print("source: kanpo_archive ...", flush=True)
+        known_ids |= {r["id"] for r in inv_kanpo}
+        inv_archive = source_kanpo_archive.load_inventory(
+            domain, known_ids,
+            since_date=args.archive_since, until_date=args.archive_until)
+        print(f"  {len(inv_archive)} records")
+    inv_fdma: list[dict] = []
+    if args.include_fdma:
+        print("source: fdma ...", flush=True)
+        inv_fdma = source_fdma.load_inventory(domain)
+        print(f"  {len(inv_fdma)} records")
+    inv_ndl: list[dict] = []
+    if args.include_ndl:
+        print("source: ndl ...", flush=True)
+        inv_ndl = source_ndl.load_inventory(domain, fetch_details=args.ndl_details)
+        print(f"  {len(inv_ndl)} records")
 
     # 台帳も統合の種にする。官報は state に基づく増分取得のため、
     # 新規が0件の実行で merge だけに頼ると過去の官報分が台帳から
@@ -53,18 +79,22 @@ def main() -> None:
         ledger_recs = [json.loads(line) for line in
                        ledger_path.read_text(encoding="utf-8").splitlines()
                        if line.strip()]
-    records = build_mod.merge(ledger_recs, inv_excel, inv_web, inv_kanpo)
+    records = build_mod.merge(
+        ledger_recs, inv_excel, inv_web, inv_kanpo, inv_archive, inv_fdma, inv_ndl)
+    records = build_mod.synthesize_missing_base_stubs(records, data_dir)
     print(f"merged: {len(records)} unique notices")
     records = build_mod.build(records, data_dir, force=args.force)
     source_kanpo.save_state(data_dir, kanpo_state)
 
     with_text = [r for r in records if r["text_file"]]
+    statuses = Counter(r.get("text_status", "unknown") for r in records)
     years = Counter((r["date"] or "????")[:4] for r in records)
     stats = [
         "# 収集統計",
         "",
         f"- 告示レコード総数: {len(records)}",
         f"- 本文テキスト取得済み: {len(with_text)} ({len(with_text) / max(len(records),1):.0%})",
+        f"- 本文状態の内訳: {dict(statuses)}",
         f"- 本文の総文字数: {sum(r['text_chars'] for r in records):,}",
         f"- 情報源の内訳: {dict(Counter(s['type'] for r in records for s in r['sources']))}",
         f"- 種別: {dict(Counter(r['kind'] for r in records))}",
@@ -79,7 +109,9 @@ def main() -> None:
           for r in records if not r["text_file"]],
     ]
     (data_dir / "stats.md").write_text("\n".join(stats) + "\n", encoding="utf-8")
-    print("\n".join(stats[:6]))
+    (data_dir / "missing_texts.md").write_text(
+        build_mod.format_missing_texts_report(records), encoding="utf-8")
+    print("\n".join(stats[:7]))
 
 
 if __name__ == "__main__":
