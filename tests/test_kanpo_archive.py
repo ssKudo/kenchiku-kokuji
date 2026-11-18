@@ -5,8 +5,9 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
+from kenchiku_kokuji.common import load_domain  # noqa: E402
 from kenchiku_kokuji.source_kanpo_archive import (  # noqa: E402
-    find_headings, issuer_key_of, parse_toc, promulgation_offset,
+    classify, find_headings, issuer_key_of, parse_toc, promulgation_offset,
     segment_issue)
 
 
@@ -88,6 +89,25 @@ class TestFindHeadings(unittest.TestCase):
         self.assertIsNone(promulgation_offset("国土交通省告示第千三百十六号の一部を改正する件"))
         # 算用数字の日付も許す
         self.assertIsNotNone(promulgation_offset("定める。令和8年10月30日国土交通大臣井林辰憲"))
+        # 改行が入っていても検出できる
+        self.assertIsNotNone(promulgation_offset("定める。\n令和八年十月三十日\n国土交通大臣 井林辰憲"))
+
+    def test_segment_preserves_newlines_and_no_truncation(self):
+        long_body = "\n".join(["建築基準法施行令の規定に基づく構造方法。"] * 600)
+        self.assertGreater(len(long_body), 12000)
+        pages = [
+            "〇国土交通省告示第一号\n令和八年四月一日\n国土交通大臣\n" + long_body,
+            "〇総務省告示第二号\n消防法に基づき告示する。",
+        ]
+        segs = segment_issue(pages)
+        self.assertEqual(len(segs), 2)
+        self.assertIn("\n", segs[0]["text"])
+        self.assertGreater(len(segs[0]["text"]), 12000)
+        self.assertNotIn("総務省告示", segs[0]["text"])
+
+        domain = load_domain()
+        tier, src = classify(segs[0], domain, set())
+        self.assertEqual((tier, src), ("tier1", "body"))
 
 
 if __name__ == "__main__":

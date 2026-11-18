@@ -13,7 +13,7 @@ import re
 
 import openpyxl
 
-from .common import fetch, make_id, parse_notice_number
+from .common import fetch, is_excluded, make_id, parse_notice_number
 
 PAGE_URL = "https://www.mlit.go.jp/notice/"
 
@@ -39,6 +39,8 @@ def load_inventory(domain: dict) -> list[dict]:
         if not name or not num or "告示" not in str(num):
             continue
         name, org = str(name).strip(), str(org or "").strip()
+        if is_excluded(name, domain):
+            continue
         if not (any(k in name for k in law_names) or any(k in org for k in org_keywords)):
             continue
         m = re.search(r'HYPERLINK\("([^"]+)"', str(link)) if link else None

@@ -50,9 +50,19 @@ def extract_pdf_text(data: bytes) -> tuple[str, int]:
 
 
 def _strip_html(html: str) -> str:
-    """タグを除去して空白を畳んだページ本文。"""
+    """タグを除去し、段落等の改行を保持したページ本文を返す。"""
     text = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", html, flags=re.I | re.S)
-    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", text)).strip()
+    text = re.sub(
+        r"<(?:br\s*/?|/(?:p|div|li|h[1-6]|tr|dt|dd|blockquote|pre)|hr\s*/?)>",
+        "\n",
+        text,
+        flags=re.I,
+    )
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = re.sub(r"[^\S\n]+", " ", text)
+    text = re.sub(r" *\n *", "\n", text)
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    return text.strip()
 
 
 def accept_page_text(html: str, title: str) -> tuple[str, str]:

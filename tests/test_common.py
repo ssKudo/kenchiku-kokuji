@@ -12,6 +12,8 @@ class TestNormalize(unittest.TestCase):
     def test_kanji(self):
         self.assertEqual(kanji_to_int("千四百三十八"), 1438)
         self.assertEqual(kanji_to_int("千二十四"), 1024)
+        self.assertEqual(kanji_to_int("千百"), 1100)
+        self.assertEqual(kanji_to_int("十"), 10)
         self.assertEqual(kanji_to_int("一〇二四"), 1024)
         self.assertEqual(kanji_to_int("１０２４"), 1024)
         self.assertEqual(kanji_to_int("386"), 386)

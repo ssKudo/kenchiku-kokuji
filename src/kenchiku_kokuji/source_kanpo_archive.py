@@ -24,13 +24,12 @@ import re
 import time
 from urllib.request import Request, urlopen
 
-from .common import ISSUER_KEYS, USER_AGENT, kanji_to_int, make_id, parse_notice_number
-from .source_kanpo import (ABBREV, AMEND_REF, ERA_OFFSET, TITLE_KEYWORDS,
-                           _parse_entry_number)
+from .common import (ISSUER_KEYS, USER_AGENT, is_excluded, kanji_to_int,
+                     slice_raw_by_norm, strip_ws_with_map)
+from .source_kanpo import ABBREV, _parse_entry_number, extract_amend_targets
 
 ARCHIVE_ORG = "kanpo-downloader"
 SECTIONS = ("h", "g", "t")  # 本紙・号外・特別号外(c=政府調達, m=月次索引は除く)
-MAX_TEXT_CHARS = 12000  # 公式源 _slice_notice の上限に合わせる
 HEAD_CHARS = 2000       # 分類に使う冒頭の長さ
 
 # 見出しの発出者名として認める省庁名 → ID用キー。
@@ -127,7 +126,8 @@ def find_headings(full: str) -> list[dict]:
 
 def promulgation_offset(text: str, window: int = PROM_WINDOW) -> int | None:
     """発令文言(和暦日付＋発令者)の位置を返す。無ければ None。"""
-    m = PROM.search(text[:window])
+    norm = re.sub(r"\s+", "", text)
+    m = PROM.search(norm[:window])
     return m.start() if m else None
 
 
@@ -172,7 +172,7 @@ def parse_toc(issue_pages: list[list[str]], last_issuer=None):
     届出型告示(例: 1333号は本文が告示486号の引用のみ)を拾う。
     """
     toc: dict[tuple[str, int], str] = {}
-    text = "".join("".join(p[:3]) for p in issue_pages)
+    text = re.sub(r"\s+", "", "".join("".join(p[:3]) for p in issue_pages))
     for m in re.finditer(r"[（(]([^）)]{1,40})[）)]", text):
         entries, last_issuer = parse_toc_number(m.group(1), last_issuer)
         if not entries:
@@ -189,52 +189,46 @@ def parse_toc(issue_pages: list[list[str]], last_issuer=None):
 
 
 def segment_issue(pages: list[str]) -> list[dict]:
-    """空白除去済みページ文字列の列を、告示ごとのセグメントに切る。"""
+    """ページ文字列の列を、告示ごとのセグメントに切る(見出し検出のみ空白除去、本文は改行保持)。"""
+    norm_pages = [re.sub(r"\s+", "", p) for p in pages]
     offsets = []
     pos = 0
-    for p in pages:
+    for np in norm_pages:
         offsets.append(pos)
-        pos += len(p)
-    full = "".join(pages)
-    heads = find_headings(full)
+        pos += len(np)
+    raw_full = "\n".join(pages)
+    norm_full, pos_map = strip_ws_with_map(raw_full)
+    heads = find_headings(norm_full)
     segs = []
     for i, h in enumerate(heads):
-        end = heads[i + 1]["start"] if i + 1 < len(heads) else len(full)
+        end = heads[i + 1]["start"] if i + 1 < len(heads) else len(norm_full)
         page = 1
         for pi, off in enumerate(offsets):
             if off <= h["start"]:
                 page = pi + 1
-        segs.append({**h, "page": page,
-                     "text": full[h["start"]: min(end, h["start"] + MAX_TEXT_CHARS)]})
+        segs.append({
+            **h,
+            "page": page,
+            "text": slice_raw_by_norm(raw_full, pos_map, len(norm_full), h["start"], end),
+        })
     return segs
-
-
-def _amend_target_id(head: str) -> str | None:
-    """冒頭が「○○省告示第N号の一部を改正」なら被改正告示のIDを返す。"""
-    m = AMEND_REF.search(head[:400])
-    if not m:
-        return None
-    y = 1 if m.group(2) == "元" else int(m.group(2))
-    year = ERA_OFFSET[m.group(1)] + y
-    num = kanji_to_int(m.group(4))
-    ref_issuer = parse_notice_number(m.group(3) + "告示", None)["issuer"]
-    if num is None or ref_issuer == "unknown":
-        return None
-    return make_id(ref_issuer, year, num, "")
 
 
 def classify_text(text: str, issuer_key: str, domain: dict,
                   known_ids: set) -> str | None:
     """1つのテキスト(本文冒頭または目次件名)に対する分類。"""
+    norm = re.sub(r"\s+", "", text)
+    if is_excluded(norm, domain):
+        return None
     if issuer_key == "mlit" or issuer_key.startswith("joint-"):
-        if any(k in text for k in domain["law_names"]):
+        if any(k in norm for k in domain.get("law_names", [])):
             return "tier1"
-        if any(k in text for k in TITLE_KEYWORDS):
+        if any(k in norm for k in domain.get("title_keywords", [])):
             return "tier1"
-    if issuer_key == "mic" and "消防" in text:
+    issuer_kws = domain.get("issuer_keywords", {}).get(issuer_key, [])
+    if issuer_kws and any(k in norm for k in issuer_kws):
         return "tier1"
-    target = _amend_target_id(text)
-    if target and target in known_ids:
+    if any(tid in known_ids for tid in extract_amend_targets(norm[:400])):
         return "tier2"
     return None
 
@@ -248,7 +242,8 @@ def classify(seg: dict, domain: dict, known_ids: set,
     """
     if seg.get("boundary_only"):
         return None, None
-    tier = classify_text(seg["text"][:HEAD_CHARS], seg["issuer_key"], domain, known_ids)
+    head = re.sub(r"\s+", "", seg["text"])[:HEAD_CHARS]
+    tier = classify_text(head, seg["issuer_key"], domain, known_ids)
     if tier:
         return tier, "body"
     if toc_title:
@@ -284,11 +279,11 @@ def fetch_pdf(repo: str, path: str, retries: int = 2) -> bytes:
 
 
 def pages_of(pdf_bytes: bytes) -> list[str]:
-    """PDFバイト列から空白除去済みのページ文字列の列を取り出す。"""
+    """PDFバイト列から改行を保持したページ文字列の列を取り出す。"""
     import pymupdf
 
     doc = pymupdf.open(stream=pdf_bytes, filetype="pdf")
-    return [re.sub(r"\s+", "", doc[i].get_text()) for i in range(doc.page_count)]
+    return [doc[i].get_text() for i in range(doc.page_count)]
 
 
 def scan_issue_pages(pages: list[str], domain: dict, known_ids: set,

@@ -5,7 +5,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-from kenchiku_kokuji.build import accept_page_text, decode_html  # noqa: E402
+from kenchiku_kokuji.build import accept_page_text, decode_html, merge  # noqa: E402
 
 
 def _page(title, body):
@@ -66,6 +66,61 @@ class TestDecodeHtml(unittest.TestCase):
         html = f"<html><body><h1>{title}</h1><p>本文あいうえお。</p></body></html>"
         text = decode_html(html.encode("utf-8"), title)
         self.assertIn(title, text)
+
+
+class TestHtmlNewlines(unittest.TestCase):
+    def test_paragraphs_and_br_preserve_newlines(self):
+        title = "建築基準法に基づく告示の件名テスト"
+        html = (f"<html><body><h1>{title}</h1>"
+                "<p>第一段落の本文。<br>改行後の本文。</p>"
+                f"<p>{'あ' * 850}</p></body></html>")
+        text, how = accept_page_text(html, title)
+        self.assertEqual(how, "page_text")
+        self.assertIn(f"{title}\n第一段落の本文。\n改行後の本文。\n", text)
+
+
+class TestMerge(unittest.TestCase):
+    def test_merge_deduplicates_and_enriches(self):
+        inv1 = [{
+            "id": "mlit-2025-100",
+            "title": "短い件名",
+            "date": "2025-04-01",
+            "org": "",
+            "document_url": "",
+            "sources": [{"type": "excel", "page_url": "https://example.com/1"}],
+            "attachments": [{"label": "別表1", "url": "https://example.com/a1.pdf"}],
+        }]
+        inv2 = [{
+            "id": "mlit-2025-100",
+            "title": "より詳細な建築基準法に基づく告示の件名",
+            "date": "2025-04-01",
+            "org": "住宅局",
+            "document_url": "https://example.com/doc.pdf",
+            "sources": [
+                {"type": "excel", "page_url": "https://example.com/1"},
+                {"type": "web", "page_url": "https://example.com/2"},
+            ],
+            "attachments": [
+                {"label": "別表1", "url": "https://example.com/a1.pdf"},
+                {"label": "別表2", "url": "https://example.com/a2.pdf"},
+            ],
+        }, {
+            "id": "kensetsu-1970-1",
+            "title": "古い告示",
+            "date": "1970-01-10",
+            "org": "建設省",
+            "document_url": "https://example.com/old.html",
+            "sources": [{"type": "excel", "page_url": "https://example.com/1"}],
+            "attachments": [],
+        }]
+        merged = merge(inv1, inv2)
+        self.assertEqual([r["id"] for r in merged], ["kensetsu-1970-1", "mlit-2025-100"])
+        rec = merged[1]
+        self.assertEqual(rec["title"], "より詳細な建築基準法に基づく告示の件名")
+        self.assertEqual(rec["org"], "住宅局")
+        self.assertEqual(rec["document_url"], "https://example.com/doc.pdf")
+        self.assertEqual([s["type"] for s in rec["sources"]], ["excel", "web"])
+        self.assertEqual(len(rec["attachments"]), 2)
 
 
 if __name__ == "__main__":

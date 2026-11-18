@@ -6,11 +6,14 @@
 """
 from __future__ import annotations
 
+import json
 import re
 import time
+from pathlib import Path
 from urllib.request import Request, urlopen
 
 USER_AGENT = "kenchiku-kokuji/0.1 (public-source archive; polite crawler)"
+DEFAULT_DOMAIN_PATH = Path(__file__).resolve().parents[2] / "config" / "domain.json"
 
 ERA_OFFSET = {"明治": 1867, "大正": 1911, "昭和": 1925, "平成": 1988, "令和": 2018}
 KANJI_DIGIT = {"〇": 0, "一": 1, "二": 2, "三": 3, "四": 4, "五": 5,
@@ -36,15 +39,19 @@ def kanji_to_int(s: str) -> int | None:
         elif ch == "十":
             total += (cur or 1) * 10
             cur = 0
+            seen = True
         elif ch == "百":
             total += (cur or 1) * 100
             cur = 0
+            seen = True
         elif ch == "千":
             total += (cur or 1) * 1000
             cur = 0
+            seen = True
         elif ch == "万":
             total = (total + cur) * 10000
             cur = 0
+            seen = True
         else:
             return None
     return total + cur if seen else None
@@ -117,6 +124,38 @@ def make_id(issuer: str, year: int | None, number: int | None, fallback: str) ->
     if year is not None and number is not None:
         return f"{issuer}-{year}-{number}"
     return fallback
+
+
+def load_domain(path: Path | None = None) -> dict:
+    """ドメイン定義(config/domain.json)を読み込む。"""
+    target = path or DEFAULT_DOMAIN_PATH
+    return json.loads(target.read_text(encoding="utf-8"))
+
+
+def is_excluded(text: str, domain: dict) -> bool:
+    """非建築系ノイズの除外キーワードに該当するか判定する。"""
+    return any(kw in text for kw in domain.get("exclude_keywords", []))
+
+
+def strip_ws_with_map(raw: str) -> tuple[str, list[int]]:
+    """空白除去済み文字列と、除去後インデックス→元文字列インデックスの対応表を返す。"""
+    chars: list[str] = []
+    pos_map: list[int] = []
+    for i, ch in enumerate(raw):
+        if not ch.isspace():
+            chars.append(ch)
+            pos_map.append(i)
+    return "".join(chars), pos_map
+
+
+def slice_raw_by_norm(raw: str, pos_map: list[int], norm_len: int,
+                      start: int, end: int) -> str:
+    """空白除去済みテキスト上の範囲 [start, end) を元テキストから改行保持で切り出す。"""
+    if start >= norm_len or start >= end:
+        return ""
+    raw_start = pos_map[start]
+    raw_end = pos_map[end] if end < norm_len else len(raw)
+    return raw[raw_start:raw_end].strip()
 
 
 def fetch(url: str, timeout: int = 30, retries: int = 2) -> bytes:

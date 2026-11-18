@@ -15,6 +15,7 @@ from pathlib import Path
 
 from . import build as build_mod
 from . import source_excel, source_kanpo, source_web
+from .common import load_domain
 
 ROOT = Path(__file__).resolve().parents[2]
 
@@ -26,7 +27,7 @@ def main() -> None:
     args = ap.parse_args()
     data_dir = Path(args.data)
 
-    domain = json.loads((ROOT / "config" / "domain.json").read_text(encoding="utf-8"))
+    domain = load_domain(ROOT / "config" / "domain.json")
     print("source: excel ...", flush=True)
     inv_excel = source_excel.load_inventory(domain)
     print(f"  {len(inv_excel)} records")

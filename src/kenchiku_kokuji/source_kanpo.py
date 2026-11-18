@@ -24,7 +24,9 @@ import time
 from pathlib import Path
 from urllib.parse import urljoin
 
-from .common import fetch, kanji_to_int, make_id, parse_notice_number
+from .common import (ERA_OFFSET, fetch, is_excluded, kanji_to_int, make_id,
+                     parse_notice_number, slice_raw_by_norm,
+                     strip_ws_with_map)
 
 BASE = "https://www.kanpo.go.jp"
 FREE_WINDOW_DAYS = 89
@@ -46,13 +48,11 @@ ABBREV = {
     "こども家庭": ("cfa", "こども家庭庁"), "デジタル": ("digital", "デジタル庁"),
     "復興": ("reconstruction", "復興庁"), "公安": ("npa", "国家公安委員会"),
 }
-TITLE_KEYWORDS = ["建築", "住宅", "宅地造成", "宅地開発", "都市計画", "市街地",
-                  "区画整理", "耐震", "防火", "耐火", "避難", "昇降機", "浄化槽",
-                  "構造", "地区計画", "再開発", "マンション"]
 HEADING = re.compile(r"[一-龥]{2,8}(?:省|庁|委員会)告示第[〇一二三四五六七八九十百千]+号")
 AMEND_REF = re.compile(
-    r"(明治|大正|昭和|平成|令和)(元|\d+)年(.+?)告示第([〇一二三四五六七八九十百千万\d]+)号の一部を改正")
-ERA_OFFSET = {"明治": 1867, "大正": 1911, "昭和": 1925, "平成": 1988, "令和": 2018}
+    r"(明治|大正|昭和|平成|令和)(元|[〇一二三四五六七八九十百千\d]+)年"
+    r"([^、。\n（）()「」]{1,30}?)告示第([〇一二三四五六七八九十百千万\d]+)号"
+)
 KAN = "〇一二三四五六七八九"
 
 
@@ -92,25 +92,46 @@ def _parse_entry_number(inner: str, last_issuer: tuple[str, str] | None):
     return None, None, number, last_issuer
 
 
+def extract_amend_targets(text: str) -> list[str]:
+    """改正件名・冒頭文から被改正告示IDのリストを抽出する（漢数字・複数対象対応）。"""
+    idx = text.find("の一部を改正")
+    if idx < 0:
+        return []
+    head = text[:idx]
+    ids: list[str] = []
+    for m in AMEND_REF.finditer(head):
+        y = 1 if m.group(2) == "元" else kanji_to_int(m.group(2))
+        if y is None:
+            continue
+        year = ERA_OFFSET[m.group(1)] + y
+        num = kanji_to_int(m.group(4))
+        ref_issuer = parse_notice_number(m.group(3) + "告示", None)["issuer"]
+        if num is None or ref_issuer == "unknown":
+            continue
+        rid = make_id(ref_issuer, year, num, "")
+        if rid and rid not in ids:
+            ids.append(rid)
+    return ids
+
+
 def _domain_match(title: str, issuer_key: str, domain: dict, known_ids: set) -> bool:
     if re.search(r"(省令|政令|府令|勅令)$", title):
         return False  # 目次には省令・政令も並ぶ。告示だけを対象とする
-    if issuer_key == "mlit" or issuer_key.startswith("joint-"):
-        if any(k in title for k in domain["law_names"]):
-            return True
-        if any(k in title for k in TITLE_KEYWORDS):
-            return True
-        m = AMEND_REF.search(title)
-        if m:
-            y = 1 if m.group(2) == "元" else int(m.group(2))
-            year = ERA_OFFSET[m.group(1)] + y
-            num = kanji_to_int(m.group(4))
-            ref_issuer = parse_notice_number(m.group(3) + "告示", None)["issuer"]
-            if make_id(ref_issuer, year, num, "") in known_ids:
-                return True
+    if is_excluded(title, domain):
         return False
-    if issuer_key == "mic":
-        return "消防" in title
+    if issuer_key == "mlit" or issuer_key.startswith("joint-"):
+        if any(k in title for k in domain.get("law_names", [])):
+            return True
+        if any(k in title for k in domain.get("title_keywords", [])):
+            return True
+        if any(tid in known_ids for tid in extract_amend_targets(title)):
+            return True
+        return False
+    issuer_kws = domain.get("issuer_keywords", {}).get(issuer_key, [])
+    if issuer_kws and any(k in title for k in issuer_kws):
+        return True
+    if any(tid in known_ids for tid in extract_amend_targets(title)):
+        return True
     return False
 
 
@@ -130,22 +151,25 @@ def _issue_pdf_url(sample_page_url: str, issue_dir: str) -> str:
     return f"{BASE}/{day}/{issue_dir}/pdf/{issue_dir}full0001{total:04d}.pdf"
 
 
+def _slice_notice_from_pages(raw_pages: list[str], issuer_full: str, number: int) -> str:
+    """ページ文字列群から見出し位置を空白除去テキストで特定し、改行保持の本文を切り出す。"""
+    raw_full = "\n".join(raw_pages)
+    norm_full, pos_map = strip_ws_with_map(raw_full)
+    target = f"{issuer_full}告示第{int_to_kanji(number)}号"
+    idx = norm_full.find(target)
+    if idx < 0:
+        return ""
+    m = HEADING.search(norm_full, idx + len(target))
+    end = m.start() if m else len(norm_full)
+    return slice_raw_by_norm(raw_full, pos_map, len(norm_full), idx, end)
+
+
 def _slice_notice(pdf_bytes: bytes, issuer_full: str, number: int) -> str:
     import pymupdf
 
     doc = pymupdf.open(stream=pdf_bytes, filetype="pdf")
-    pages = [re.sub(r"\s+", "", doc[i].get_text()) for i in range(doc.page_count)]
-    target = f"{issuer_full}告示第{int_to_kanji(number)}号"
-    for pi, text in enumerate(pages):
-        idx = text.find(target)
-        if idx < 0:
-            continue
-        buf = text[idx:]
-        for pj in range(pi + 1, min(pi + 3, doc.page_count)):
-            buf += pages[pj]
-        m = HEADING.search(buf, len(target))
-        return buf[: m.start()] if m else buf[:12000]
-    return ""
+    raw_pages = [doc[i].get_text() for i in range(doc.page_count)]
+    return _slice_notice_from_pages(raw_pages, issuer_full, number)
 
 
 def load_inventory(data_dir: Path, domain: dict, known_ids: set,
