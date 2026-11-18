@@ -1,0 +1,17 @@
+# kenchiku-kokuji
+
+> Japanese building & fire-safety public notices (告示) ledger and raw text corpus from primary public sources (MLIT, Kanpo, FDMA, NDL). No consolidated-text merging or current-validity judgment is performed.
+
+## Entrypoints for AI Agents
+- [AGENTS.md](AGENTS.md): Step-by-step lookup rules and hallucination guardrails.
+- [data/index.tsv](data/index.tsv): 1-line-per-notice TSV index (`id`, `date`, `year`, `issuer`, `kind`, `text_status`, `text_chars`, `number_raw`, `title`, `text_file`). Search this first with grep/rg.
+- [data/notices.jsonl](data/notices.jsonl): Full JSONL metadata ledger (sources, `document_url`, `ndl_url`, `amends`, `amended_by`). Query by `id` only.
+- [data/texts/](data/texts/): Plain UTF-8 notice bodies (`data/texts/<id>.txt`).
+- [data/stats.md](data/stats.md): Current corpus counts and breakdown by `text_status`, source, and year.
+- [data/missing_texts.md](data/missing_texts.md): List of `metadata_only`, `image_pdf`, `no_text_found`, and `truncated` notices requiring offline or paid lookup.
+
+## Lookup Rules
+1. Search `data/index.tsv` first (do not load all of `data/notices.jsonl`).
+2. Inspect the matching line in `data/notices.jsonl` for `document_url`, `ndl_url`, and `amends`/`amended_by` links.
+3. Read `data/texts/<id>.txt` when `text_file` is present.
+4. If `text_status` is `metadata_only`, `image_pdf`, or `no_text_found`, never fabricate missing text; report the status and cite `ndl_url` / `data/missing_texts.md`.

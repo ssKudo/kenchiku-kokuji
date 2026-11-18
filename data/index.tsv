@@ -1,0 +1,897 @@
+id	date	year	issuer	kind	text_status	text_chars	number_raw	title	text_file
+fdma-1982-6		1982	fdma	enactment	ok	5003	昭和57年消防庁告示6	エアゾール式簡易消火具を定める件	texts/fdma-1982-6.txt
+fdma-2002-13		2002	fdma	enactment	ok	5003	平成14年消防庁告示13	消防法施行規則第四条の二の七第三項第三号の規定に基づき、防火対象物の点検済表示に記載する事項を定める件	texts/fdma-2002-13.txt
+fdma-2004-11		2004	fdma	enactment	metadata_only	0		（未取得・被改正告示）fdma-2004-11	
+fdma-2006-2		2006	fdma	enactment	ok	5003	平成１８年消防庁告示２	大容量泡放水砲用泡消火薬剤の基準	texts/fdma-2006-2.txt
+fdma-2008-11		2008	fdma	enactment	metadata_only	0		（未取得・被改正告示）fdma-2008-11	
+kensetsu-1971-396		1971	kensetsu	enactment	metadata_only	0		（未取得・被改正告示）kensetsu-1971-396	
+kensetsu-1981-1627		1981	kensetsu	enactment	metadata_only	0		（未取得・被改正告示）kensetsu-1981-1627	
+kensetsu-1991-2124		1991	kensetsu	enactment	metadata_only	0		（未取得・被改正告示）kensetsu-1991-2124	
+kensetsu-1997-1974		1997	kensetsu	enactment	metadata_only	0		（未取得・被改正告示）kensetsu-1997-1974	
+kensetsu-1999-1287		1999	kensetsu	enactment	metadata_only	0		（未取得・被改正告示）kensetsu-1999-1287	
+kensetsu-2000-1813		2000	kensetsu	enactment	metadata_only	0		（未取得・被改正告示）kensetsu-2000-1813	
+kensetsu-2000-2189		2000	kensetsu	enactment	metadata_only	0		（未取得・被改正告示）kensetsu-2000-2189	
+kensetsu-2000-2345		2000	kensetsu	enactment	metadata_only	0		（未取得・被改正告示）kensetsu-2000-2345	
+kensetsu-2000-2465		2000	kensetsu	enactment	metadata_only	0		（未取得・被改正告示）kensetsu-2000-2465	
+mha-1977-194		1977	mha	enactment	ok	1329	昭和52年自治省告示194等	技術上の規格に適合する消防用機械器具等及び消火設備等を供用することができる日を定める件	texts/mha-1977-194.txt
+mha-1982-201		1982	mha	enactment	ok	5003	昭和57年自治省告示201	技術上の規格に適合する消防用機械器具等又は消火設備等を供用することができる日を定める件	texts/mha-1982-201.txt
+mha-1996-117		1996	mha	enactment	ok	5003	平成8年自治省告示117	地震防災対策特別措置法施行令第二条第五項の規定に基づき総務大臣が定める設備又は資機材を定める件	texts/mha-1996-117.txt
+mic-2002-569		2002	mic	enactment	short	264	平成14年総務省告示569	危険物の規制に関する規則第七条の五の規定により総務大臣が定める方法を定める件	texts/mic-2002-569.txt
+mlit-2003-188		2003	mlit	enactment	metadata_only	0		（未取得・被改正告示）mlit-2003-188	
+mlit-2004-618		2004	mlit	enactment	metadata_only	0		（未取得・被改正告示）mlit-2004-618	
+mlit-2006-1169		2006	mlit	enactment	metadata_only	0		（未取得・被改正告示）mlit-2006-1169	
+mlit-2013-1061		2013	mlit	enactment	metadata_only	0		（未取得・被改正告示）mlit-2013-1061	
+mlit-2014-417		2014	mlit	enactment	metadata_only	0		（未取得・被改正告示）mlit-2014-417	
+mlit-2015-188		2015	mlit	enactment	metadata_only	0		（未取得・被改正告示）mlit-2015-188	
+mlit-2016-1136		2016	mlit	enactment	metadata_only	0		（未取得・被改正告示）mlit-2016-1136	
+mlit-2017-214		2017	mlit	enactment	metadata_only	0		（未取得・被改正告示）mlit-2017-214	
+mlit-2019-793		2019	mlit	enactment	metadata_only	0		（未取得・被改正告示）mlit-2019-793	
+mlit-2024-68		2024	mlit	enactment	metadata_only	0		（未取得・被改正告示）mlit-2024-68	
+kensetsu-1960-2207	1960-10-13	1960	kensetsu	enactment	ok	3065	建設省告示第二千二百七号	建設業法施行令第二十七条の五第二項第一号及び第二号に掲げる者と同等以上の学歴、資格又は実務の経験を有する者	texts/kensetsu-1960-2207.txt
+kensetsu-1962-2754	1962-11-01	1962	kensetsu	enactment	short	497	建設省告示第二千七百五十四号	建設業法施行令第二十七条の七の規定による二級の技術検定に合格した者について免除する一級の技術検定の実地試験	texts/kensetsu-1962-2754.txt
+kensetsu-1962-2755	1962-11-01	1962	kensetsu	enactment	ok	3451	建設省告示第二千七百五十五号	建設業法施行令第二十七条の五第一項第一号から第三号までに掲げる者と同等以上の学歴又は資格及び実務経験を有する者	texts/kensetsu-1962-2755.txt
+kensetsu-1964-91	1964-01-27	1964	kensetsu	enactment	short	597	建設省告示第九十一号	建築基準法施行令第百三十六条の五第二項の規定に基づく建築工事現場における落下物による危害を防止するための措置の基準	texts/kensetsu-1964-91.txt
+fdma-1964-7	1964-12-10	1964	fdma	enactment	metadata_only	0	消防庁告示第7号	消防水利の基準	
+kensetsu-1965-3411	1965-12-18	1965	kensetsu	enactment	ok	1827	建設省告示第三千四百十一号	地階を除く階数が十一以上である建築物の屋上に設ける冷却塔設備の防火上支障のない構造方法、建築物の他の部分までの距離及び建築物の他の部分の温度を定める件	texts/kensetsu-1965-3411.txt
+kensetsu-1969-1729	1969-05-01	1969	kensetsu	enactment	short	347	建設省告示第千七百二十九号	建築基準法施行令第百二十八条の三第一項第一号の規定に基づく地下街の各構えの接する地下道の壁等の耐火性能	texts/kensetsu-1969-1729.txt
+kensetsu-1969-1730	1969-05-01	1969	kensetsu	enactment	metadata_only	0	建設省告示第1730号	地下街の各構えの接する地下道に設ける非常用の照明設備、排煙設備及び排水設備の構造方法を定める件	
+kensetsu-1969-3184	1969-07-03	1969	kensetsu	enactment	short	256	建設省告示第三千百八十四号	建築基準法施行令第三十二条第一項表中の規定に基づく処理対象人員の算定方法	texts/kensetsu-1969-3184.txt
+kensetsu-1970-38	1970-01-12	1970	kensetsu	enactment	short	767	建設省告示第三十八号	都市計画法施行規則第十九条第一号イからヘまでに掲げる者と同等以上の知識及び経験を有する者	texts/kensetsu-1970-38.txt
+kensetsu-1970-39	1970-01-12	1970	kensetsu	enactment	short	317	建設省告示第三十九号	都市計画法施行規則第十九条第一号ホの国土交通大臣が定める部門	texts/kensetsu-1970-39.txt
+kensetsu-1970-1730	1970-05-01	1970	kensetsu	enactment	ok	2857	建設省告示第千七百三十号	地下街の各構えの接する地下道に設ける非常用の照明設備、排煙設備及び排水設備の構造方法を定める件	texts/kensetsu-1970-1730.txt
+kensetsu-1970-758	1970-05-07	1970	kensetsu	enactment	ok	2588	建設省告示第七百五十八号	建設業法施行令第二十七条の七の規定に基づく技術検定の学科試験又は実地試験の免除を受けることができる者及び免除の範囲	texts/kensetsu-1970-758.txt
+kensetsu-1970-1547	1970-10-21	1970	kensetsu	enactment	metadata_only	0	建設省告示第1547号	地方住宅供給公社法施行規則第一条に規定する国土交通大臣が定める率	
+kensetsu-1970-1826	1970-12-28	1970	kensetsu	enactment	ok	6000	建設省告示第千八百二十六号	換気設備の構造方法を定める件	texts/kensetsu-1970-1826.txt
+kensetsu-1970-1827	1970-12-28	1970	kensetsu	enactment	ok	1866	建設省告示第千八百二十七号	遮音性能を有する長屋又は共同住宅の界壁及び天井の構造方法を定める件	texts/kensetsu-1970-1827.txt
+kensetsu-1970-1829	1970-12-28	1970	kensetsu	enactment	ok	980	建設省告示第千八百二十九号	火災時に生ずる煙を有効に排出することができる排煙設備の構造方法を定める件	texts/kensetsu-1970-1829.txt
+kensetsu-1970-1830	1970-12-28	1970	kensetsu	enactment	ok	3076	建設省告示第千八百三十号	非常用の照明装置の構造方法を定める件	texts/kensetsu-1970-1830.txt
+kensetsu-1970-1831	1970-12-28	1970	kensetsu	enactment	short	641	建設省告示第千八百三十一号	建築基準法施行令第百二十六条の七第七号の規定に基づく非常用の進入口の機能を確保するために必要な構造の基準	texts/kensetsu-1970-1831.txt
+kensetsu-1970-1832	1970-12-28	1970	kensetsu	enactment	ok	1154	建設省告示第千八百三十二号	中央管理方式の空気調和設備の構造方法を定める件	texts/kensetsu-1970-1832.txt
+kensetsu-1970-1836	1970-12-28	1970	kensetsu	enactment	ok	915	建設省告示第千八百三十六号	建築基準法施行令第百三十条の四第五号の規定により国土交通大臣が指定する建築物	texts/kensetsu-1970-1836.txt
+kensetsu-1970-1837	1970-12-28	1970	kensetsu	enactment	short	642	建設省告示第千八百三十七号	建築基準法施行令第百四十四条の四第一項第一号ハの規定により国土交通大臣が定める自動車の転回広場に関する基準	texts/kensetsu-1970-1837.txt
+excel-291	1971-01-29	1971	kensetsu	enactment	ok	3198	建設省告示第百十号	建築基準法施行令第七十六条第二項の規定に基づく現場打コンクリートの型わく及び支柱の取りはずしに関する基準	texts/excel-291.txt
+kensetsu-1971-109	1971-01-29	1971	kensetsu	enactment	ok	1654	建設省告示第百九号	建築基準法施行令の規定に基づく屋根ふき材、外装材及び屋外に面する帳壁の構造方法	texts/kensetsu-1971-109.txt
+kensetsu-1971-110	1971-01-29	1971	kensetsu	enactment	ok	3160	建設省告示第百十号	建築基準法施行令第七十六条第二項の規定に基づく現場打コンクリートの型わく及び支柱の取りはずしに関する基準	texts/kensetsu-1971-110.txt
+kensetsu-1971-112	1971-01-29	1971	kensetsu	enactment	short	304	建設省告示第百十二号	建築基準法施行令第百二十九条の十三の三第六項の規定に基づく非常用エレベーターのかご及びその出入口の寸法並びにかごの積載荷重の数値を定める日本工業規格	texts/kensetsu-1971-112.txt
+kensetsu-1971-292	1971-03-05	1971	kensetsu	enactment	short	730	建設省告示第二百九十二号	建設業法施行令第二十七条の五第一項第四号及び第二項第三号の規定による昭和三十五年建設省告示第二千二百七号及び昭和三十七年建設省告示第二千七百五十五号に定める者のほか技術検定の受検資格を有する者	texts/kensetsu-1971-292.txt
+kensetsu-1972-350	1972-03-08	1972	kensetsu	enactment	ok	970	建設省告示第三百五十号	建設業法第二条第一項の別表の上欄に掲げる建設工事の内容	texts/kensetsu-1972-350.txt
+kensetsu-1972-351	1972-03-08	1972	kensetsu	enactment	short	585	建設省告示第三百五十一号	建設業法第七条第一号イに掲げる者と同等以上の能力を有する者	texts/kensetsu-1972-351.txt
+kensetsu-1972-352	1972-03-08	1972	kensetsu	enactment	ok	5405	建設省告示第三百五十二号	建設業法第七条第二号イ又はロに掲げる者と同等以上の知識及び技術又は技能を有する者	texts/kensetsu-1972-352.txt
+fdma-1973-1	1973-02-10	1973	fdma	enactment	ok	5210	昭和48年消防庁告示1	自家発電設備の基準	texts/fdma-1973-1.txt
+fdma-1973-2	1973-02-10	1973	fdma	enactment	ok	6899	昭和48年消防庁告示2	蓄電池設備の基準	texts/fdma-1973-2.txt
+fdma-1973-6	1973-02-10	1973	fdma	enactment	ok	10323	昭和48年消防庁告示6	非常警報設備の基準	texts/fdma-1973-6.txt
+fdma-1973-7	1973-02-10	1973	fdma	enactment	metadata_only	0	消防庁告示第7号	開放型散水ヘッドの基準	
+kensetsu-1973-860	1973-04-10	1973	kensetsu	enactment	ok	1208	建設省告示第八百六十号	建設業法施行令第二十七条の三第三項の規定による種目、種別及び施工技術検定規則第一条第二項の規定による学科試験科目及び実地試験科目	texts/kensetsu-1973-860.txt
+fdma-1973-11	1973-06-01	1973	fdma	enactment	metadata_only	0	消防庁告示第11号	防炎性能に係る耐洗たく性能の基準	
+kensetsu-1973-2563	1973-12-28	1973	kensetsu	enactment	ok	4013	建設省告示第二千五百六十三号	防火区画に用いる防火設備等の構造方法を定める件	texts/kensetsu-1973-2563.txt
+kensetsu-1973-2564	1973-12-28	1973	kensetsu	enactment	ok	1380	建設省告示第二千五百六十四号	防火区画に用いる遮煙性能を有する防火設備等の構造方法を定める件	texts/kensetsu-1973-2564.txt
+kensetsu-1973-2565	1973-12-28	1973	kensetsu	enactment	ok	1713	建設省告示第二千五百六十五号	防火区画を貫通する風道に設ける防火設備の構造方法を定める件	texts/kensetsu-1973-2565.txt
+mha-1974-99	1974-05-01	1974	mha	enactment	ok	1329	昭和49年自治省告示99	危険物の規制に関する技術上の基準の細目を定める告示	texts/mha-1974-99.txt
+kensetsu-1974-1579	1974-12-28	1974	kensetsu	enactment	ok	1478	建設省告示第千五百七十九号	建築基準法施行令第百十二条第十六項の規定に基づく風道の耐火構造等の防火区画を貫通する部分等にダンパーを設けないことにつき防火上支障がないと認める場合	texts/kensetsu-1974-1579.txt
+kensetsu-1975-644	1975-04-01	1975	kensetsu	enactment	short	251	建設省告示第六百四十四号	建築基準法施行令第二条第一項第五号の規定に基づく工作物の築造面積の算定方法	texts/kensetsu-1975-644.txt
+fdma-1975-7	1975-05-28	1975	fdma	enactment	ok	3095	昭和50.年消防庁告示7	キュービクル式非常電源専用受電設備の基準	texts/fdma-54.txt
+fdma-1975-14	1975-10-16	1975	fdma	enactment	ok	8591	昭和50年消防庁告示14	消防用設備等の点検の基準及び消防用設備等点検結果報告書に添付する点検票の様式を定める件	texts/fdma-1975-14.txt
+mha-1975-251	1975-12-19	1975	mha	enactment	ok	5003	昭和50年自治省告示251	消火器用消火薬剤等の個別検定の手数料の額等を定める件	texts/mha-1975-251.txt
+kensetsu-1975-1597	1975-12-20	1975	kensetsu	enactment	ok	3798	建設省告示第千五百九十七号	建築物に設ける飲料水の配管設備及び排水のための配管設備の構造方法を定める件	texts/kensetsu-1975-1597.txt
+fdma-1976-2	1976-02-25	1976	fdma	enactment	ok	5003	昭和51年消防庁告示2	移動式の不活性ガス消火設備等のホース、ノズル、ノズル開閉弁及びホースリールの基準	texts/fdma-1976-2.txt
+fdma-1976-9	1976-08-26	1976	fdma	enactment	ok	7310	昭和51年消防庁告示9	不活性ガス消火設備等の容器弁、安全装置及び破壊板の基準	texts/fdma-1976-9.txt
+fdma-1978-1	1978-03-13	1978	fdma	enactment	ok	10274	昭和53年消防庁告示1	避難器具の基準	texts/fdma-1978-1.txt
+kensetsu-1980-1292	1980-07-14	1980	kensetsu	enactment	ok	38977	建設省告示第千二百九十二号	屎尿浄化槽及び合併処理浄化槽の構造方法を定める件	texts/kensetsu-1980-1292.txt
+kensetsu-1980-1790	1980-11-27	1980	kensetsu	enactment	ok	1381	建設省告示第千七百九十号	建築基準法施行令第八十二条の二の規定に基づく特定建築物	texts/kensetsu-1980-1790.txt
+kensetsu-1980-1791	1980-11-27	1980	kensetsu	enactment	ok	6199	建設省告示第千七百九十一号	建築物の地震に対する安全性を確かめるために必要な構造計算の基準を定める件	texts/kensetsu-1980-1791.txt
+kensetsu-1980-1792	1980-11-27	1980	kensetsu	enactment	metadata_only	0	建設省告示第1792号	建築基準法施行令の規定に基づくＤｓ及びＦｅｓを算出する方法	
+kensetsu-1980-1793	1980-11-27	1980	kensetsu	enactment	ok	2899	建設省告示第千七百九十三号	建築基準法施行令第八十八条第一項、第二項及び第四項の規定に基づくZの数値、Rt及びAiを算出する方法並びに地盤が著しく軟弱な区域として特定行政庁が指定する基準	texts/kensetsu-1980-1793.txt
+kensetsu-1980-1800	1980-12-01	1980	kensetsu	enactment	ok	1189	建設省告示第千八百号	建築基準法施行令第十九条第三項ただし書の規定に基づく照明設備の設置、有効な採光方法の確保その他これらに準ずる措置の基準及び居室の窓その他の開口部で採光に有効な部分の面積のその床面積に対する割合で国土交通大臣が別に定めるもの	texts/kensetsu-1980-1800.txt
+kensetsu-1981-506	1981-03-16	1981	kensetsu	enactment	short	742	建設省告示第五百六号	建設業法施行令第二十七条の七の規定による昭和四十五年建設省告示第七百五十八号に定めるほか、技術検定の学科試験又は実地試験の免除を受けることができる者及び免除の範囲	texts/kensetsu-1981-506.txt
+excel-269	1981-06-01	1981	kensetsu	enactment	ok	9377	建設省告示第千百号	建築基準法施行令第四十六条第四項表一（一）項から（七）項までに掲げる軸組と同等以上の耐力を有する軸組及び当該軸組に係る倍率の数値	texts/excel-269.txt
+kensetsu-1981-1098	1981-06-01	1981	kensetsu	enactment	ok	1837	建設省告示第千九十八号	建築基準法施行令第百十五条第一項第一号から第三号までの規定を適用しないことにつき防火上支障がない煙突の基準を定める件	texts/kensetsu-1981-1098.txt
+kensetsu-1981-1099	1981-06-01	1981	kensetsu	enactment	ok	2573	建設省告示第千九十九号	建築基準法施行令第百二十九条の二の二第一項第九号の規定に基づく三階以上の階を共同住宅の用途に供する建築物の住戸に設けるガスの配管設備の基準	texts/kensetsu-1981-1099.txt
+kensetsu-1981-1100	1981-06-01	1981	kensetsu	enactment	ok	9293	建設省告示第千百号	建築基準法施行令第四十六条第四項表一（一）項から（七）項までに掲げる軸組と同等以上の耐力を有する軸組及び当該軸組に係る倍率の数値	texts/kensetsu-1981-1100.txt
+kensetsu-1981-1102	1981-06-01	1981	kensetsu	enactment	ok	1824	建設省告示第千百二号	建築基準法施行令第七十四条第一項第二号の規定に基づく設計基準強度との関係において安全上必要なコンクリートの強度の基準及び同条第二項の規定に基づくコンクリートの強度試験	texts/kensetsu-1981-1102.txt
+kensetsu-1981-1105	1981-06-01	1981	kensetsu	enactment	short	782	建設省告示第千百五号	建築基準法施行令第百三十六条の三第五項第三号イただし書の規定に基づく腹起しに用いる木材の許容応力度	texts/kensetsu-1981-1105.txt
+kensetsu-1981-1106	1981-06-01	1981	kensetsu	enactment	short	303	建設省告示第千百六号	建築基準法施行令第七十七条第三号の規定に基づく鉄筋コンクリート造の柱の帯筋比を算出する方法	texts/kensetsu-1981-1106.txt
+kensetsu-1981-1112	1981-06-01	1981	kensetsu	enactment	ok	1765	建設省告示第千百十二号	建築基準法施行令第百十五条第一項第八号の規定に基づくボイラーの燃料消費量並びにボイラーの煙突の煙道接続口の中心から頂部までの高さの基準及び防火上必要な構造の基準	texts/kensetsu-1981-1112.txt
+fdma-1981-2	1981-06-20	1981	fdma	enactment	ok	3577	昭和56年消防庁告示2	ガス漏れ検知器並びに液化石油ガスを検知対象とするガス漏れ火災警報設備に使用する中継器及び受信機の基準	texts/fdma-1981-2.txt
+fdma-1981-10	1981-12-22	1981	fdma	enactment	metadata_only	0	消防庁告示第10号	配電盤及び分電盤の基準	
+kensetsu-1982-1660	1982-10-12	1982	kensetsu	enactment	ok	5020	建設省告示第千六百六十号	建設業法施行規則別記様式第十五号及び第十六号の国土交通大臣の定める勘定科目の分類	texts/kensetsu-1982-1660.txt
+kensetsu-1983-1320	1983-07-25	1983	kensetsu	enactment	ok	13085	建設省告示第千三百二十号	建築基準法施行令第八十条の二第二号の規定に基づくプレストレストコンクリート造の建築物又は建築物の構造部分の構造方法に関する安全上必要な技術的基準等	texts/kensetsu-1983-1320.txt
+kensetsu-1983-1508	1983-08-31	1983	kensetsu	enactment	short	763	建設省告示第千五百八号	建設業法施行令第二十七条の三第三項の規定による種目、種別及び施工技術検定規則第一条第二項の規定による学科試験科目及び実地試験科目	texts/kensetsu-1983-1508.txt
+kensetsu-1984-118	1984-02-06	1984	kensetsu	enactment	short	661	建設省告示第百十八号	建設業法施行令第二十七条の七の規定による昭和四十五年建設省告示第七百五十八号に定めるほか、技術検定の学科試験又は実地試験の免除を受けることができる者及び免除の範囲	texts/kensetsu-1984-118.txt
+kensetsu-1984-1254	1984-08-27	1984	kensetsu	enactment	short	785	建設省告示第千二百五十四号	建設業法施行令第二十七条の三第三項の規定による種目、種別及び施工技術検定規則第一条第二項の規定による学科試験科目及び実地試験科目	texts/kensetsu-1984-1254.txt
+mha-1984-232	1984-12-28	1984	mha	enactment	ok	5003	昭和59年自治省告示232	消防法第十三条の五第一項の規定に基づく指定試験機関	texts/mha-1984-232.txt
+mha-1984-233	1984-12-28	1984	mha	enactment	ok	5003	昭和59年自治省告示233	消防法第十七条の九第一項の規定に基づく指定試験機関	texts/mha-1984-233.txt
+kensetsu-1985-606	1985-03-19	1985	kensetsu	enactment	ok	1162	建設省告示第六百六号	建築基準法第十二条第一項に規定する建築物の維持保全に関する準則又は計画の作成に関し必要な指針	texts/kensetsu-1985-606.txt
+kensetsu-1985-625	1985-03-20	1985	kensetsu	enactment	ok	884	建設省告示第六百二十五号	建設業法第十五条第二号ロの規定による同号イに掲げる者と同等以上の能力を有する者	texts/kensetsu-1985-625.txt
+fdma-1987-1	1987-01-23	1987	fdma	enactment	image_pdf	0	昭和62年消防庁告示1	防火管理に関する講習の実施細目	
+kensetsu-1987-949	1987-04-11	1987	kensetsu	enactment	ok	929	建設省告示第九百四十九号	建設業法第七条第一号イに掲げる者と同等以上の能力を有する者	texts/kensetsu-1987-949.txt
+kensetsu-1987-1897	1987-11-10	1987	kensetsu	enactment	short	339	建設省告示第千八百九十七号	建築基準法施行令第四十二条第一項の規定に基づく地盤が軟弱な区域として特定行政庁が区域を指定する基準	texts/kensetsu-1987-1897.txt
+kensetsu-1987-1898	1987-11-10	1987	kensetsu	enactment	ok	1859	建設省告示第千八百九十八号	建築基準法施行令第四十六条第二項第一号イの規定に基づく構造耐力上主要な部分である柱及び横架材に使用する集成材その他の木材の品質の強度及び耐久性に関する基準	texts/kensetsu-1987-1898.txt
+kensetsu-1987-1899	1987-11-10	1987	kensetsu	enactment	ok	1345	建設省告示第千八百九十九号	建築基準法施行令第四十六条第二項第一号ハ等の規定に基づく木造若しくは鉄骨造の建築物又は建築物の構造部分が構造耐力上安全であることを確かめるための構造計算の基準	texts/kensetsu-1987-1899.txt
+kensetsu-1987-1900	1987-11-10	1987	kensetsu	enactment	short	730	建設省告示第千九百号	耐火構造の床又は壁を貫通する給水管、配電管その他の管の部分及びその周囲の部分の構造方法を定める件	texts/kensetsu-1987-1900.txt
+kensetsu-1987-1901	1987-11-10	1987	kensetsu	enactment	ok	1207	建設省告示第千九百一号	通常の火災時の加熱に対して耐力の低下を有効に防止することができる主要構造部である柱又ははりを接合する継手又は仕口の構造方法を定める件	texts/kensetsu-1987-1901.txt
+kensetsu-1987-1902	1987-11-10	1987	kensetsu	enactment	ok	1098	建設省告示第千九百二号	建築基準法施行令第百十五条の二第一項第九号の規定に基づく通常の火災により建築物全体が容易に倒壊するおそれのない構造であることを確かめるための構造計算の基準	texts/kensetsu-1987-1902.txt
+kensetsu-1987-1903	1987-11-10	1987	kensetsu	enactment	ok	1112	建設省告示第千九百三号	建築基準法施行令第百三十六条の二第二号の規定に基づく外壁の開口部の面積に関する基準	texts/kensetsu-1987-1903.txt
+kensetsu-1987-1905	1987-11-10	1987	kensetsu	enactment	ok	3180	建設省告示第千九百五号	外壁、主要構造部である柱及びはり、床、床の直下の天井、屋根、屋根の直下の天井並びに国土交通大臣が指定する建築物の部分の構造方法を定める件	texts/kensetsu-1987-1905.txt
+kensetsu-1987-1946	1987-11-19	1987	kensetsu	enactment	short	591	建設省告示第千九百四十六号	建設業法施行令第二十七条の七の規定による昭和四十五年建設省告示第七百五十八号に定めるほか、技術検定の学科試験又は実地試験の免除を受けることができる者及び免除の範囲	texts/kensetsu-1987-1946.txt
+fdma-1987-4	1987-11-24	1987	fdma	enactment	ok	5003	昭和62年消防庁告示4	危険物の取扱作業の保安に関する講習の実施細目	texts/fdma-1987-4.txt
+kensetsu-1988-1317	1988-06-06	1988	kensetsu	enactment	ok	1591	建設省告示第千三百十七号	建設業法第十五条第二号イの国土交通大臣が定める試験及び免許	texts/kensetsu-1988-1317.txt
+kensetsu-1988-1318	1988-06-06	1988	kensetsu	enactment	short	620	建設省告示第千三百十八号	建設業法施行令第二十七条の十第一項の表に掲げる額から減じる額	texts/kensetsu-1988-1318.txt
+kensetsu-1988-2093	1988-10-27	1988	kensetsu	enactment	short	539	建設省告示第二千九十三号	建設業法施行令第二十七条の七の規定による昭和四十五年建設省告示第七百五十八号に定めるほか、技術検定の学科試験又は実地試験の免除を受けることができる者及び免除の範囲	texts/kensetsu-1988-2093.txt
+kensetsu-1989-128	1989-01-30	1989	kensetsu	enactment	ok	1552	建設省告示第百二十八号	建設業法第十五条第二号ハの規定による同号イに掲げる者と同等以上の能力を有する者	texts/kensetsu-1989-128.txt
+kensetsu-1989-1941	1989-11-21	1989	kensetsu	enactment	short	786	建設省告示第千九百四十一号	建築基準法施行令第百四十四条の五第一項第四号の規定により国土交通大臣が定める特定高架道路等の法面その他の構造に関する基準	texts/kensetsu-1989-1941.txt
+fdma-1989-4	1989-12-01	1989	fdma	enactment	ok	5730	平成元年消防庁告示4	消防用設備等試験結果報告書の様式を定める件	texts/fdma-1989-4.txt
+kensetsu-1990-1467	1990-08-20	1990	kensetsu	enactment	short	579	建設省告示第千四百六十七号	建設業法施行令第二十七条の七の規定による昭和四十五年建設省告示第七百五十八号に定めるほか、技術検定の学科試験又は実地試験の免除を受けることができる者及び免除の範囲	texts/kensetsu-1990-1467.txt
+kensetsu-1993-1426	1993-06-22	1993	kensetsu	enactment	ok	887	建設省告示第千四百二十六号	準耐火構造の壁を貫通する給水管、配電管その他の管の部分及びその周囲の部分の構造方法を定める件	texts/kensetsu-1993-1426.txt
+kensetsu-1993-1427	1993-06-22	1993	kensetsu	enactment	short	541	建設省告示第千四百二十七号	建築基準法施行令第百三十六条の九第一号の規定に基づく高い開放性を有する構造の建築物又は建築物の部分	texts/kensetsu-1993-1427.txt
+kensetsu-1993-1434	1993-06-24	1993	kensetsu	enactment	short	404	建設省告示第千四百三十四号	建築基準法施行令第百三十六条の十第三号ロの規定に基づく通常の火災時における炎及び火熱を遮る上で有効と認める塀その他これに類するものの基準	texts/kensetsu-1993-1434.txt
+kensetsu-1993-1435	1993-06-24	1993	kensetsu	enactment	short	424	建設省告示第千四百三十五号	建築基準法施行令第百三十六条の十第三号ハの規定に基づくその屋内側からの通常の火災時における炎及び火熱を遮る上で有効と認める屋根の基準	texts/kensetsu-1993-1435.txt
+kensetsu-1993-1436	1993-06-24	1993	kensetsu	enactment	short	764	建設省告示第千四百三十六号	建築基準法施行令第百三十条の七の二第二号の規定による国土交通大臣が指定する建築物	texts/kensetsu-1993-1436.txt
+kensetsu-1993-1437	1993-06-24	1993	kensetsu	enactment	short	421	建設省告示第千四百三十七号	建築基準法施行令第二条第一項第二号の規定に基づく国土交通大臣が高い開放性を有すると認めて指定する構造	texts/kensetsu-1993-1437.txt
+kensetsu-1993-1438	1993-06-24	1993	kensetsu	enactment	ok	803	建設省告示第千四百三十八号	建築基準法施行令第百三十条の八の二の規定による国土交通大臣が指定する特殊の方法による事業に使用する空気圧縮機	texts/kensetsu-1993-1438.txt
+kensetsu-1993-1439	1993-06-24	1993	kensetsu	enactment	ok	1045	建設省告示第千四百三十九号	建築基準法施行令第百三十条の九第一項の規定による屋内貯蔵所のうち位置、構造及び設備について国土交通大臣が定める基準に適合するもの	texts/kensetsu-1993-1439.txt
+kensetsu-1993-1440	1993-06-24	1993	kensetsu	enactment	ok	1203	建設省告示第千四百四十号	建築基準法施行令第百三十条の九の四第二号の規定による合成繊維の製造のうち、国土交通大臣が安全上及び防火上支障がないと認めて定める物質を原料とするもの及び国土交通大臣が安全上及び防火上支障がないと認めて定める工程によるもの	texts/kensetsu-1993-1440.txt
+kensetsu-1993-1441	1993-06-24	1993	kensetsu	enactment	ok	867	建設省告示第千四百四十一号	建築基準法施行令第百三十条の九の四第四号の規定により国土交通大臣が石綿の粉じんの飛散の防止上有効であると認めて定める方法	texts/kensetsu-1993-1441.txt
+kensetsu-1993-1451	1993-06-25	1993	kensetsu	enactment	ok	1118	建設省告示第千四百五十一号	建築基準法施行令第百三十条の五の四第二号の規定に基づく国土交通大臣が指定する建築物	texts/kensetsu-1993-1451.txt
+kensetsu-1993-1601	1993-07-27	1993	kensetsu	enactment	metadata_only	0	建設省告示第1601号	認定事業者が特定優良賃貸住宅の管理を行うに当たって配慮すべき事項	
+kensetsu-1993-1602	1993-07-27	1993	kensetsu	enactment	metadata_only	0	建設省告示第1602号	特定優良賃貸住宅の供給の促進に関する法律施行令第二条第一号及び第二号に規定する国土交通大臣が定める算定の方法	
+kensetsu-1993-1661	1993-08-09	1993	kensetsu	enactment	short	638	建設省告示第千六百六十一号	建設業法施行令第二十七条の七の規定による昭和四十五年建設省告示第七百五十八号に定めるほか、技術検定の学科試験又は実地試験の免除を受けることができる者及び免除の範囲	texts/kensetsu-1993-1661.txt
+kensetsu-1994-1437	1994-05-30	1994	kensetsu	enactment	short	649	建設省告示第千四百三十七号	建設業法施行令第二十七条の七の規定による昭和四十五年建設省告示第七百五十八号に定めるほか、技術検定の学科試験又は実地試験の免除を受けることができる者及び免除の範囲	texts/kensetsu-1994-1437.txt
+kensetsu-1994-1461	1994-06-08	1994	kensetsu	enactment	ok	9994	建設省告示第千四百六十一号	建設業法第二十七条の二十三第三項の規定による経営事項審査の項目及び基準	texts/kensetsu-1994-1461.txt
+kensetsu-1994-1716	1994-07-28	1994	kensetsu	enactment	ok	918	建設省告示第千七百十六号	建築基準法第二十六条第一項第三号の規定に基づく国土交通大臣が定める基準	texts/kensetsu-1994-1716.txt
+kensetsu-1994-1882	1994-08-26	1994	kensetsu	enactment	ok	903	建設省告示第千八百八十二号	建築基準法施行令第百十四条第三項第三号の規定に基づく国土交通大臣が定める基準	texts/kensetsu-1994-1882.txt
+fdma-1994-11	1994-11-28	1994	fdma	enactment	ok	2800	平成6年消防庁告示11	甲種消防設備士試験の受験資格に関する事項を定める告示	texts/fdma-1994-11.txt
+fdma-1994-8	1994-11-28	1994	fdma	enactment	ok	5003	平成6年消防庁告示8	化学に関する学科又は課程を修めて卒業した者等が甲種危険物取扱者試験の受験資格を有する学校を定める件	texts/fdma-1994-8.txt
+kensetsu-1994-2379	1994-12-15	1994	kensetsu	enactment	metadata_only	0	建設省告示第2379号	国家機関の建築物及びその附帯施設の位置、規模及び構造に関する基準	
+kensetsu-1994-2411	1994-12-16	1994	kensetsu	enactment	ok	900	建設省告示第二千四百十一号	建設業法第二十七条の十八第四項に規定する講習の実施要領	texts/kensetsu-1994-2411.txt
+fdma-1995-1	1995-01-12	1995	fdma	enactment	ok	3669	平成7年消防庁告示1	不活性ガス消火設備等の放出弁の基準	texts/fdma-1995-1.txt
+fdma-1995-2	1995-01-12	1995	fdma	enactment	ok	3830	平成7年消防庁告示2	不活性ガス消火設備等の選択弁の基準	texts/fdma-1995-2.txt
+fdma-1995-3	1995-01-12	1995	fdma	enactment	ok	5003	平成7年消防庁告示3	不活性ガス消火設備等の音響警報装置の基準	texts/fdma-1995-3.txt
+fdma-1995-4	1995-01-12	1995	fdma	enactment	ok	1614	平成7年消防庁告示4	粉末消火設備の定圧作動装置の基準	texts/fdma-1995-4.txt
+fdma-1995-7	1995-06-06	1995	fdma	enactment	ok	2506	平成7年消防庁告示7	不活性ガス消火設備等の噴射ヘッドの基準	texts/fdma-1995-7.txt
+kensetsu-1995-1268	1995-06-19	1995	kensetsu	enactment	ok	1601	建設省告示第千二百六十八号	建設業法施行規則第十七条の二十第一項に規定するもののほか建設業法第二十七条の十八第四項の講習の指定に関し必要な事項	texts/kensetsu-1995-1268.txt
+kensetsu-1995-1297	1995-06-29	1995	kensetsu	enactment	ok	2893	建設省告示第千二百九十七号	建設業法施行規則第十七条の十六第三項の規定に基づく建設業法第二十七条の十八第一項に規定する資格者証の記載に用いる略語	texts/kensetsu-1995-1297.txt
+kensetsu-1995-1300	1995-06-29	1995	kensetsu	enactment	ok	927	建設省告示第千三百号	建設業法第十五条第二号ハの規定による同号イに掲げる者と同等以上の能力を有する者を定める告示による認定の更新	texts/kensetsu-1995-1300.txt
+fdma-1996-1	1996-02-16	1996	fdma	enactment	metadata_only	0	消防庁告示第1号	火災通報装置の基準	
+fdma-1996-2	1996-04-16	1996	fdma	enactment	ok	18279	平成8年消防庁告示2	避難器具の設置及び維持に関する技術上の基準の細目	texts/fdma-1996-2.txt
+fdma-1996-6	1996-08-19	1996	fdma	enactment	ok	5845	平成8年消防庁告示6	放水型ヘッド等を用いるスプリンクラー設備の設置及び維持に関する技術上の基準の細目	texts/fdma-1996-6.txt
+kensetsu-1996-1783	1996-08-30	1996	kensetsu	enactment	metadata_only	0	建設省告示第1783号	公営住宅法第四十四条第三項並びに公営住宅法施行令第二条第一項第一号及び第三号並びに第三条第一項に規定する国土交通大臣が定める期間等	
+fdma-1997-8	1997-06-30	1997	fdma	enactment	metadata_only	0	消防庁告示第8号	加圧送水装置の基準	
+fdma-1997-9	1997-06-30	1997	fdma	enactment	metadata_only	0	消防庁告示第9号	地区音響装置の基準	
+fdma-1997-10	1997-12-18	1997	fdma	enactment	ok	7854	平成9年消防庁告示10	耐火電線の基準	texts/fdma-1997-10.txt
+fdma-1997-11	1997-12-18	1997	fdma	enactment	metadata_only	0	消防庁告示第11号	耐熱電線の基準	
+fdma-1998-5	1998-07-24	1998	fdma	enactment	ok	5003	平成10年消防庁告示5	ラック式倉庫のラック等を設けた部分におけるスプリンクラーヘッドの設置に関する基準	texts/fdma-1998-5.txt
+fdma-1999-2	1999-03-17	1999	fdma	enactment	metadata_only	0	消防庁告示第2号	誘導灯及び誘導標識の基準	
+kensetsu-1999-1314	1999-06-03	1999	kensetsu	enactment	ok	1205	建設省告示第千三百十四号	建築基準法施行令第二条の二第三号の規定に基づく建築基準法第七十七条の十八第一項の確認検査の業務と同等以上の知識及び能力を要する業務	texts/kensetsu-1999-1314.txt
+kensetsu-2000-1347	2000-05-23	2000	kensetsu	enactment	ok	2969	建設省告示第千三百四十七号	建築物の基礎の構造方法及び構造計算の基準を定める件	texts/kensetsu-2000-1347.txt
+kensetsu-2000-1349	2000-05-23	2000	kensetsu	enactment	short	635	建設省告示第千三百四十九号	構造耐力上主要な部分である横架材の相互間の垂直距離に対する木造の柱の小径の割合等を定める件	texts/kensetsu-2000-1349.txt
+kensetsu-2000-1351	2000-05-23	2000	kensetsu	enactment	short	534	建設省告示第千三百五十一号	木造の建築物に物置等を設ける場合に階の床面積に加える面積を定める件	texts/kensetsu-2000-1351.txt
+kensetsu-2000-1352	2000-05-23	2000	kensetsu	enactment	ok	906	建設省告示第千三百五十二号	木造建築物の軸組の設置の基準を定める件	texts/kensetsu-2000-1352.txt
+kensetsu-2000-1353	2000-05-23	2000	kensetsu	enactment	short	434	建設省告示第千三百五十三号	補強された組積造の建築物の部分等の構造耐力上の安全性を確かめるための構造計算の基準を定める件	texts/kensetsu-2000-1353.txt
+kensetsu-2000-1354	2000-05-23	2000	kensetsu	enactment	ok	1205	建設省告示第千三百五十四号	組積造の建築物等を補強する構造方法を定める件	texts/kensetsu-2000-1354.txt
+kensetsu-2000-1355	2000-05-23	2000	kensetsu	enactment	ok	1387	建設省告示第千三百五十五号	補強コンクリートブロック造の塀の構造耐力上の安全性を確かめるための構造計算の基準を定める件	texts/kensetsu-2000-1355.txt
+kensetsu-2000-1356	2000-05-23	2000	kensetsu	enactment	ok	831	建設省告示第千三百五十六号	鉄骨造の建築物について一の柱のみの火熱による耐力の低下によって建築物全体が容易に倒壊するおそれがある場合等を定める件	texts/kensetsu-2000-1356.txt
+kensetsu-2000-1358	2000-05-24	2000	kensetsu	enactment	ok	9436	建設省告示第千三百五十八号	準耐火構造の構造方法を定める件	texts/kensetsu-2000-1358.txt
+kensetsu-2000-1359	2000-05-24	2000	kensetsu	enactment	ok	2700	建設省告示第千三百五十九号	防火構造の構造方法を定める件	texts/kensetsu-2000-1359.txt
+kensetsu-2000-1360	2000-05-24	2000	kensetsu	enactment	ok	944	建設省告示第千三百六十号	防火設備の構造方法を定める件	texts/kensetsu-2000-1360.txt
+kensetsu-2000-1361	2000-05-24	2000	kensetsu	enactment	short	556	建設省告示第千三百六十一号	特定行政庁が防火地域及び準防火地域以外の市街地について指定する区域内における屋根の構造方法を定める件	texts/kensetsu-2000-1361.txt
+kensetsu-2000-1362	2000-05-24	2000	kensetsu	enactment	ok	1330	建設省告示第千三百六十二号	木造建築物等の外壁の延焼のおそれのある部分の構造方法を定める件	texts/kensetsu-2000-1362.txt
+kensetsu-2000-1365	2000-05-25	2000	kensetsu	enactment	short	674	建設省告示第千三百六十五号	防火地域又は準防火地域内の建築物の屋根の構造方法を定める件	texts/kensetsu-2000-1365.txt
+kensetsu-2000-1367	2000-05-25	2000	kensetsu	enactment	ok	887	建設省告示第千三百六十七号	準耐火建築物と同等の性能を有する建築物等の屋根の構造方法を定める件	texts/kensetsu-2000-1367.txt
+kensetsu-2000-1368	2000-05-25	2000	kensetsu	enactment	ok	1162	建設省告示第千三百六十八号	床又はその直下の天井の構造方法を定める件	texts/kensetsu-2000-1368.txt
+kensetsu-2000-1369	2000-05-25	2000	kensetsu	enactment	ok	1153	建設省告示第千三百六十九号	特定防火設備の構造方法を定める件	texts/kensetsu-2000-1369.txt
+kensetsu-2000-1376	2000-05-26	2000	kensetsu	enactment	short	454	建設省告示第千三百七十六号	防火区画を貫通する風道に防火設備を設ける方法を定める件	texts/kensetsu-2000-1376.txt
+kensetsu-2000-1377	2000-05-26	2000	kensetsu	enactment	short	416	建設省告示第千三百七十七号	建築物の界壁、間仕切壁又は隔壁を貫通する風道に設ける防火設備の構造方法を定める件	texts/kensetsu-2000-1377.txt
+kensetsu-2000-1386	2000-05-29	2000	kensetsu	enactment	ok	941	建設省告示第千三百八十六号	くみ取便所並びに特殊建築物及び特定区域の便所の構造方法並びに改良便槽内の汚水の温度の低下を防止するための措置の基準を定める件	texts/kensetsu-2000-1386.txt
+kensetsu-2000-1388	2000-05-29	2000	kensetsu	enactment	ok	7205	建設省告示第千三百八十八号	建築設備の構造耐力上安全な構造方法を定める件	texts/kensetsu-2000-1388.txt
+kensetsu-2000-1389	2000-05-29	2000	kensetsu	enactment	ok	1801	建設省告示第千三百八十九号	屋上から突出する水槽、煙突等の構造計算の基準を定める件	texts/kensetsu-2000-1389.txt
+kensetsu-2000-1390	2000-05-29	2000	kensetsu	enactment	short	662	建設省告示第千三百九十号	建築物に設ける飲料水の配管設備の構造方法を定める件	texts/kensetsu-2000-1390.txt
+kensetsu-2000-1399	2000-05-30	2000	kensetsu	enactment	ok	7891	建設省告示第千三百九十九号	耐火構造の構造方法を定める件	texts/kensetsu-2000-1399.txt
+kensetsu-2000-1400	2000-05-30	2000	kensetsu	enactment	short	674	建設省告示第千四百号	不燃材料を定める件	texts/kensetsu-2000-1400.txt
+kensetsu-2000-1401	2000-05-30	2000	kensetsu	enactment	short	638	建設省告示第千四百一号	準不燃材料を定める件	texts/kensetsu-2000-1401.txt
+kensetsu-2000-1402	2000-05-30	2000	kensetsu	enactment	short	487	建設省告示第千四百二号	難燃材料を定める件	texts/kensetsu-2000-1402.txt
+kensetsu-2000-1411	2000-05-31	2000	kensetsu	enactment	short	722	建設省告示第千四百十一号	非常用の照明装置を設けることを要しない避難階又は避難階の直上階若しくは直下階の居室で避難上支障がないものその他これらに類するものを定める件	texts/kensetsu-2000-1411.txt
+kensetsu-2000-1412	2000-05-31	2000	kensetsu	enactment	ok	1449	建設省告示第千四百十二号	建築物に設ける換気、暖房又は冷房の設備の風道及びダストシュート、メールシュート、リネンシュートその他これらに類するものの設置に関して防火上支障がない部分を定める件	texts/kensetsu-2000-1412.txt
+kensetsu-2000-1413	2000-05-31	2000	kensetsu	enactment	ok	11239	建設省告示第千四百十三号	特殊な構造又は使用形態のエレベーター及びエスカレーターの構造方法を定める件	texts/kensetsu-2000-1413.txt
+kensetsu-2000-1414	2000-05-31	2000	kensetsu	enactment	ok	4287	建設省告示第千四百十四号	エレベーター強度検証法の対象となるエレベーター、エレベーター強度検証法及び屋外に設けるエレベーターに関する構造計算の基準を定める件	texts/kensetsu-2000-1414.txt
+kensetsu-2000-1415	2000-05-31	2000	kensetsu	enactment	ok	1574	建設省告示第千四百十五号	用途が特殊なエレベーター及び当該エレベーターのかごの積載荷重を定める件	texts/kensetsu-2000-1415.txt
+kensetsu-2000-1416	2000-05-31	2000	kensetsu	enactment	ok	808	建設省告示第千四百十六号	防火上支障のないエレベーターのかご及び昇降路並びに小荷物専用昇降機の昇降路を定める件	texts/kensetsu-2000-1416.txt
+kensetsu-2000-1417	2000-05-31	2000	kensetsu	enactment	ok	1119	建設省告示第千四百十七号	通常の使用状態において人又は物が挟まれ、又は障害物に衝突することがないようにしたエスカレーターの構造及びエスカレーターの勾配に応じた踏段の定格速度を定める件	texts/kensetsu-2000-1417.txt
+kensetsu-2000-1418	2000-05-31	2000	kensetsu	enactment	ok	1156	建設省告示第千四百十八号	エスカレーター強度検証法の対象となるエスカレーター及びエスカレーターの強度検証法を定める件	texts/kensetsu-2000-1418.txt
+kensetsu-2000-1419	2000-05-31	2000	kensetsu	enactment	ok	7961	建設省告示第千四百十九号	遊戯施設の構造耐力上安全な構造方法及び構造計算、遊戯施設強度検証法の対象となる遊戯施設、遊戯施設強度検証法並びに遊戯施設の周囲の人の安全を確保することができる構造方法を定める件	texts/kensetsu-2000-1419.txt
+kensetsu-2000-1422	2000-05-31	2000	kensetsu	enactment	ok	1623	建設省告示第千四百二十二号	準耐火構造の防火区画等を貫通する給水管、配電管その他の管の外径を定める件	texts/kensetsu-2000-1422.txt
+kensetsu-2000-1423	2000-05-31	2000	kensetsu	enactment	ok	5091	建設省告示第千四百二十三号	エレベーターの制動装置の構造方法を定める件	texts/kensetsu-2000-1423.txt
+kensetsu-2000-1424	2000-05-31	2000	kensetsu	enactment	short	792	建設省告示第千四百二十四号	エスカレーターの制動装置の構造方法を定める件	texts/kensetsu-2000-1424.txt
+kensetsu-2000-1425	2000-05-31	2000	kensetsu	enactment	short	621	建設省告示第千四百二十五号	雷撃によって生ずる電流を建築物に被害を及ぼすことなく安全に地中に流すことができる避雷設備の構造方法を定める件	texts/kensetsu-2000-1425.txt
+kensetsu-2000-1426	2000-05-31	2000	kensetsu	enactment	ok	2215	建設省告示第千四百二十六号	遊戯施設の客席部分の構造方法を定める件	texts/kensetsu-2000-1426.txt
+kensetsu-2000-1427	2000-05-31	2000	kensetsu	enactment	ok	1157	建設省告示第千四百二十七号	遊戯施設の非常止め装置の構造方法を定める件	texts/kensetsu-2000-1427.txt
+kensetsu-2000-1428	2000-05-31	2000	kensetsu	enactment	short	327	建設省告示第千四百二十八号	非常用エレベーターの機能を確保するために必要な構造方法を定める件	texts/kensetsu-2000-1428.txt
+kensetsu-2000-1429	2000-05-31	2000	kensetsu	enactment	ok	1139	建設省告示第千四百二十九号	エレベーターの制御器の構造方法を定める件	texts/kensetsu-2000-1429.txt
+kensetsu-2000-1430	2000-05-31	2000	kensetsu	enactment	ok	862	建設省告示第千四百三十号	地階における住宅等の居室に設ける開口部及び防水層の設置方法を定める件	texts/kensetsu-2000-1430.txt
+kensetsu-2000-1432	2000-05-31	2000	kensetsu	enactment	short	293	建設省告示第千四百三十二号	可燃物燃焼温度を定める件	texts/kensetsu-2000-1432.txt
+kensetsu-2000-1433	2000-05-31	2000	kensetsu	enactment	ok	21792	建設省告示第千四百三十三号	耐火性能検証法に関する算出方法等を定める件	texts/kensetsu-2000-1433.txt
+kensetsu-2000-1436	2000-05-31	2000	kensetsu	enactment	ok	3160	建設省告示第千四百三十六号	排煙設備の設置を要しない火災が発生した場合に避難上支障のある高さまで煙又はガスの降下が生じない建築物の部分を定める件	texts/kensetsu-2000-1436.txt
+kensetsu-2000-1437	2000-05-31	2000	kensetsu	enactment	ok	3177	建設省告示第千四百三十七号	通常の火災時に生ずる煙を有効に排出することができる特殊な構造の排煙設備の構造方法を定める件	texts/kensetsu-2000-1437.txt
+kensetsu-2000-1438	2000-05-31	2000	kensetsu	enactment	short	635	建設省告示第千四百三十八号	屋外からの進入を防止する必要がある特別の理由を定める件	texts/kensetsu-2000-1438.txt
+kensetsu-2000-1439	2000-05-31	2000	kensetsu	enactment	ok	1106	建設省告示第千四百三十九号	難燃材料でした内装の仕上げに準ずる仕上げを定める件	texts/kensetsu-2000-1439.txt
+kensetsu-2000-1440	2000-05-31	2000	kensetsu	enactment	short	463	建設省告示第千四百四十号	火災の発生のおそれの少ない室を定める件	texts/kensetsu-2000-1440.txt
+kensetsu-2000-1441	2000-05-31	2000	kensetsu	enactment	ok	16761	建設省告示第千四百四十一号	階避難安全検証法に関する算出方法等を定める件	texts/kensetsu-2000-1441.txt
+kensetsu-2000-1442	2000-05-31	2000	kensetsu	enactment	ok	9258	建設省告示第千四百四十二号	全館避難安全検証法に関する算出方法等を定める件	texts/kensetsu-2000-1442.txt
+kensetsu-2000-1443	2000-05-31	2000	kensetsu	enactment	ok	2804	建設省告示第千四百四十三号	防火上支障のない外壁及び屋根の構造を定める件	texts/kensetsu-2000-1443.txt
+kensetsu-2000-1444	2000-05-31	2000	kensetsu	enactment	ok	1251	建設省告示第千四百四十四号	安全上又は防火上重要である建築物の部分等を定める件	texts/kensetsu-2000-1444.txt
+kensetsu-2000-1446	2000-05-31	2000	kensetsu	enactment	ok	86412	建設省告示第千四百四十六号	建築物の基礎、主要構造部等に使用する建築材料並びにこれらの建築材料が適合すべき日本工業規格又は日本農林規格及び品質に関する技術的基準を定める件	texts/kensetsu-2000-1446.txt
+kensetsu-2000-1449	2000-05-31	2000	kensetsu	enactment	ok	3426	建設省告示第千四百四十九号	煙突、鉄筋コンクリート造の柱等、広告塔又は高架水槽等及び擁壁並びに乗用エレベーター又はエスカレーターの構造計算の基準を定める件	texts/kensetsu-2000-1449.txt
+kensetsu-2000-1450	2000-05-31	2000	kensetsu	enactment	ok	1235	建設省告示第千四百五十号	コンクリートの付着、引張り及びせん断に対する許容応力度及び材料強度を定める件	texts/kensetsu-2000-1450.txt
+kensetsu-2000-1451	2000-05-31	2000	kensetsu	enactment	short	622	建設省告示第千四百五十一号	炭素鋼のボルトのせん断に対する許容応力度及び材料強度を定める件	texts/kensetsu-2000-1451.txt
+kensetsu-2000-1452	2000-05-31	2000	kensetsu	enactment	ok	7129	建設省告示第千四百五十二号	木材の基準強度Fc、Ft、Fb及びFsを定める件	texts/kensetsu-2000-1452.txt
+kensetsu-2000-1453	2000-05-31	2000	kensetsu	enactment	short	474	建設省告示第千四百五十三号	学校の木造の校舎の日本工業規格を指定する件	texts/kensetsu-2000-1453.txt
+kensetsu-2000-1454	2000-05-31	2000	kensetsu	enactment	ok	9959	建設省告示第千四百五十四号	Eの数値を算出する方法並びにVo及び風力係数の数値を定める件	texts/kensetsu-2000-1454.txt
+kensetsu-2000-1455	2000-05-31	2000	kensetsu	enactment	ok	6457	建設省告示第千四百五十五号	多雪区域を指定する基準及び垂直積雪量を定める基準を定める件	texts/kensetsu-2000-1455.txt
+kensetsu-2000-1456	2000-05-31	2000	kensetsu	enactment	ok	1906	建設省告示第千四百五十六号	鉄骨造の柱の脚部を基礎に緊結する構造方法の基準を定める件	texts/kensetsu-2000-1456.txt
+kensetsu-2000-1457	2000-05-31	2000	kensetsu	enactment	metadata_only	0	建設省告示第1457号	損傷限界変位、Ｔｄ、Ｂｄｉ、層間変位、安全限界変位、Ｔｓ、Ｂｓｉ、Ｆｈ及びＧｓを計算する方法並びに屋根ふき材等及び外壁等の構造耐力上の安全を確かめるための構造計算の基準を定める件	
+kensetsu-2000-1458	2000-05-31	2000	kensetsu	enactment	metadata_only	0	建設省告示第1458号	屋根ふき材及び屋外に面する帳壁の風圧に対する構造耐力上の安全性を確かめるための構造計算の基準を定める件	
+kensetsu-2000-1459	2000-05-31	2000	kensetsu	enactment	ok	1380	建設省告示第千四百五十九号	建築物の使用上の支障が起こらないことを確かめる必要がある場合及びその確認方法を定める件	texts/kensetsu-2000-1459.txt
+kensetsu-2000-1460	2000-05-31	2000	kensetsu	enactment	ok	4144	建設省告示第千四百六十号	木造の継手及び仕口の構造方法を定める件	texts/kensetsu-2000-1460.txt
+kensetsu-2000-1461	2000-05-31	2000	kensetsu	enactment	ok	3816	建設省告示第千四百六十一号	超高層建築物の構造耐力上の安全性を確かめるための構造計算の基準を定める件	texts/kensetsu-2000-1461.txt
+kensetsu-2000-1463	2000-05-31	2000	kensetsu	enactment	ok	1543	建設省告示第千四百六十三号	鉄筋の継手の構造方法を定める件	texts/kensetsu-2000-1463.txt
+kensetsu-2000-1464	2000-05-31	2000	kensetsu	enactment	ok	2358	建設省告示第千四百六十四号	鉄骨造の継手又は仕口の構造方法を定める件	texts/kensetsu-2000-1464.txt
+kensetsu-2000-1467	2000-05-31	2000	kensetsu	enactment	ok	940	建設省告示第千四百六十七号	建築基準法施行令第百三十六条の二の十一第一号イ（2）等の国土交通大臣の指定する構造方法を定める件	texts/kensetsu-2000-1467.txt
+kensetsu-2000-1653	2000-07-19	2000	kensetsu	enactment	metadata_only	0	建設省告示第1653号	住宅紛争処理の参考となるべき技術的基準	
+kensetsu-2000-1655	2000-07-19	2000	kensetsu	enactment	metadata_only	0	建設省告示第1655号	住宅型式性能認定の対象となる住宅又はその部分を定める件	
+kensetsu-2000-1656	2000-07-19	2000	kensetsu	enactment	metadata_only	0	建設省告示第1656号	規格化された型式の住宅の部分又は住宅を定める件	
+kensetsu-2000-1657	2000-07-19	2000	kensetsu	enactment	metadata_only	0	建設省告示第1657号	品質保持に必要な技術的生産条件に係る技術的基準を定める件	
+kensetsu-2000-1660	2000-07-19	2000	kensetsu	enactment	metadata_only	0	建設省告示第1660号	設計住宅性能評価のために必要な図書を定める件	
+kensetsu-2000-1661	2000-07-19	2000	kensetsu	enactment	metadata_only	0	建設省告示第1661号	住宅性能評価を受けなければならない性能表示事項を定める件	
+kensetsu-2000-1666	2000-07-19	2000	kensetsu	enactment	metadata_only	0	建設省告示第1666号	住宅型式性能認定のために必要な図書を定める件	
+kensetsu-2000-1667	2000-07-19	2000	kensetsu	enactment	metadata_only	0	建設省告示第1667号	認証のために必要な図書を定める件	
+kensetsu-2000-1668	2000-07-19	2000	kensetsu	enactment	metadata_only	0	建設省告示第1668号	構造の安定に関する性能表示事項を定める件	
+kensetsu-2000-2009	2000-10-17	2000	kensetsu	enactment	ok	15123	建設省告示第二千九号	免震建築物の構造方法に関する安全上必要な技術的基準を定める等の件	texts/kensetsu-2000-2009.txt
+fdma-2000-11	2000-12-11	2000	fdma	enactment	ok	817	平成12年消防庁告示11	消防法施行規則第三十一条の六第六項第十号に規定する同項第一号から第九号までに掲げる者と同等以上の知識及び技能を有する者を定める件	texts/fdma-2000-11.txt
+fdma-2000-9	2000-12-11	2000	fdma	enactment	ok	5003	平成12年消防庁告示9	消防法施行規則第四条の四第四項及び第四条の五第二項の規定に基づき、防炎表示を付する者の登録の基準及び指定確認機関に申込みをしたことを証する書類をもって代えることができる添付書類を定める件	texts/fdma-2000-9.txt
+fdma-2000-14	2000-12-22	2000	fdma	enactment	ok	5003	平成12年消防庁告示14	消防法施行規則第三十一条の六第八項第六号の期間を定める件	texts/fdma-2000-14.txt
+fdma-2000-19	2000-12-22	2000	fdma	enactment	ok	5003	平成12年消防庁告示19	消防法施行規則第三十一条の四第三項の表示の様式を定める件	texts/fdma-2000-19.txt
+kensetsu-2000-2464	2000-12-26	2000	kensetsu	enactment	ok	7399	建設省告示第二千四百六十四号	鋼材等及び溶接部の許容応力度並びに材料強度の基準強度を定める件	texts/kensetsu-2000-2464.txt
+kensetsu-2000-2466	2000-12-26	2000	kensetsu	enactment	ok	1502	建設省告示第二千四百六十六号	高力ボルトの基準張力、引張接合部の引張りの許容応力度及び材料強度の基準強度を定める件	texts/kensetsu-2000-2466.txt
+mlit-2001-361	2001-03-29	2001	mlit	enactment	ok	994	国土交通省告示第三百六十一号	建築基準法施行令第十四条第一号又は第二号に該当する者と同等以上の建築行政に関する知識及び能力を有すると認めたもの	texts/mlit-2001-361.txt
+fdma-2001-19	2001-03-30	2001	fdma	enactment	metadata_only	0	消防庁告示第19号	合成樹脂製の管及び管継手の基準	
+mlit-2001-383	2001-03-30	2001	mlit	enactment	ok	15647	国土交通省告示第三百八十三号	土砂災害特別警戒区域内における居室を有する建築物の外壁等の構造方法並びに当該構造方法を用いる外壁等と同等以上の耐力を有する門又は塀の構造方法を定める件	texts/mlit-2001-383.txt
+mlit-2001-420	2001-03-30	2001	mlit	enactment	short	559	国土交通省告示第四百二十号	建築士法施行規則第十七条の十八の規定に基づき国土交通大臣が定める要件	texts/mlit-2001-420.txt
+mlit-2001-856	2001-05-11	2001	mlit	enactment	ok	1770	国土交通省告示第八百五十六号	都市計画法施行令第十二条第二号及び第三号の規定に基づく国土交通大臣が指定する都市計画区域	texts/mlit-2001-856.txt
+mlit-2001-1024	2001-06-12	2001	mlit	enactment	metadata_only	0	国土交通省告示第1024号	特殊な許容応力度及び特殊な材料強度を定める件	
+mlit-2001-1025	2001-06-12	2001	mlit	enactment	ok	5621	国土交通省告示第千二十五号	壁式ラーメン鉄筋コンクリート造の建築物又は建築物の構造部分の構造方法に関する安全上必要な技術的基準を定める等の件	texts/mlit-2001-1025.txt
+mlit-2001-1026	2001-06-12	2001	mlit	enactment	ok	4909	国土交通省告示第千二十六号	壁式鉄筋コンクリート造の建築物又は建築物の構造部分の構造方法に関する安全上必要な技術的基準を定める件	texts/mlit-2001-1026.txt
+fdma-2001-37	2001-06-29	2001	fdma	enactment	ok	1898	平成13年消防庁告示37	スプリンクラー設備等の送水口の基準	texts/fdma-2001-37.txt
+fdma-2001-38	2001-06-29	2001	fdma	enactment	ok	1329	平成13年消防庁告示38	不活性ガス消火設備等の制御盤の基準	texts/fdma-2001-38.txt
+mlit-2001-1113	2001-07-02	2001	mlit	enactment	metadata_only	0	国土交通省告示第1113号	地盤の許容応力度及び基礎ぐいの許容支持力を求めるための地盤調査の方法並びにその結果に基づき地盤の許容応力度及び基礎ぐいの許容支持力を定める方法等を定める件	
+mlit-2001-1280	2001-08-01	2001	mlit	enactment	metadata_only	0	国土交通省告示第1280号	マンション管理業者登録簿閲覧規則	
+mlit-2001-1284	2001-08-01	2001	mlit	enactment	metadata_only	0	国土交通省告示第1284号	マンションの管理の適正化の推進に関する法律施行規則第二条第一項第三号の同項第一号又は第二号に掲げる者と同等以上の知識及び実務の経験を有すると認める者	
+mlit-2001-1295	2001-08-03	2001	mlit	enactment	ok	3153	国土交通省告示第千二百九十五号	高齢者の居住の安定確保に関する法律施行令第二条に規定する国土交通大臣が定める算定の方法	texts/mlit-2001-1295.txt
+mlit-2001-1296	2001-08-03	2001	mlit	enactment	ok	6402	国土交通省告示第1296号	高齢者の居住の安定確保に関する法律施行規則第34条第１項第９号の規定に基づき国土交通大臣の定める基準	texts/mlit-2001-1296.txt
+mlit-2001-1300	2001-08-06	2001	mlit	enactment	ok	1199	平成13年国土交通省告示第1300号	高齢者が入居する賃貸住宅の管理に係る指針	texts/mlit-2001-1300.txt
+mlit-2001-1301	2001-08-06	2001	mlit	enactment	ok	13037	国土交通省告示第1301号	高齢者が居住する住宅の設計に係る指針	texts/mlit-2001-1301.txt
+mlit-2001-1302	2001-08-07	2001	mlit	enactment	ok	1088	国土交通省告示第千三百二号	高齢者の居住の安定確保に関する法律施行規則第六十四条の国土交通大臣が定める措置	texts/mlit-2001-1302.txt
+mlit-2001-1326	2001-08-10	2001	mlit	enactment	metadata_only	0	国土交通省告示第1326号	マンション管理適正化推進センターの指定	
+mlit-2001-1372	2001-08-21	2001	mlit	enactment	ok	3893	国土交通省告示第千三百七十二号	建築基準法施行令第七十九条第一項の規定を適用しない鉄筋コンクリート造の部材及び同令第七十九条の三第一項の規定を適用しない鉄骨鉄筋コンクリート造の部材の構造方法を定める件	texts/mlit-2001-1372.txt
+mlit-2001-1540	2001-10-15	2001	mlit	enactment	ok	20565	国土交通省告示第千五百四十号	枠組壁工法又は木質プレハブ工法を用いた建築物又は建築物の構造部分の構造方法に関する安全上必要な技術的基準を定める件	texts/mlit-2001-1540.txt
+mlit-2001-1541	2001-10-15	2001	mlit	enactment	ok	15971	国土交通省告示第千五百四十一号	構造耐力上主要な部分である壁及び床版に、枠組壁工法により設けられるものを用いる場合における技術的基準に適合する当該壁及び床版の構造方法を定める件	texts/mlit-2001-1541.txt
+mlit-2001-1641	2001-11-15	2001	mlit	enactment	ok	15009	国土交通省告示第千六百四十一号	薄板軽量形鋼造の建築物又は建築物の構造部分の構造方法に関する安全上必要な技術的基準を定める等の件	texts/mlit-2001-1641.txt
+fdma-2002-1	2002-03-06	2002	fdma	enactment	ok	2962	平成14年消防庁告示1	対象火気設備等及び対象火気器具等の離隔距離に関する基準	texts/fdma-2002-1.txt
+mlit-2002-326	2002-04-16	2002	mlit	enactment	ok	4470	国土交通省告示第三百二十六号	構造耐力上主要な部分である床版又は屋根版にデッキプレート版を用いる場合における当該床版又は屋根版の構造方法に関する安全上必要な技術的基準を定める件	texts/mlit-2002-326.txt
+mlit-2002-410	2002-05-14	2002	mlit	enactment	ok	7901	国土交通省告示第四百十号	アルミニウム合金造の建築物又は建築物の構造部分の構造方法に関する安全上必要な技術的基準を定める件	texts/mlit-2002-410.txt
+mlit-2002-411	2002-05-15	2002	mlit	enactment	ok	7307	国土交通省告示第四百十一号	丸太組構法を用いた建築物又は建築物の構造部分の構造方法に関する安全上必要な技術的基準を定める件	texts/mlit-2002-411.txt
+mlit-2002-463	2002-05-27	2002	mlit	enactment	ok	5003	国土交通省告示第四百六十三号	構造耐力上主要な部分にシステムトラスを用いる場合における当該構造耐力上主要な部分の構造方法に関する安全上必要な技術的基準を定める件	texts/mlit-2002-463.txt
+mlit-2002-464	2002-05-27	2002	mlit	enactment	ok	3708	国土交通省告示第四百六十四号	コンクリート充填鋼管造の建築物又は建築物の構造部分の構造方法に関する安全上必要な技術的基準を定める件	texts/mlit-2002-464.txt
+mlit-2002-474	2002-05-29	2002	mlit	enactment	ok	30762	国土交通省告示第四百七十四号	特定畜舎等建築物の構造方法に関する安全上必要な技術的基準を定める等の件	texts/mlit-2002-474.txt
+mlit-2002-617	2002-07-15	2002	mlit	enactment	metadata_only	0	国土交通省告示第617号	公営住宅法施行令第一条第一項第二号イの規定に基づき国土交通大臣の定める基準	
+mlit-2002-666	2002-07-23	2002	mlit	enactment	ok	13612	国土交通省告示第六百六十六号	膜構造の建築物又は建築物の構造部分の構造方法に関する安全上必要な技術的基準を定める等の件	texts/mlit-2002-666.txt
+mlit-2002-667	2002-07-23	2002	mlit	enactment	metadata_only	0	国土交通省告示第667号	テント倉庫建築物の構造方法に関する安全上必要な技術的基準を定める等の件	
+mlit-2002-727	2002-08-20	2002	mlit	enactment	metadata_only	0	国土交通省告示第727号	建設住宅性能評価のために必要な図書を定める件	
+mlit-2002-731	2002-08-20	2002	mlit	enactment	metadata_only	0	国土交通省告示第731号	住宅性能評価を行った住宅に関する基本的な事項及びその確認の方法を定める等の件	
+mic-2002-568	2002-10-07	2002	mic	enactment	ok	5003	平成14年総務省告示568	消防法第十一条の五第一項又は第二項等の規定により命令をした場合の標識を定める件	texts/mic-2002-568.txt
+fdma-2002-12	2002-11-28	2002	fdma	enactment	ok	1329	平成14年消防庁告示12	消防法施行規則第四条の二の六第一項第二号、第三号及び第七号の規定に基づき、防火対象物の点検基準に係る事項等を定める件	texts/fdma-2002-12.txt
+fdma-2002-7	2002-11-28	2002	fdma	enactment	short	617	平成14年消防庁告示7	消防法施行規則第四条の二の三並びに第二十六条第二項、第五項第三号ハ及び第七項第三号の規定に基づく屋内避難階段等の部分を定める件	texts/fdma-2002-7.txt
+fdma-2002-8	2002-11-28	2002	fdma	enactment	ok	1145	平成14年消防庁告示8	消防法施行規則第四条の二の四第三項の規定に基づき、防火対象物の点検の結果についての報告書の様式を定める件	texts/fdma-2002-8.txt
+fdma-2002-9	2002-11-28	2002	fdma	enactment	ok	5003	平成14年消防庁告示9	消防法施行規則第四条の二の四第五項第六号の規定に基づき、同号の期間を定める件	texts/fdma-2002-9.txt
+mlit-2002-1112	2002-12-26	2002	mlit	enactment	short	448	国土交通省告示第千百十二号	クロルピリホスを発散させるおそれがない建築材料を定める件	texts/mlit-2002-1112.txt
+mlit-2002-1113	2002-12-26	2002	mlit	enactment	ok	6863	国土交通省告示第千百十三号	第一種ホルムアルデヒド発散建築材料を定める件	texts/mlit-2002-1113.txt
+mlit-2002-1114	2002-12-26	2002	mlit	enactment	ok	3759	国土交通省告示第千百十四号	第二種ホルムアルデヒド発散建築材料を定める件	texts/mlit-2002-1114.txt
+mlit-2002-1115	2002-12-26	2002	mlit	enactment	ok	4541	国土交通省告示第千百十五号	第三種ホルムアルデヒド発散建築材料を定める件	texts/mlit-2002-1115.txt
+mlit-2003-175	2003-03-06	2003	mlit	enactment	ok	1211	国土交通省告示第百七十五号	高齢者、身体障害者等が円滑に利用できる特定建築物の建築の促進に関する法律施行令の規定により視覚障害者の利用上支障がない廊下等の部分等を定める件	texts/mlit-2003-175.txt
+mlit-2003-177	2003-03-06	2003	mlit	enactment	short	536	国土交通省告示第百七十七号	高齢者、身体障害者等が円滑に利用できる特定建築物の建築の促進に関する法律施行令の規定により視覚障害者の利用上支障がない昇降機及び乗降ロビーを定める件	texts/mlit-2003-177.txt
+mlit-2003-178	2003-03-06	2003	mlit	enactment	short	732	国土交通省告示第百七十八号	高齢者、身体障害者等が円滑に利用できる特定建築物の建築の促進に関する法律施行令の規定により車いす使用者が円滑に利用することができる特殊な構造又は使用形態の昇降機の構造を定める件	texts/mlit-2003-178.txt
+mlit-2003-263	2003-03-25	2003	mlit	enactment	ok	1149	国土交通省告示第二百六十三号	高齢者、身体障害者等が円滑に利用できる特定建築物の建築の促進に関する法律施行規則の規定により視覚障害者の利用上支障がない廊下等の部分等を定める件	texts/mlit-2003-263.txt
+mlit-2003-264	2003-03-25	2003	mlit	enactment	ok	843	国土交通省告示第二百六十四号	高齢者、身体障害者等が円滑に利用できる特定建築物の建築の促進に関する法律施行規則の規定により車いす使用者の利用上支障がない廊下等の部分等を定める件	texts/mlit-2003-264.txt
+mlit-2003-265	2003-03-25	2003	mlit	enactment	short	536	国土交通省告示第二百六十五号	高齢者、身体障害者等が円滑に利用できる特定建築物の建築の促進に関する法律施行規則の規定により視覚障害者の利用上支障がない昇降機及び乗降ロビーを定める件	texts/mlit-2003-265.txt
+mlit-2003-266	2003-03-25	2003	mlit	enactment	short	728	国土交通省告示第二百六十六号	高齢者、身体障害者等が円滑に利用できる特定建築物の建築の促進に関する法律施行規則の規定により車いす使用者が円滑に利用することができる特殊な構造又は使用形態の昇降機の構造を定める件	texts/mlit-2003-266.txt
+mlit-2003-273	2003-03-27	2003	mlit	enactment	ok	2975	国土交通省告示第二百七十三号	ホルムアルデヒドの発散による衛生上の支障がないようにするために必要な換気を確保することができる居室の構造方法を定める件	texts/mlit-2003-273.txt
+mlit-2003-274	2003-03-27	2003	mlit	enactment	ok	1808	国土交通省告示第二百七十四号	ホルムアルデヒドの発散による衛生上の支障がないようにするために必要な換気を確保することができる換気設備の構造方法を定める件	texts/mlit-2003-274.txt
+mlit-2003-275	2003-03-27	2003	mlit	enactment	ok	861	国土交通省告示第二百七十五号	高齢者、身体障害者等が円滑に利用できる特定建築物の建築の促進に関する法律第十五条の規定に基づく国土交通大臣が高齢者、身体障害者等の円滑な利用を確保する上で有効と認めて定める基準	texts/mlit-2003-275.txt
+mlit-2003-303	2003-03-28	2003	mlit	enactment	short	489	国土交通省告示第三百三号	建築物の開口部で採光に有効な部分の面積の算定方法で別に定めるものを定める件	texts/mlit-2003-303.txt
+mlit-2003-463	2003-04-28	2003	mlit	enactment	ok	7787	国土交通省告示第四百六十三号	鉄筋コンクリート組積造の建築物又は建築物の構造部分の構造方法に関する安全上必要な技術的基準を定める件	texts/mlit-2003-463.txt
+fdma-2003-2	2003-10-01	2003	fdma	amendment	ok	5003	平成15年消防庁告示2	消防法施行規則の一部を改正する省令附則第五条の規定に基づき、同条の方法を定める件	texts/fdma-2003-2.txt
+mlit-2004-246	2004-03-11	2004	mlit	enactment	metadata_only	0	国土交通省告示第246号	特定優良賃貸住宅の供給の促進に関する法律施行規則第四条第二項及び第七条第六号の規定に基づき国土交通大臣が定める基準	
+fdma-2004-2	2004-04-27	2004	fdma	enactment	ok	5003	平成16年消防庁告示2	消防法施行規則第二条の三第一項に規定する甲種防火管理再講習	texts/fdma-2004-2.txt
+fdma-2004-10	2004-05-31	2004	fdma	enactment	ok	2465	平成16年消防庁告示10	消防設備士免状の交付を受けている者又は総務大臣が認める資格を有する者が点検を行うことができる消防用設備等又は特殊消防用設備等の種類を定める件	texts/fdma-2004-10.txt
+fdma-2004-12	2004-05-31	2004	fdma	enactment	ok	5057	平成16年消防庁告示12	パッケージ型消火設備の設置及び維持に関する技術上の基準を定める件	texts/fdma-2004-12.txt
+fdma-2004-13	2004-05-31	2004	fdma	enactment	ok	16462	平成16年消防庁告示13	パッケージ型自動消火設備の設置及び維持に関する技術上の基準を定める件	texts/fdma-2004-13.txt
+fdma-2004-14	2004-05-31	2004	fdma	enactment	ok	1712	平成16年消防庁告示14	消防法施行令第三十六条の二第一項各号及び第二項各号に掲げる消防用設備等に類するものを定める件	texts/fdma-2004-14.txt
+fdma-2004-15	2004-05-31	2004	fdma	enactment	ok	1501	平成16年消防庁告示15	消防設備士が行うことができる必要とされる防火安全性能を有する消防の用に供する設備等の工事又は整備の種類を定める件	texts/fdma-2004-15.txt
+fdma-2004-17	2004-05-31	2004	fdma	enactment	short	416	平成16年消防庁告示17	消防法施行規則第四条の二の五第二項において準用する消防法施行規則第一条の四第十項の規定に基づき、登録講習機関の行う講習に係る基準を定める件	texts/fdma-2004-17.txt
+fdma-2004-18	2004-05-31	2004	fdma	enactment	ok	5616	平成16年消防庁告示18	消防法施行規則第三十一条の七第二項において準用する消防法施行規則第一条の四第十項の規定に基づき、登録講習機関の行う講習に係る基準を定める件	texts/fdma-2004-18.txt
+fdma-2004-7	2004-05-31	2004	fdma	enactment	metadata_only	0	消防庁告示第7号	総合操作盤の基準	
+fdma-2004-8	2004-05-31	2004	fdma	enactment	metadata_only	0	消防庁告示第8号	総合操作盤の設置方法	
+fdma-2004-9	2004-05-31	2004	fdma	enactment	ok	5592	平成16年消防庁告示9	消防法施行規則の規定に基づき、消防用設備等又は特殊消防用設備等の種類及び点検内容に応じて行う点検の期間、点検の方法並びに点検の結果についての報告書の様式を定める件	texts/fdma-2004-9.txt
+fdma-2004-25	2004-09-29	2004	fdma	enactment	ok	2676	平成16年消防庁告示25	消防法施行規則第三十三条の十七第三項の規定に基づく工事整備対象設備等の工事又は整備に関する講習の実施に関し必要な細目	texts/fdma-2004-25.txt
+mlit-2004-1168	2004-09-29	2004	mlit	enactment	short	715	国土交通省告示第千百六十八号	煙突の上又は周囲にたまるほこりを煙突内の廃ガスその他の生成物の熱により燃焼させない煙突の小屋裏、天井裏、床裏等にある部分の構造方法を定める件	texts/mlit-2004-1168.txt
+fdma-2005-2	2005-03-25	2005	fdma	enactment	ok	5003	平成17年消防庁告示2	特定共同住宅等の位置、構造及び設備を定める件	texts/fdma-2005-2.txt
+fdma-2005-3	2005-03-25	2005	fdma	enactment	ok	5003	平成17年消防庁告示3	特定共同住宅等の構造類型を定める件	texts/fdma-2005-3.txt
+fdma-2005-4	2005-03-25	2005	fdma	enactment	ok	5003	平成17年消防庁告示4	特定共同住宅等の住戸等の床又は壁並びに当該住戸等の床又は壁を貫通する配管等及びそれらの貫通部が一体として有すべき耐火性能を定める件	texts/fdma-2005-4.txt
+mlit-2005-359	2005-03-29	2005	mlit	enactment	short	341	国土交通省告示第三百五十九号	建築基準法施行令第百三十条の九の四第二号ロの規定により国土交通大臣が定める基準	texts/mlit-2005-359.txt
+mlit-2005-551	2005-05-27	2005	mlit	enactment	metadata_only	0	国土交通省告示第551号	国家機関の建築物及びその附帯施設の保全に関する基準	
+mlit-2005-566	2005-06-01	2005	mlit	enactment	ok	5631	国土交通省告示第五百六十六号	建築物の倒壊及び崩落、屋根ふき材、特定天井、外装材及び屋外に面する帳壁の脱落並びにエレベーターの籠の落下及びエスカレーターの脱落のおそれがない建築物の構造方法に関する基準並びに建築物の基礎の補強に関する基準を定める件	texts/mlit-2005-566.txt
+mlit-2005-570	2005-06-01	2005	mlit	enactment	short	773	国土交通省告示第五百七十号	昇降機の昇降路内に設けることができる配管設備の構造方法を定める件	texts/mlit-2005-570.txt
+mlit-2005-631	2005-06-28	2005	mlit	enactment	metadata_only	0	国土交通省告示第631号	エネルギーの釣合いに基づく耐震計算等の構造計算を定める件	
+mlit-2005-921	2005-09-01	2005	mlit	enactment	metadata_only	0	国土交通省告示第921号	登録住宅型式性能認定等機関の登録の区分を定める件	
+mlit-2005-922	2005-09-01	2005	mlit	enactment	metadata_only	0	国土交通省告示第922号	登録試験機関の登録の区分を定める件	
+mlit-2005-1078	2005-10-04	2005	mlit	enactment	metadata_only	0	国土交通省告示第1078号	マンションの管理の適正化の推進に関する法律施行規則第四十二条の四第二号及び第三号の規定に基づき国土交通大臣が定める時間等	
+mlit-2005-1150	2005-10-06	2005	mlit	enactment	ok	3874	国土交通省告示第1150号	高齢者の居住の安定確保に関する法律施行規則第４条第５号の規定に基づき国土交通大臣の定める基準	texts/mlit-2005-1150.txt
+mlit-2006-184	2006-01-25	2006	mlit	enactment	ok	31067	国土交通省告示第百八十四号	建築物の耐震診断及び耐震改修の促進を図るための基本的な方針	texts/mlit-2006-184.txt
+mlit-2006-185	2006-01-25	2006	mlit	enactment	short	612	国土交通省告示第百八十五号	建築物の耐震改修の促進に関する法律第十七条第三項第一号の規定に基づき地震に対する安全上耐震関係規定に準ずるものとして定める基準	texts/mlit-2006-185.txt
+mlit-2006-304	2006-02-23	2006	mlit	enactment	metadata_only	0	国土交通省告示第304号	評価の業務の公正な実施に支障を及ぼすおそれがあるものとして国土交通大臣が定める場合	
+mlit-2006-305	2006-02-23	2006	mlit	enactment	metadata_only	0	国土交通省告示第305号	認定等の業務の公正な実施に支障を及ぼすおそれがあるものとして国土交通大臣が定める場合	
+mlit-2006-306	2006-02-23	2006	mlit	enactment	metadata_only	0	国土交通省告示第306号	試験の業務の公正な実施に支障を及ぼすおそれがあるものとして国土交通大臣が定める場合	
+mlit-2006-307	2006-02-23	2006	mlit	enactment	metadata_only	0	国土交通省告示第307号	住宅の品質確保の促進等に関する法律施行規則第三十条第二号及び第三号の規定に基づき国土交通大臣が定める時間等	
+mlit-2006-308	2006-02-23	2006	mlit	enactment	ok	9576	国土交通省告示第308号	住宅紛争処理の参考となるべき技術的基準	texts/mlit-2006-308.txt
+mlit-2006-309	2006-02-23	2006	mlit	enactment	metadata_only	0	国土交通省告示第309号	住宅の品質確保の促進等に関する法律第十三条の講習に相当するもの	
+mlit-2006-320	2006-03-03	2006	mlit	enactment	metadata_only	0	国土交通省告示第320号	地方住宅供給公社法第三十四条第一号及び第二号の規定に基づき国土交通大臣の指定する有価証券及び金融機関を定める告示	
+fdma-2006-8	2006-03-29	2006	fdma	enactment	ok	5003	平成18年消防庁告示8	燃料電池設備の基準	texts/fdma-2006-8.txt
+fdma-2006-17	2006-05-30	2006	fdma	enactment	ok	5263	平成18年消防庁告示17	共同住宅用スプリンクラー設備の設置及び維持に関する技術上の基準を定める件	texts/fdma-2006-17.txt
+fdma-2006-18	2006-05-30	2006	fdma	enactment	ok	8473	平成18年消防庁告示18	共同住宅用自動火災報知設備の設置及び維持に関する技術上の基準	texts/fdma-2006-18.txt
+fdma-2006-19	2006-05-30	2006	fdma	enactment	ok	5913	平成18年消防庁告示19	住戸用自動火災報知設備及び共同住宅用非常警報設備の設置及び維持に関する技術上の基準	texts/fdma-2006-19.txt
+fdma-2006-20	2006-05-30	2006	fdma	enactment	metadata_only	0	消防庁告示第20号	戸外表示器の基準	
+mlit-2006-1172	2006-09-26	2006	mlit	enactment	short	491	国土交通省告示第千百七十二号	石綿等をあらかじめ添加した建築材料で石綿等を飛散又は発散させるおそれがないものを定める件	texts/mlit-2006-1172.txt
+mlit-2006-1173	2006-09-29	2006	mlit	enactment	ok	1337	国土交通省告示第千百七十三号	建築材料から石綿を飛散させるおそれがないものとして石綿が添加された建築材料を被覆し又は添加された石綿を建築材料に固着する措置について国土交通大臣が定める基準を定める件	texts/mlit-2006-1173.txt
+mlit-2007-592	2007-05-18	2007	mlit	enactment	ok	1314	国土交通省告示第五百九十二号	建築物の構造方法が安全性を有することを確かめるための構造計算の方法を定める件	texts/mlit-2007-592.txt
+mlit-2007-593	2007-05-18	2007	mlit	enactment	ok	7059	国土交通省告示第五百九十三号	建築基準法施行令第三十六条の二第五号の国土交通大臣が指定する建築物を定める件	texts/mlit-2007-593.txt
+mlit-2007-594	2007-05-18	2007	mlit	enactment	metadata_only	0	国土交通省告示第594号	保有水平耐力計算及び許容応力度等計算の方法を定める件	
+mlit-2007-599	2007-05-18	2007	mlit	enactment	ok	2147	国土交通省告示第五百九十九号	構造耐力上主要な部分である床版又は屋根版に軽量気泡コンクリートパネルを用いる場合における当該床版又は屋根版の構造方法に関する安全上必要な技術的基準を定める件	texts/mlit-2007-599.txt
+mlit-2007-817	2007-06-14	2007	mlit	enactment	metadata_only	0	国土交通省告示第817号	応力図、基礎反力図及び断面検定比図の様式を定める件	
+mlit-2007-823	2007-06-19	2007	mlit	enactment	metadata_only	0	国土交通省告示第823号	建築基準法施行令第八十一条第二項第一号イ若しくはロ、同項第二号イ又は同条第三項に規定する国土交通大臣が定める基準に従った構造計算によりプレストレストコンクリート造の建築物等の安全性を確かめた場合の構造計算書を定める件	
+mlit-2007-824	2007-06-19	2007	mlit	enactment	metadata_only	0	国土交通省告示第824号	建築基準法施行令第八十一条第二項第一号ロに規定する国土交通大臣が定める基準に従った構造計算により免震建築物の安全性を確かめた場合の構造計算書を定める件	
+mlit-2007-825	2007-06-19	2007	mlit	enactment	metadata_only	0	国土交通省告示第825号	建築基準法施行令第八十一条第二項第一号イに規定する国土交通大臣が定める基準に従った構造計算により壁式ラーメン鉄筋コンクリート造の建築物又は建築物の構造部分の安全性を確かめた場合の構造計算書を定める件	
+mlit-2007-826	2007-06-19	2007	mlit	enactment	metadata_only	0	国土交通省告示第826号	建築基準法施行令第八十一条第二項第一号イ又は同項第二号イに規定する国土交通大臣が定める基準に従った構造計算により枠組壁工法を用いた建築物又は建築物の構造部分の安全性を確かめた場合の構造計算書を定める件	
+mlit-2007-827	2007-06-19	2007	mlit	enactment	metadata_only	0	国土交通省告示第827号	建築基準法施行令第八十一条第三項に規定する国土交通大臣が定める基準に従った構造計算により特定畜舎等建築物の安全性を確かめた場合の構造計算書を定める件	
+mlit-2007-828	2007-06-19	2007	mlit	enactment	metadata_only	0	国土交通省告示第828号	建築基準法施行令第八十一条第二項第一号イ若しくは第二号イ又は第三項に規定する国土交通大臣が定める基準に従った構造計算により膜構造の建築物又は建築物の構造部分の安全性を確かめた場合の構造計算書を定める件	
+mlit-2007-829	2007-06-19	2007	mlit	enactment	metadata_only	0	国土交通省告示第829号	建築基準法施行令第八十一条第三項に規定する国土交通大臣が定める基準に従った構造計算によりテント倉庫建築物の安全性を確かめた場合の構造計算書を定める件	
+mlit-2007-830	2007-06-19	2007	mlit	enactment	metadata_only	0	国土交通省告示第830号	建築基準法施行令第八十一条第二項第一号イ又は同条第二項第二号イに規定する国土交通大臣が定める基準に従った構造計算により鉄筋コンクリート組積造の建築物又は建築物の構造部分の安全性を確かめた場合の構造計算書を定める件	
+mlit-2007-831	2007-06-19	2007	mlit	enactment	metadata_only	0	国土交通省告示第831号	建築基準法施行令第八十一条第二項第一号ロの規定に基づきエネルギーの釣合いに基づく耐震計算等の構造計算によって建築物の安全性を確かめた場合の構造計算書を定める件	
+mlit-2007-832	2007-06-19	2007	mlit	enactment	short	581	国土交通省告示第八百三十二号	建築基準法施行令第八十二条各号及び同令第八十二条の四に定めるところによる構造計算と同等以上に安全性を確かめることができる構造計算の基準を定める件	texts/mlit-2007-832.txt
+mlit-2007-835	2007-06-20	2007	mlit	enactment	metadata_only	0	国土交通省告示第835号	確認審査等に関する指針	
+mlit-2007-885	2007-07-05	2007	mlit	enactment	metadata_only	0	国土交通省告示第885号	確認審査等に関する指針に従って確認審査等を行ったことを証する書類の様式を定める件	
+mlit-2007-1119	2007-08-22	2007	mlit	enactment	short	348	国土交通省告示第千百十九号	建築基準法施行令第十条第三号ロ及び第四号ロの国土交通大臣の指定する基準を定める件	texts/mlit-2007-1119.txt
+mlit-2007-1274	2007-10-05	2007	mlit	enactment	ok	1530	国土交通省告示第千二百七十四号	建築物の張り間方向又はけた行方向の規模又は構造に基づく許容応力度等計算と同等以上に安全性を確かめることができる構造計算の基準を定める件	texts/mlit-2007-1274.txt
+mlit-2008-282	2008-03-10	2008	mlit	enactment	ok	18399	国土交通省告示第二百八十二号	建築物の定期調査報告における調査及び定期点検における点検の項目、方法及び結果の判定基準並びに調査結果表を定める件	texts/mlit-2008-282.txt
+mlit-2008-283	2008-03-10	2008	mlit	enactment	ok	83258	国土交通省告示第二百八十三号	昇降機の定期検査報告における検査及び定期点検における点検の項目、事項、方法及び結果の判定基準並びに検査結果表を定める件	texts/mlit-2008-283.txt
+mlit-2008-284	2008-03-10	2008	mlit	enactment	ok	35971	国土交通省告示第二百八十四号	遊戯施設の定期検査報告における検査及び定期点検における点検の項目、事項、方法及び結果の判定基準並びに検査結果表を定める件	texts/mlit-2008-284.txt
+mlit-2008-285	2008-03-10	2008	mlit	enactment	ok	29221	国土交通省告示第二百八十五号	建築設備（昇降機を除く。）の定期検査報告における検査及び定期点検における点検の項目、事項、方法及び結果の判定基準並びに検査結果表を定める件	texts/mlit-2008-285.txt
+mlit-2008-345	2008-03-24	2008	mlit	enactment	metadata_only	0	国土交通省告示第345号	特定住宅瑕疵担保責任の履行の確保等に関する法律施行規則第三条第三号及び第十四条第三号の規定に基づき住宅建設瑕疵担保保証金又は住宅販売瑕疵担保保証金に充てることができる社債券その他の債券	
+mlit-2008-740	2008-06-16	2008	mlit	enactment	ok	1466	国土交通省告示第七百四十号	建築士法第十四条第一号の国土交通大臣の指定する建築に関する科目を定める件	texts/mlit-2008-740.txt
+mlit-2008-741	2008-06-16	2008	mlit	enactment	ok	1383	国土交通省告示第七百四十一号	建築士法第十四条第二号の国土交通大臣の指定する建築に関する科目を定める件	texts/mlit-2008-741.txt
+mlit-2008-742	2008-06-16	2008	mlit	enactment	ok	1533	国土交通省告示第七百四十二号	建築士法第十四条第三号の国土交通大臣の指定する建築に関する科目を定める件	texts/mlit-2008-742.txt
+mlit-2008-743	2008-06-16	2008	mlit	enactment	ok	1544	国土交通省告示第七百四十三号	建築士法第十五条第一号の国土交通大臣の指定する建築に関する科目を定める件	texts/mlit-2008-743.txt
+mlit-2008-744	2008-06-16	2008	mlit	enactment	ok	1467	国土交通省告示第七百四十四号	建築士法第十五条第二号の国土交通大臣の指定する建築に関する科目を定める件	texts/mlit-2008-744.txt
+mlit-2008-745	2008-06-16	2008	mlit	enactment	ok	3049	国土交通省告示第七百四十五号	建築士法第十四条第一号から第四号までと同等以上の知識及び技能を有する者を定める件	texts/mlit-2008-745.txt
+mlit-2008-881	2008-07-15	2008	mlit	enactment	ok	1021	国土交通省告示第八百八十一号	建築士法に基づく中央指定登録機関等に関する省令第二十八条第二号の規定に基づき国土交通大臣が定める講義内容及び講義時間を定める件	texts/mlit-2008-881.txt
+mlit-2008-882	2008-07-15	2008	mlit	enactment	ok	1707	国土交通省告示第八百八十二号	建築士法に基づく中央指定登録機関等に関する省令第三十九条第二号の規定に基づき国土交通大臣が定める講義内容及び講義時間を定める件	texts/mlit-2008-882.txt
+mlit-2008-883	2008-07-15	2008	mlit	enactment	short	698	国土交通省告示第八百八十三号	建築士法に基づく中央指定登録機関等に関する省令第四十二条第二号の規定に基づき国土交通大臣が定める講義内容及び講義時間を定める件	texts/mlit-2008-883.txt
+fdma-2008-9	2008-08-20	2008	fdma	enactment	metadata_only	0	消防庁告示第9号	消防法第十六条の三の二第四項において準用する第十六条の三の二第三項において準用する第四条第二項及び第三十五条の三の二第二項において準用する第三十四条第二項において準用する第四条第二項の規定に基づき消防庁長官が定める証票	
+mic-2008-451	2008-08-20	2008	mic	enactment	ok	5003	平成20年総務省告示451	消防法第十六条の三の二第三項及び同法第十六条の五第三項において準用する同法第四条第二項の規定に基づき、総務大臣が定める証票を定める件	texts/mic-2008-451.txt
+mlit-2008-1033	2008-09-02	2008	mlit	enactment	ok	1070	国土交通省告示第千三十三号	建築士法施行規則第一条の二第一項第七号の国土交通大臣が定める実務を定める件	texts/mlit-2008-1033.txt
+fdma-2008-13	2008-09-24	2008	fdma	enactment	metadata_only	0	消防庁告示第13号	自衛消防組織の要員に対する教育に関する事項のうち、統括管理者の直近下位の内部組織で消防法施行規則第四条の二の十一各号に掲げる業務を分掌するものを統括する者に対するもの	
+fdma-2008-14	2008-09-24	2008	fdma	enactment	metadata_only	0	消防庁告示第14号	消防法施行規則第四条の二の十三第一号及び第二号に掲げる者に準ずる者	
+fdma-2008-15	2008-09-24	2008	fdma	enactment	metadata_only	0	消防庁告示第15号	自衛消防業務再講習	
+fdma-2008-16	2008-09-24	2008	fdma	enactment	metadata_only	0	消防庁告示第16号	自衛消防組織の業務に関する講習の実施細目	
+fdma-2008-17	2008-09-24	2008	fdma	enactment	metadata_only	0	消防庁告示第17号	防災管理再講習	
+fdma-2008-18	2008-09-24	2008	fdma	enactment	metadata_only	0	消防庁告示第18号	防災管理に関する講習の実施細目	
+fdma-2008-19	2008-09-24	2008	fdma	enactment	short	527	平成20年消防庁告示19	消防法施行規則第四条の二の四第三項の規定に基づく防災管理の点検の結果についての報告書の様式	texts/fdma-2008-19.txt
+fdma-2008-20	2008-09-24	2008	fdma	enactment	metadata_only	0	消防庁告示第20号	消防法施行規則第五十一条の十二第四項第六号の期間	
+fdma-2008-21	2008-09-24	2008	fdma	enactment	metadata_only	0	消防庁告示第21号	消防法施行規則第五十一条の十三第二項において準用する第一条の四第十項の規定に基づき登録講習機関の行う講習に係る基準	
+fdma-2008-22	2008-09-24	2008	fdma	enactment	metadata_only	0	消防庁告示第22号	防災管理対象物の点検基準に係る事項等	
+fdma-2008-23	2008-09-24	2008	fdma	enactment	metadata_only	0	消防庁告示第23号	防災管理対象物の点検済表示に記載する事項等	
+mlit-2008-1350	2008-11-17	2008	mlit	enactment	metadata_only	0	国土交通省告示第1350号	国家機関の建築物の敷地及び構造の定期点検における点検の項目、方法及び結果の判定基準を定める件	
+mlit-2008-1351	2008-11-17	2008	mlit	enactment	metadata_only	0	国土交通省告示第1351号	国家機関の建築物の昇降機以外の建築設備の定期点検における点検の項目、事項、方法及び結果の判定基準を定める件	
+mlit-2008-1428	2008-11-28	2008	mlit	enactment	ok	949	国土交通省告示第千四百二十八号	建築士法に基づく中央指定登録機関等に関する省令第二十八条第九号の規定に基づき、講義を受講した者又は修了考査に合格した者と同等以上の知識を有する者として国土交通大臣が定める者及び講義又は修了考査のうち国土交通大臣が定める科目を定める件	texts/mlit-2008-1428.txt
+mlit-2008-1446	2008-12-09	2008	mlit	enactment	ok	1634	国土交通省告示第千四百四十六号	小荷物専用昇降機の昇降路外の人又は物がかご又は釣合おもりに触れるおそれのない壁又は囲い及び出し入れ口の戸の基準を定める件	texts/mlit-2008-1446.txt
+mlit-2008-1447	2008-12-09	2008	mlit	enactment	ok	817	国土交通省告示第千四百四十七号	昇降路外の人又は物が昇降路内に落下するおそれのない昇降路の出入口の戸の施錠装置の基準を定める件	texts/mlit-2008-1447.txt
+mlit-2008-1454	2008-12-10	2008	mlit	enactment	ok	2138	国土交通省告示第千四百五十四号	昇降路外の人又は物がかご又は釣合おもりに触れるおそれのない壁又は囲い及び出入口の戸の基準を定める件	texts/mlit-2008-1454.txt
+mlit-2008-1455	2008-12-10	2008	mlit	enactment	ok	2568	国土交通省告示第千四百五十五号	かご内の人又は物による衝撃に対して安全なかごの各部の構造方法及びかご内の人又は物がかご外の物に触れるおそれのないかごの壁又は囲い及び出入口の戸の基準を定める件	texts/mlit-2008-1455.txt
+mlit-2008-1494	2008-12-19	2008	mlit	enactment	short	758	国土交通省告示第千四百九十四号	滑節構造とした接合部が地震その他の震動によって外れるおそれがない構造方法を定める件	texts/mlit-2008-1494.txt
+mlit-2008-1495	2008-12-19	2008	mlit	enactment	short	640	国土交通省告示第千四百九十五号	建築基準法施行令第百二十九条の七第五号イ（2）の国土交通大臣が定める措置を定める件	texts/mlit-2008-1495.txt
+mlit-2008-1498	2008-12-22	2008	mlit	enactment	ok	870	国土交通省告示第千四百九十八号	滑車を使用してかごを吊るエレベーターが地震その他の震動によって索が滑車から外れるおそれがない構造方法を定める件	texts/mlit-2008-1498.txt
+fdma-2008-25	2008-12-26	2008	fdma	enactment	ok	2756	平成20年消防庁告示25	特定小規模施設用自動火災報知設備の設置及び維持に関する技術上の基準	texts/fdma-2008-25.txt
+fdma-2008-27	2008-12-26	2008	fdma	enactment	short	674	平成20年消防庁告示27	特定施設水道連結型スプリンクラー設備に係る配管、管継手及びバルブ類の基準	texts/fdma-2008-27.txt
+fdma-2008-31	2008-12-26	2008	fdma	enactment	metadata_only	0	消防庁告示第31号	金属製管継手及びバルブ類の基準	
+fdma-2008-32	2008-12-26	2008	fdma	enactment	metadata_only	0	消防庁告示第32号	配管の摩擦損失計算の基準	
+mlit-2008-1536	2008-12-26	2008	mlit	enactment	ok	1700	国土交通省告示第千五百三十六号	地震その他の衝撃により生じた国土交通大臣が定める加速度並びに当該加速度を検知し、自動的に、かごを昇降路の出入口の戸の位置に停止させ、かつ、当該かごの出入口の戸及び昇降路の出入口の戸を開き、又はかご内の人がこれらの戸を開くことができることとする装置の構造方法を定める件	texts/mlit-2008-1536.txt
+mlit-2009-15	2009-01-07	2009	mlit	enactment	ok	25021	国土交通省告示第十五号	建築士事務所の開設者がその業務に関して請求することのできる報酬の基準	texts/mlit-2009-15.txt
+mlit-2009-209	2009-02-24	2009	mlit	enactment	metadata_only	0	国土交通省告示第209号	長期使用構造等とするための措置及び維持保全の方法の基準	
+mlit-2009-217	2009-02-26	2009	mlit	enactment	ok	1897	国土交通省告示第二百十七号	建築物の耐震改修の促進に関する法律第三十二条に規定する耐震改修支援センターの指定の基準に関する詳細を定める件	texts/mlit-2009-217.txt
+mlit-2009-225	2009-02-27	2009	mlit	enactment	ok	6084	国土交通省告示第二百二十五号	準不燃材料でした内装の仕上げに準ずる仕上げを定める件	texts/mlit-2009-225.txt
+mlit-2009-541	2009-05-14	2009	mlit	enactment	short	632	国土交通省告示第五百四十一号	滑節構造とした接合部が地震その他の震動によって外れるおそれがない構造方法を定める件	texts/mlit-2009-541.txt
+mlit-2009-621	2009-06-08	2009	mlit	enactment	ok	892	国土交通省告示第六百二十一号	滑節構造とした接合部が地震その他の震動によって外れるおそれがない構造方法を定める件	texts/mlit-2009-621.txt
+mlit-2009-622	2009-06-08	2009	mlit	enactment	ok	1012	国土交通省告示第六百二十二号	滑車を使用して客席部分を吊る遊戯施設が地震その他の震動によって索が滑車から外れるおそれがない構造方法を定める件	texts/mlit-2009-622.txt
+mlit-2009-703	2009-07-06	2009	mlit	enactment	ok	1616	国土交通省告示第七百三号	エレベーターの駆動装置及び制御器が地震その他の震動によって転倒し又は移動するおそれがない方法を定める件	texts/mlit-2009-703.txt
+joint-mhlw-mlit-2009-1	2009-08-19	2009	joint-mhlw-mlit	enactment	ok	18358	厚生労働省・国土交通省告示第1号	高齢者の居住の安定の確保に関する基本的な方針	texts/joint-mhlw-mlit-2009-1.txt
+fdma-2009-16	2009-09-15	2009	fdma	enactment	ok	7177	平成21年消防庁告示16号	加圧防排煙設備の設置及び維持に関する技術上の基準	texts/fdma-2009-16.txt
+mlit-2010-558	2010-05-26	2010	mlit	enactment	metadata_only	0	国土交通省告示第558号	特定住宅瑕疵担保責任の履行の確保等に関する法律施行規則の規定に基づき支払備金として積み立てるべき金額	
+mic-2010-440	2010-12-22	2010	mic	amendment	ok	5003	平成22年総務省告示第440	消火器の技術上の規格を定める省令の一部を改正する省令(平成22年総務省令第111号)の施行に伴う消防法施行令第30条第２項及び危険物の規制に関する政令第22条第２項に規定する総務大臣が定める日を定める件	texts/mic-2010-440.txt
+mlit-2011-432	2011-04-27	2011	mlit	enactment	metadata_only	0	国土交通省告示第432号	鉄筋コンクリート造の柱に取り付けるはりの構造耐力上の安全性を確かめるための構造計算の基準を定める件	
+mlit-2011-433	2011-04-27	2011	mlit	enactment	ok	1019	国土交通省告示第四百三十三号	鉄筋コンクリート造の柱の構造耐力上の安全性を確かめるための構造計算の基準を定める件	texts/mlit-2011-433.txt
+mlit-2011-1002	2011-09-30	2011	mlit	enactment	metadata_only	0	国土交通省告示第1002号	建築基準法及びこれに基づく命令の規定による規制と同等の規制を受けるものとして国土交通大臣が指定する工作物を定める件	
+joint-mhlw-mlit-2011-2	2011-10-07	2011	joint-mhlw-mlit	enactment	ok	3681	厚生労働省・国土交通省告示第2号	国土交通省・厚生労働省関係高齢者の居住の安定確保に関する法律施行規則第十条第五号の国土交通大臣及び厚生労働大臣の定める基準	texts/joint-mhlw-mlit-2011-2.txt
+joint-mhlw-mlit-2011-3	2011-10-07	2011	joint-mhlw-mlit	enactment	ok	1324	厚生労働省・国土交通省告示第3号	国土交通省・厚生労働省関係高齢者の居住の安定確保に関する法律施行規則第十四条の国土交通大臣及び厚生労働大臣が定める措置	texts/joint-mhlw-mlit-2011-3.txt
+joint-mhlw-mlit-2011-4	2011-10-07	2011	joint-mhlw-mlit	enactment	ok	3691	厚生労働省・国土交通省告示第4号	国土交通省・厚生労働省関係高齢者の居住の安定確保に関する法律施行規則第十五条第一項及び第二項の国土交通大臣及び厚生労働大臣が定める基準	texts/joint-mhlw-mlit-2011-4.txt
+joint-mhlw-mlit-2011-5	2011-10-07	2011	joint-mhlw-mlit	enactment	ok	2403	厚生労働省・国土交通省告示第5号	国土交通省・厚生労働省関係高齢者の居住の安定確保に関する法律施行規則第二十二条第一号の国土交通大臣及び厚生労働大臣が定める表示についての方法	texts/joint-mhlw-mlit-2011-5.txt
+mlit-2011-1015	2011-10-07	2011	mlit	enactment	ok	1218	国土交通省告示第1015号	平成二十三年国土交通省告示第千十五号(高齢者の居住の安定確保に関する法律施行規則第三十六条の規定に基づく国土交通大臣が定める高齢者円滑入居賃貸住宅の賃貸人等が講ずべき措置)	texts/mlit-2011-1015.txt
+mic-2011-557	2011-12-21	2011	mic	enactment	ok	5908	平成23年総務省告示557	製造所等の不活性ガス消火設備の技術上の基準の細目を定める告示	texts/mic-2011-557.txt
+mic-2011-558	2011-12-21	2011	mic	enactment	ok	12685	平成23年総務省告示558	製造所等のハロゲン化物消火設備の技術上の基準の細目を定める告示	texts/mic-2011-558.txt
+mic-2011-559	2011-12-21	2011	mic	enactment	ok	29145	平成23年総務省告示559	製造所等の泡消火設備の技術上の基準の細目を定める告示	texts/mic-2011-559.txt
+fdma-2013-2	2013-03-27	2013	fdma	enactment	ok	9113	平成25年消防庁告示2	屋内消火栓設備の屋内消火栓等の基準	texts/fdma-2013-2.txt
+mic-2013-133	2013-03-27	2013	mic	enactment	metadata_only	0	総務省告示第133号	消防用ホースの技術上の規格を定める省令等の施行に伴う消防法施行令第三十条第二項及び危険物の規制に関する政令第二十二条第二項に規定する総務大臣が定める日	
+mlit-2013-732	2013-07-22	2013	mlit	enactment	metadata_only	0	国土交通省告示第732号	構造設計に関し建築士法第十条の二の二第一項第一号に掲げる一級建築士と同等以上の知識及び技能を有する一級建築士及び設備設計に関し同条第二項第一号に掲げる一級建築士と同等以上の知識及び技能を有する一級建築士を定める件	
+mlit-2013-771	2013-08-05	2013	mlit	enactment	metadata_only	0	国土交通省告示第771号	特定天井及び特定天井の構造耐力上安全な構造方法を定める件	
+mlit-2013-1046	2013-10-29	2013	mlit	enactment	metadata_only	0	国土交通省告示第1046号	地震その他の震動によってエスカレーターが脱落するおそれがない構造方法を定める件	
+mlit-2013-1047	2013-10-29	2013	mlit	enactment	ok	1376	国土交通省告示第千四十七号	エレベーターの地震その他の震動に対する構造耐力上の安全性を確かめるための構造計算の基準を定める件	texts/mlit-2013-1047.txt
+mlit-2013-1048	2013-10-29	2013	mlit	enactment	ok	1474	国土交通省告示第千四十八号	地震その他の震動によってエレベーターの釣合おもりが脱落するおそれがない構造方法を定める件	texts/mlit-2013-1048.txt
+mlit-2013-1049	2013-10-29	2013	mlit	enactment	ok	1504	国土交通省告示第千四十九号	地震その他の震動によって遊戯施設の釣合おもりが脱落するおそれがない構造方法を定める件	texts/mlit-2013-1049.txt
+mlit-2013-1050	2013-10-29	2013	mlit	enactment	short	786	国土交通省告示第千五十号	乗用エレベーター及び寝台用エレベーター以外のエレベーターの昇降路について安全上支障がない構造方法を定める件	texts/mlit-2013-1050.txt
+mlit-2013-1051	2013-10-29	2013	mlit	enactment	short	702	国土交通省告示第千五十一号	乗用エレベーター及び寝台用エレベーター以外のエレベーターの制御器について安全上支障がない構造方法を定める件	texts/mlit-2013-1051.txt
+mlit-2013-1052	2013-10-29	2013	mlit	enactment	metadata_only	0	国土交通省告示第1052号	乗用エレベーター及び寝台用エレベーター以外のエレベーターの安全装置について安全上支障がない構造方法を定める件	
+mlit-2013-1056	2013-10-29	2013	mlit	enactment	short	588	国土交通省告示第千五十六号	建築物の耐震改修の促進に関する法律施行規則第五条第一項第一号（同規則附則第三条において準用する場合を含む。）の規定に基づき国土交通大臣が定める要件	texts/mlit-2013-1056.txt
+mlit-2013-1057	2013-10-29	2013	mlit	enactment	ok	961	国土交通省告示第千五十七号	建築物の耐震改修の促進に関する法律施行規則第五条第一項第二号（同規則附則第三条において準用する場合を含む。）の規定に基づき国土交通大臣が定める者を定める件	texts/mlit-2013-1057.txt
+mlit-2013-1058	2013-10-29	2013	mlit	enactment	ok	1978	国土交通省告示第千五十八号	建築物の耐震改修の促進に関する法律施行規則第十条第四号の規定に基づき登録資格者講習に用いる教材の内容として国土交通大臣が定める事項を定める件	texts/mlit-2013-1058.txt
+mlit-2013-1059	2013-10-29	2013	mlit	enactment	ok	1045	国土交通省告示第千五十九号	建築物の耐震改修の促進に関する法律施行規則第二十二条第二号（同規則附則第三条において準用する場合を含む。）の規定に基づき国土交通大臣が定める事項を定める件	texts/mlit-2013-1059.txt
+mlit-2013-1060	2013-10-29	2013	mlit	enactment	short	586	国土交通省告示第千六十号	建築物の耐震改修の促進に関する法律施行規則第二十三条第一項及び第二項の規定に基づき国土交通大臣が定める額を定める件	texts/mlit-2013-1060.txt
+mlit-2013-1062	2013-10-29	2013	mlit	enactment	short	660	国土交通省告示第千六十二号	建築物の耐震改修の促進に関する法律第二十二条第二項及び第二十五条第二項の規定に基づき地震に対する安全上耐震関係規定に準ずるものとして定める基準	texts/mlit-2013-1062.txt
+mlit-2013-1063	2013-10-29	2013	mlit	enactment	short	413	国土交通省告示第千六十三号	建築物の耐震改修の促進に関する法律施行規則第三十五条第一項第三号の規定に基づき国土交通大臣が定めるものを定める件	texts/mlit-2013-1063.txt
+mlit-2013-1064	2013-10-29	2013	mlit	enactment	ok	923	国土交通省告示第千六十四号	建築物の耐震改修の促進に関する法律施行規則第三十三条第一項第二号及び第二項第二号の規定に基づき国土交通大臣が定める書類を定める件	texts/mlit-2013-1064.txt
+mlit-2013-1066	2013-10-29	2013	mlit	enactment	ok	2144	国土交通省告示第千六十六号	建築物の耐震改修の促進に関する法律施行令附則第二条第一項第一号の規定に基づき国土交通大臣が定める危険物及び国土交通大臣が定める距離を定める件	texts/mlit-2013-1066.txt
+mlit-2013-1130	2013-11-21	2013	mlit	enactment	short	585	国土交通省告示第千百三十号	建築物の耐震改修の促進に関する法律施行規則第十条第七号の国土交通大臣が定める者及び国土交通大臣が定める科目を定める件	texts/mlit-2013-1130.txt
+fdma-2013-20	2013-11-26	2013	fdma	enactment	metadata_only	0	消防庁告示第20号	型式適合検定の方法をデータ審査方式による方法とすることができる製造工程における検査の信頼性が確保されているもの	
+mlit-2013-1182	2013-12-10	2013	mlit	enactment	short	532	国土交通省告示第千百八十二号	耐震診断を行う者として必要な知識及び技能を習得させるための講習の登録について	texts/mlit-2013-1182.txt
+fdma-2014-4	2014-03-28	2014	fdma	enactment	ok	1478	平成26年消防庁告示4	入居者等の避難に要する時間の算定方法等を定める件	texts/fdma-2014-4.txt
+fdma-2014-5	2014-03-28	2014	fdma	enactment	ok	14633	平成26年消防庁告示5	特定駐車場用泡消火設備の設置及び維持に関する技術上の基準	texts/fdma-2014-5.txt
+fdma-2014-9	2014-03-31	2014	fdma	enactment	metadata_only	0	消防庁告示第9号	自主表示対象機械器具等に係る技術上の規格に適合するものであることを確認した試験結果に係る様式並びに試験の方法及び試験に使用した設備に関する事項	
+mlit-2014-709	2014-06-27	2014	mlit	enactment	short	579	国土交通省告示第七百九号	建築基準法施行令第二十三条第一項の規定に適合する階段と同等以上に昇降を安全に行うことができる階段の構造方法を定める件	texts/mlit-2014-709.txt
+mlit-2014-860	2014-08-22	2014	mlit	enactment	ok	1210	国土交通省告示第八百六十号	間仕切壁を準耐火構造としないこと等に関して防火上支障がない部分を定める件	texts/mlit-2014-860.txt
+mlit-2014-877	2014-09-01	2014	mlit	enactment	metadata_only	0	国土交通省告示第877号	住宅リフォーム事業者団体登録規程	
+mlit-2014-1137	2014-12-10	2014	mlit	enactment	metadata_only	0	国土交通省告示第1137号	マンションの再生等の円滑化に関する基本的な方針	
+mlit-2014-1203	2014-12-26	2014	mlit	enactment	short	638	国土交通省告示第千二百三号	圧縮ガス又は液化ガスを燃料電池又は内燃機関の燃料として用いる自動車にこれらのガスを充填するための設備の基準を定める件	texts/mlit-2014-1203.txt
+mlit-2015-178	2015-01-29	2015	mlit	enactment	short	597	国土交通省告示第百七十八号	建築基準法施行規則第三条の十三第一項第四号の規定に基づき国土交通大臣が定める者を定める件	texts/mlit-2015-178.txt
+mlit-2015-179	2015-01-29	2015	mlit	enactment	metadata_only	0	国土交通省告示第179号	構造計算適合性判定の業務と同等以上の知識及び能力を要する業務の指定	
+mlit-2015-180	2015-01-29	2015	mlit	enactment	ok	932	国土交通省告示第百八十号	構造計算基準に適合する部分の計画を定める件	texts/mlit-2015-180.txt
+mlit-2015-189	2015-01-29	2015	mlit	enactment	ok	989	国土交通省告示第百八十九号	建築物の張り間方向又は桁行方向の規模又は構造に基づく保有水平耐力計算と同等以上に安全性を確かめることができる構造計算の基準を定める件	texts/mlit-2015-189.txt
+mlit-2015-247	2015-02-23	2015	mlit	enactment	ok	3968	国土交通省告示第二百四十七号	建築基準法第七条の六第一項第二号の国土交通大臣が定める基準等を定める件	texts/mlit-2015-247.txt
+mlit-2015-248	2015-02-23	2015	mlit	enactment	metadata_only	0	国土交通省告示第248号	建築基準法第七条の六第一項第二号及び第十八条第三十八項第二号に規定する国土交通大臣が定める基準に従って認定を行ったことを証する書類として国土交通大臣が定める様式を定める件	
+mlit-2015-250	2015-02-23	2015	mlit	enactment	ok	5939	国土交通省告示第二百五十号	壁等の構造方法を定める件	texts/mlit-2015-250.txt
+mlit-2015-253	2015-02-23	2015	mlit	enactment	ok	8106	国土交通省告示第二百五十三号	主要構造部を木造とすることができる大規模の建築物の主要構造部の構造方法を定める件	texts/mlit-2015-253.txt
+mlit-2015-254	2015-02-23	2015	mlit	enactment	short	415	国土交通省告示第二百五十四号	ひさしその他これに類するものの構造方法を定める件	texts/mlit-2015-254.txt
+mlit-2015-255	2015-02-23	2015	mlit	enactment	ok	3946	国土交通省告示第二百五十五号	建築基準法第二十七条第一項に規定する特殊建築物の特定主要構造部の構造方法等を定める件	texts/mlit-2015-255.txt
+mlit-2015-670	2015-05-25	2015	mlit	enactment	ok	14636	国土交通省告示第六百七十号	建築士事務所の開設者が耐震診断及び耐震改修に係る業務に関して請求することのできる報酬の基準	texts/mlit-2015-670.txt
+mlit-2015-691	2015-06-01	2015	mlit	enactment	metadata_only	0	国土交通省告示第691号	建築基準法の規定に基づく指定構造計算適合性判定機関の指定等	
+mlit-2015-1009	2015-09-24	2015	mlit	enactment	metadata_only	0	国土交通省告示第1009号	登録特定建築基準適合判定資格者講習に用いる教材の内容として国土交通大臣が定める事項を定める件	
+mlit-2015-1164	2015-12-01	2015	mlit	enactment	ok	4757	国土交通省告示第千百六十四号	申請者が工場等において行う試験又は工場等における指定建築材料の製造、検査若しくは品質管理を目視その他適切な方法により確認する必要がある場合及びその費用を定める件	texts/mlit-2015-1164.txt
+mlit-2016-239	2016-01-21	2016	mlit	enactment	short	396	国土交通省告示第二百三十九号	確認等を要しない人が危害を受けるおそれのある事故が発生するおそれの少ない小荷物専用昇降機を定める件	texts/mlit-2016-239.txt
+mlit-2016-240	2016-01-21	2016	mlit	enactment	ok	2115	国土交通省告示第二百四十号	定期報告を要しない通常の火災時において避難上著しい支障が生ずるおそれの少ない建築物等を定める件	texts/mlit-2016-240.txt
+mlit-2016-179	2016-01-29	2016	mlit	enactment	short	602	国土交通省告示第百七十九号	構造計算適合性判定の業務と同等以上の知識及び能力を要する業務の指定	texts/mlit-2016-179.txt
+mlit-2016-265	2016-01-29	2016	mlit	enactment	ok	61229	平成28年国土交通省告示第265号	建築物エネルギー消費性能基準等を定める省令における算出方法等に係る事項	texts/mlit-2016-265.txt
+mlit-2016-266	2016-01-29	2016	mlit	enactment	ok	13891	平成28年国土交通省告示第266号	住宅部分の外壁、窓等を通しての熱の損失の防止に関する基準及び一次エネルギー消費量に関する基準	texts/mlit-2016-266.txt
+mlit-2016-272	2016-02-01	2016	mlit	enactment	ok	1358	平成28年国土交通省告示第272号	建築物のエネルギー消費性能の向上等に関する法律施行令の規定により認定建築物エネルギー消費性能向上計画に係る建築物の床面積のうち通常の建築物の床面積を超えることとなるものを定める件	texts/mlit-2016-272.txt
+mlit-2016-431	2016-02-29	2016	mlit	enactment	ok	1020	平成28年国土交通省告示第431号	建築物のエネルギー消費性能の向上に関する法律施行規則第三十六条第二号の規定に基づき、国土交通大臣が定める者を定める件	texts/mlit-2016-431.txt
+mlit-2016-432	2016-02-29	2016	mlit	enactment	ok	1453	平成28年国土交通省告示第432号	建築物のエネルギー消費性能の向上等に関する法律施行規則の規定に基づき登録適合性判定員講習の講義に用いる教材の内容として国土交通大臣が定める事項を定める件	texts/mlit-2016-432.txt
+mlit-2016-433	2016-02-29	2016	mlit	enactment	ok	1651	平成28年国土交通省告示第433号	判定の業務の公正な実施に支障を及ぼすおそれがあるものとして国土交通大臣が定める場合	texts/mlit-2016-433.txt
+mlit-2016-434	2016-02-29	2016	mlit	enactment	ok	1585	平成28年国土交通省告示第434号	評価の業務の公正な実施に支障を及ぼすおそれがあるものとして国土交通大臣が定める場合	texts/mlit-2016-434.txt
+mlit-2016-483	2016-03-09	2016	mlit	enactment	ok	1010	国土交通省告示第四百八十三号	建築基準法第十二条の二第一項第一号に掲げる者と同等以上の専門的知識及び能力を有する者等を定める件	texts/mlit-2016-483.txt
+mlit-2016-611	2016-04-01	2016	mlit	enactment	metadata_only	0	国土交通省告示第611号	ＣＬＴパネル工法を用いた建築物又は建築物の構造部分の構造方法に関する安全上必要な技術的基準を定める等の件	
+mlit-2016-612	2016-04-01	2016	mlit	enactment	ok	9956	国土交通省告示第六百十二号	建築基準法施行令第八十一条第二項第一号イ、同項第二号イ又は同条第三項に規定する国土交通大臣が定める基準に従った構造計算によりCLTパネル工法を用いた建築物又は建築物の構造部分の安全性を確かめた場合の構造計算書を定める件	texts/mlit-2016-612.txt
+joint-mhlw-mlit-2016-1	2016-04-20	2016	joint-mhlw-mlit	enactment	ok	1092	厚生労働省・国土交通省告示第1号	国土交通省・厚生労働省関係高齢者の居住の安定確保に関する法律施行規則第三条の国土交通大臣及び厚生労働大臣が定める基準	texts/joint-mhlw-mlit-2016-1.txt
+mlit-2016-690	2016-04-22	2016	mlit	enactment	ok	1133	国土交通省告示第六百九十号	柱と基礎とを接合する構造方法等を定める件	texts/mlit-2016-690.txt
+mlit-2016-691	2016-04-22	2016	mlit	enactment	ok	1597	国土交通省告示第六百九十一号	床組及び小屋ばり組に木板その他これに類するものを打ち付ける基準を定める件	texts/mlit-2016-691.txt
+mlit-2016-692	2016-04-22	2016	mlit	enactment	short	479	国土交通省告示第六百九十二号	内装の仕上げを不燃材料ですることその他これに準ずる措置の基準等を定める件	texts/mlit-2016-692.txt
+mlit-2016-693	2016-04-22	2016	mlit	enactment	ok	1513	国土交通省告示第六百九十三号	不燃性の物品を保管する倉庫に類する用途等を定める件	texts/mlit-2016-693.txt
+mlit-2016-694	2016-04-22	2016	mlit	enactment	ok	1029	国土交通省告示第六百九十四号	強化天井の構造方法を定める件	texts/mlit-2016-694.txt
+mlit-2016-695	2016-04-22	2016	mlit	enactment	ok	2436	国土交通省告示第六百九十五号	通常の火災時において相互に火熱又は煙若しくはガスによる防火上有害な影響を及ぼさない構造方法を定める件	texts/mlit-2016-695.txt
+mlit-2016-696	2016-04-22	2016	mlit	enactment	ok	4604	国土交通省告示第六百九十六号	特別避難階段の階段室又は付室の構造方法を定める件	texts/mlit-2016-696.txt
+mlit-2016-697	2016-04-22	2016	mlit	enactment	short	515	国土交通省告示第六百九十七号	非常用エレベーターの昇降路又は乗降ロビーの構造方法を定める件	texts/mlit-2016-697.txt
+mlit-2016-698	2016-04-22	2016	mlit	enactment	short	483	国土交通省告示第六百九十八号	申請に係る建築物が認定型式に適合する建築物の部分を有するものであることを確認するために必要な図書及び書類を定める件	texts/mlit-2016-698.txt
+mlit-2016-699	2016-04-22	2016	mlit	enactment	short	336	国土交通省告示第六百九十九号	建築設備についての検査等と併せて検査等を一体的に行うことが合理的である防火設備を定める件	texts/mlit-2016-699.txt
+mlit-2016-700	2016-04-22	2016	mlit	enactment	ok	2883	国土交通省告示第七百号	建築基準法施行規則の規定により建築に関する知識及び経験を有する者として国土交通大臣が定める者を指定する件	texts/mlit-2016-700.txt
+mlit-2016-701	2016-04-22	2016	mlit	enactment	ok	2791	国土交通省告示第七百一号	登録特定建築物調査員講習、登録建築設備検査員講習、登録防火設備検査員講習及び登録昇降機等検査員講習に用いる教材の内容として国土交通大臣が定める事項を定める件	texts/mlit-2016-701.txt
+mlit-2016-702	2016-04-22	2016	mlit	enactment	ok	1355	国土交通省告示第七百二号	建築基準法施行規則の規定により講義を受講した者と同等以上の知識を有する者として国土交通大臣が定める者及び国土交通大臣が定める科目を定める件	texts/mlit-2016-702.txt
+mlit-2016-723	2016-05-02	2016	mlit	enactment	ok	12024	国土交通省告示第七百二十三号	防火設備の定期検査報告における検査及び定期点検における点検の項目、事項、方法及び結果の判定基準並びに検査結果表を定める件	texts/mlit-2016-723.txt
+mlit-2016-785	2016-05-30	2016	mlit	enactment	ok	1054	国土交通省告示第七百八十五号	ガス有害性試験不要材料を定める件	texts/mlit-2016-785.txt
+mlit-2016-786	2016-05-30	2016	mlit	enactment	ok	923	国土交通省告示第七百八十六号	一定の規模以上の空間及び高い開放性を有する通路その他の部分の構造方法を定める件	texts/mlit-2016-786.txt
+joint-mhlw-mlit-2016-5	2016-08-19	2016	joint-mhlw-mlit	enactment	ok	3521	厚生労働省・国土交通省告示第5号	国土交通省・厚生労働省関係高齢者の居住の安定確保に関する法律施行規則第十五条の二第一項及び第二項の国土交通大臣及び厚生労働大臣が定める基準	texts/joint-mhlw-mlit-2016-5.txt
+mlit-2016-1376	2016-11-30	2016	mlit	enactment	ok	1022	平成28年国土交通省告示第1376号	建築物エネルギー消費性能基準等を定める省令第一条第二項第三号の規定に基づき居住者以外の者が主として利用していると認められるものを定める件	texts/mlit-2016-1376.txt
+mlit-2016-1377	2016-11-30	2016	mlit	enactment	ok	948	平成28年国土交通省告示第1377号	建築物のエネルギー消費性能の向上等に関する法律施行令第四条第一項第二号の規定に基づき壁を有しないことその他の高い開放性を有するものを定める件	texts/mlit-2016-1377.txt
+fdma-2016-20	2016-12-22	2016	fdma	enactment	ok	1440	平成28年消防庁告示20	消防法施行規則第四条の四第八項の指定表示の指定	texts/fdma-2016-20.txt
+mlit-2016-1438	2016-12-26	2016	mlit	enactment	short	751	国土交通省告示第千四百三十八号	安全上、防火上及び避難上の危険の度並びに衛生上及び市街地の環境の保全上の有害の度に著しい変更を及ぼさない変更を定める件	texts/mlit-2016-1438.txt
+mlit-2017-81	2017-02-03	2017	mlit	enactment	metadata_only	0	国土交通省告示第81号	既存住宅状況調査技術者講習登録規程	
+mlit-2017-82	2017-02-03	2017	mlit	enactment	metadata_only	0	国土交通省告示第82号	既存住宅状況調査方法基準	
+fdma-2017-1	2017-02-08	2017	fdma	enactment	metadata_only	0	消防庁告示第1号	消防署の組織の管轄区域を定める件	
+mlit-2017-247	2017-03-29	2017	mlit	enactment	metadata_only	0	国土交通省告示第247号	走行又は回転時の衝撃及び非常止め装置の作動時の衝撃が加えられた場合に客席にいる人を落下させない遊戯施設の客席部分の構造方法を定める件	
+mlit-2017-898	2017-10-02	2017	mlit	enactment	metadata_only	0	国土交通省告示第898号	家賃債務保証業者登録規程	
+mlit-2017-940	2017-10-20	2017	mlit	enactment	metadata_only	0	国土交通省告示第940号	住宅確保要配慮者に対する賃貸住宅の供給の促進に関する法律施行規則第三条第十二号の著しく異常かつ激甚な非常災害として国土交通大臣が定める災害等	
+mlit-2017-941	2017-10-20	2017	mlit	enactment	metadata_only	0	国土交通省告示第941号	住宅確保要配慮者に対する賃貸住宅の供給の促進に関する法律施行規則第十条第四号及び第十一条第二号ロの国土交通大臣が定める基準	
+mlit-2017-1013	2017-11-06	2017	mlit	enactment	metadata_only	0	国土交通省告示第1013号	特定既存住宅情報提供事業者団体登録規程	
+mlit-2018-80	2018-01-15	2018	mlit	amendment	ok	829	平成30年国土交通省告示第80号	保有水平耐力計算及び許容応力度等計算の方法を定める件の一部を改正する件	texts/mlit-2018-80.txt
+mlit-2018-81	2018-01-15	2018	mlit	amendment	ok	7304	平成30年国土交通省告示第81号	特殊な許容応力度及び特殊な材料強度を定める件及び丸太組構法を用いた建築物又は建築物の構造部分の構造方法に関する安全上必要な技術的基準を定める件の一部を改正する件	texts/mlit-2018-81.txt
+mlit-2018-199	2018-02-21	2018	mlit	amendment	ok	1338	平成30年国土交通省告示第199号	定期報告を要しない通常の火災時において避難上著しい支障が生ずるおそれの少ない建築物等を定める件の一部を改正する件	texts/mlit-2018-199.txt
+mlit-2018-236	2018-02-26	2018	mlit	enactment	ok	997	平成30年国土交通省告示第236号	農産物の処理に供する建築物を指定する件	texts/mlit-2018-236.txt
+mlit-2018-472	2018-03-22	2018	mlit	amendment	ok	8920	平成30年国土交通省告示第472号	耐火構造の構造方法を定める件の一部を改正する件	texts/mlit-2018-472.txt
+mlit-2018-473	2018-03-22	2018	mlit	amendment	ok	3329	平成30年国土交通省告示第473号	準耐火構造の構造方法を定める件の一部を改正する件	texts/mlit-2018-473.txt
+mlit-2018-474	2018-03-22	2018	mlit	amendment	ok	2431	平成30年国土交通省告示第474号	照明設備の設置、有効な採光方法の確保その他これらに準ずる措置の基準等を定める件及び建築物の開口部で採光に有効な部分の面積の算定方法で別に定めるものを定める件の一部を改正する件	texts/mlit-2018-474.txt
+mlit-2018-490	2018-03-26	2018	mlit	amendment	ok	47205	平成30年国土交通省告示第490号	建築基準法施行令第四十六条第四項表一(一)項から(七)項までに掲げる軸組と同等以上の耐力を有する軸組及び当該軸組に係る倍率の数値を定める件等の一部を改正する件	texts/mlit-2018-490.txt
+mlit-2018-502	2018-03-27	2018	mlit	amendment	short	532	平成30年国土交通省告示第502号	防火区画に用いる防火設備等の構造方法を定める件の一部を改正する件	texts/mlit-2018-502.txt
+mlit-2018-516	2018-03-29	2018	mlit	amendment	short	602	平成30年国土交通省告示第516号	非常用の照明装置を設けることを要しない避難階又は避難階の直上階若しくは直下階の居室で避難上支障がないものその他これらに類するものを定める件の一部を改正する件	texts/mlit-2018-516.txt
+mlit-2018-517	2018-03-29	2018	mlit	amendment	ok	897	平成30年国土交通省告示第517号	特殊な許容応力度及び特殊な材料強度を定める件の一部を改正する件	texts/mlit-2018-517.txt
+mlit-2018-518	2018-03-29	2018	mlit	amendment	ok	7792	平成30年国土交通省告示第518号	第一種ホルムアルデヒド発散建築材料を定める件の一部を改正する件	texts/mlit-2018-518.txt
+mlit-2018-750	2018-06-14	2018	mlit	amendment	short	742	平成30年国土交通省告示第750号	建築物の基礎、主要構造部等に使用する建築材料並びにこれらの建築材料が適合すべき日本工業規格又は日本農林規格及び品質に関する技術的基準を定める件の一部を改正する件	texts/mlit-2018-750.txt
+mlit-2018-1086	2018-09-10	2018	mlit	enactment	ok	1335	平成30年国土交通省告示第1086号	高齢者の居住の安定確保に関する法律施行規則第33条第１号ただし書及び第２号ロの国土交通大臣が定める基準	texts/mlit-2018-1086.txt
+mlit-2018-1088	2018-09-10	2018	mlit	enactment	ok	1289	平成30年国土交通省告示第1088号	高齢者の居住の安定確保に関する法律施行規則第34条第２項第２号の規定に基づき国土交通大臣の定める基準	texts/mlit-2018-1088.txt
+mlit-2018-1098	2018-09-12	2018	mlit	amendment	ok	73056	平成30年国土交通省告示第1098号	防火区画に用いる防火設備等の構造方法を定める件等の一部を改正する件	texts/mlit-2018-1098.txt
+mlit-2018-1167	2018-10-12	2018	mlit	enactment	metadata_only	0	国土交通省告示第1167号	特定住宅瑕疵担保責任の履行の確保等に関する法律施行規則の規定に基づき保険法人が資産の運用として取得することができる有価証券	
+joint-env-mhlw-mlit-2018-1	2018-10-23	2018	joint-env-mhlw-mlit	enactment	short	783	平成30年厚生労働省・国土交通省・環境省告示第１号	建築物石綿含有建材調査者講習等登録規程	texts/joint-env-mhlw-mlit-2018-1.txt
+mlit-2018-1203	2018-10-23	2018	mlit	enactment	short	364	平成30年国土交通省告示第1203号	建築物石綿含有建材調査者講習登録規程を廃止する件	texts/mlit-2018-1203.txt
+mlit-2018-1324	2018-12-12	2018	mlit	amendment	ok	820	平成30年国土交通省告示第1324号	特殊な許容応力度及び特殊な材料強度を定める件の一部を改正する件	texts/mlit-2018-1324.txt
+mlit-2019-316	2019-03-08	2019	mlit	enactment	ok	3249	国土交通省告示第三百十六号	高齢者、障害者等の移動等の円滑化の促進に関する法律施行規則第六条の二の規定に基づく国土交通大臣が定める要件並びに移動等円滑化取組計画書、移動等円滑化取組報告書及び移動等円滑化実績等報告書の様式を定める告示	texts/mlit-2019-316.txt
+mlit-2019-385	2019-03-20	2019	mlit	enactment	ok	1753	国土交通省告示第385号	高齢者の居住の安定確保に関する法律施行規則第三十八条の国土交通大臣が定める基準	texts/mlit-2019-385.txt
+mlit-2019-386	2019-03-20	2019	mlit	enactment	ok	1700	国土交通省告示第386号	高齢者の居住の安定確保に関する法律施行規則第三十九条の国土交通大臣が定める基準	texts/mlit-2019-386.txt
+mlit-2019-470	2019-03-29	2019	mlit	amendment	ok	2776	平成31年国土交通省告示第470号	防火設備の構造方法を定める件の一部を改正する件	texts/mlit-2019-470.txt
+mlit-2019-18	2019-05-16	2019	mlit	amendment	ok	5152	令和元年国土交通省告示第18号	現場打コンクリートの型わく及び支柱の取り外しに関する基準及び建築物の基礎、主要構造部等に使用する建築材料並びにこれらの建築材料が適合すべき日本工業規格又は日本農林規格及び品質に関する技術的基準を定める件の一部を改正する告示	texts/mlit-2019-18.txt
+mlit-2019-189	2019-06-21	2019	mlit	enactment	ok	1409	令和元年国土交通省告示第189号	建築基準法施行規則第十条の四の三第一項第一号ヌの国土交通大臣が定める方法を定める件	texts/mlit-2019-189.txt
+mlit-2019-190	2019-06-21	2019	mlit	enactment	short	644	令和元年国土交通省告示第190号	建築基準法施行規則第十条の四の三第一項第二号リ及び第三号カの国土交通大臣が定める措置を定める件	texts/mlit-2019-190.txt
+mlit-2019-191	2019-06-21	2019	mlit	enactment	short	642	令和元年国土交通省告示第191号	建築基準法施行規則第十条の四の三第一項第三号ヨの国土交通大臣が定める措置を定める件	texts/mlit-2019-191.txt
+mlit-2019-193	2019-06-21	2019	mlit	enactment	ok	23576	令和元年国土交通省告示第193号	建築基準法第二十一条第一項に規定する建築物の特定主要構造部の構造方法を定める件	texts/mlit-2019-193.txt
+mlit-2019-194	2019-06-21	2019	mlit	enactment	ok	17350	令和元年国土交通省告示第194号	防火地域又は準防火地域内の建築物の部分及び防火設備の構造方法を定める件	texts/mlit-2019-194.txt
+mlit-2019-195	2019-06-21	2019	mlit	enactment	ok	15113	令和元年国土交通省告示第195号	一時間準耐火基準に適合する主要構造部の構造方法を定める件	texts/mlit-2019-195.txt
+mlit-2019-196	2019-06-21	2019	mlit	enactment	ok	1053	令和元年国土交通省告示第196号	二十分間防火設備の構造方法を定める件	texts/mlit-2019-196.txt
+mlit-2019-197	2019-06-21	2019	mlit	enactment	ok	2975	令和元年国土交通省告示第197号	防火壁及び防火床の構造方法を定める件	texts/mlit-2019-197.txt
+mlit-2019-198	2019-06-21	2019	mlit	enactment	ok	2989	令和元年国土交通省告示第198号	警報設備の構造方法及び設置方法を定める件	texts/mlit-2019-198.txt
+mlit-2019-199	2019-06-21	2019	mlit	amendment	ok	5162	令和元年国土交通省告示第199号	建築物の維持保全に関する準則又は計画の作成に関し必要な指針の一部を改正する件	texts/mlit-2019-199.txt
+mlit-2019-200	2019-06-21	2019	mlit	amendment	ok	140796	令和元年国土交通省告示第200号	地階を除く階数が十一以上である建築物の屋上に設ける冷却塔設備の防火上支障のない構造方法、建築物の他の部分までの距離及び建築物の他の部分の温度を定める件等の一部を改正する件	texts/mlit-2019-200.txt
+mlit-2019-202	2019-06-24	2019	mlit	amendment	ok	2941	令和元年国土交通省告示第202号	建築基準法施行令第二十三条第一項の規定に適合する階段と同等以上に昇降を安全に行うことができる階段の構造方法を定める件の一部を改正する件	texts/mlit-2019-202.txt
+mlit-2019-203	2019-06-25	2019	mlit	amendment	ok	108032	令和元年国土交通省告示第203号	地階を除く階数が十一以上である建築物の屋上に設ける冷却塔設備の防火上支障のない構造方法、建築物の他の部分までの距離及び建築物の他の部分の温度を定める件等の一部を改正する件	texts/mlit-2019-203.txt
+mlit-2019-571	2019-09-30	2019	mlit	amendment	ok	3281	令和元年国土交通省告示第571号	建築物の基礎、主要構造部等に使用する建築材料並びにこれらの建築材料が適合すべき日本産業規格又は日本農林規格及び品質に関する技術的基準を定める件の一部を改正する件	texts/mlit-2019-571.txt
+mlit-2019-577	2019-10-01	2019	mlit	amendment	ok	6258	令和元年国土交通省告示第577号	申請者が工場等において行う試験に立ち会い、又は工場等における指定建築材料の製造、検査若しくは品質管理を実地に確認する必要がある場合及びその費用を定める件の一部を改正する件	texts/mlit-2019-577.txt
+mlit-2019-745	2019-11-01	2019	mlit	enactment	metadata_only	0	国土交通省告示第745号	建築士法第四条第二項第一号の国土交通大臣の指定する建築に関する科目を定める件	
+mlit-2019-746	2019-11-01	2019	mlit	enactment	metadata_only	0	国土交通省告示第746号	建築士法第四条第二項第二号の国土交通大臣の指定する建築に関する科目を定める件	
+mlit-2019-747	2019-11-01	2019	mlit	enactment	metadata_only	0	国土交通省告示第747号	建築士法第四条第二項第三号の国土交通大臣の指定する建築に関する科目を定める件	
+mlit-2019-748	2019-11-01	2019	mlit	enactment	metadata_only	0	国土交通省告示第748号	建築士法第四条第二項第一号から第四号までに掲げる者と同等以上の知識及び技能を有する者を定める件	
+mlit-2019-749	2019-11-01	2019	mlit	enactment	metadata_only	0	国土交通省告示第749号	建築士法第四条第四項第一号の国土交通大臣の指定する建築に関する科目を定める件	
+mlit-2019-750	2019-11-01	2019	mlit	enactment	metadata_only	0	国土交通省告示第750号	建築士法第四条第四項第二号の国土交通大臣の指定する建築に関する科目を定める件	
+mlit-2019-751	2019-11-01	2019	mlit	enactment	metadata_only	0	国土交通省告示第751号	建築士法第十四条第一号の国土交通大臣の指定する建築に関する科目を定める件	
+mlit-2019-752	2019-11-01	2019	mlit	enactment	metadata_only	0	国土交通省告示第752号	建築士法第十四条第一号又は第二号に掲げる者と同等以上の知識及び技能を有する者を定める件	
+mlit-2019-753	2019-11-01	2019	mlit	enactment	metadata_only	0	国土交通省告示第753号	建築士法第十五条第一号の国土交通大臣の指定する建築に関する科目を定める件	
+mlit-2019-755	2019-11-01	2019	mlit	enactment	metadata_only	0	国土交通省告示第755号	建築士法施行規則第二十一条第四項第一号ハの国土交通大臣が定める技術的基準を定める件	
+mlit-2019-786	2019-11-15	2019	mlit	enactment	ok	1228	令和元年国土交通省告示第786号	地域の気候及び風土に応じた住宅であることにより建築物エネルギー消費性能基準等を定める省令第一条第一項第二号イに適合させることが困難であるものとして国土交通大臣が定める基準	texts/mlit-2019-786.txt
+mlit-2020-173	2020-02-26	2020	mlit	amendment	ok	83734	令和２年国土交通省告示第173号	建築基準法第二十一条第一項に規定する建築物の主要構造部の構造方法を定める件の一部を改正する件	texts/mlit-2020-173.txt
+mlit-2020-174	2020-02-26	2020	mlit	amendment	ok	58135	令和２年国土交通省告示第174号	建築基準法第二十七条第一項に規定する特殊建築物の主要構造部の構造方法等を定める件の一部を改正する件	texts/mlit-2020-174.txt
+mlit-2020-197	2020-02-27	2020	mlit	enactment	ok	2618	令和２年国土交通省告示第197号	建築物の周囲において発生する通常の火災時における火熱により燃焼するおそれのない部分を定める件	texts/mlit-2020-197.txt
+mlit-2020-198	2020-02-27	2020	mlit	enactment	ok	8606	令和２年国土交通省告示第198号	十分間防火設備の構造方法を定める件	texts/mlit-2020-198.txt
+mlit-2020-199	2020-02-27	2020	mlit	amendment	ok	6660	令和２年国土交通省告示第199号	防火地域又は準防火地域内の建築物の部分及び防火設備の構造方法を定める件の一部を改正する件	texts/mlit-2020-199.txt
+mlit-2020-200	2020-02-27	2020	mlit	amendment	ok	1416	令和２年国土交通省告示第200号	遮音性能を有する長屋又は共同住宅の界壁及び天井の構造方法を定める件の一部を改正する件	texts/mlit-2020-200.txt
+mlit-2020-201	2020-02-27	2020	mlit	amendment	ok	2780	令和２年国土交通省告示第201号	建築強化天井の構造方法を定める件の一部を改正する件	texts/mlit-2020-201.txt
+mlit-2020-249	2020-03-06	2020	mlit	enactment	ok	1153	令和２年国土交通省告示第249号	主要構造部を耐火構造等とすることを要しない避難上支障がない居室の基準を定める件	texts/mlit-2020-249.txt
+mlit-2020-250	2020-03-06	2020	mlit	enactment	ok	1543	令和２年国土交通省告示第250号	警報設備を設けることその他これに準ずる措置の基準を定める件	texts/mlit-2020-250.txt
+mlit-2020-251	2020-03-06	2020	mlit	enactment	ok	3142	令和２年国土交通省告示第251号	壁及び天井の室内に面する部分の仕上げを防火上支障がないようにすることを要しない火災が発生した場合に避難上支障のある高さまで煙又はガスの降下が生じない建築物の部分を定める件	texts/mlit-2020-251.txt
+mlit-2020-252	2020-03-06	2020	mlit	enactment	ok	3167	令和２年国土交通省告示第252号	客席にいる人が他の構造部分に触れることにより危害を受けるおそれのない遊戯施設の客席部分の構造方法を定める件	texts/mlit-2020-252.txt
+mlit-2020-508	2020-04-01	2020	mlit	amendment	ok	124464	令和２年国土交通省告示第508号	防火区画に用いる防火設備等の構造方法を定める件等の一部を改正する告示	texts/mlit-2020-508.txt
+mlit-2020-509	2020-04-01	2020	mlit	enactment	ok	27704	令和２年国土交通省告示第509号	区画部分からの避難に要する時間に基づく区画避難安全検証法に関する算出方法等を定める件	texts/mlit-2020-509.txt
+mlit-2020-510	2020-04-01	2020	mlit	enactment	ok	29494	令和２年国土交通省告示第510号	階からの避難に要する時間に基づく階避難安全検証法に関する算出方法等を定める件	texts/mlit-2020-510.txt
+mlit-2020-511	2020-04-01	2020	mlit	enactment	ok	14170	令和２年国土交通省告示第511号	建築物からの避難に要する時間に基づく全館避難安全検証法に関する算出方法等を定める件	texts/mlit-2020-511.txt
+mlit-2020-522	2020-04-01	2020	mlit	enactment	ok	11996	令和２年国土交通省告示第522号	通常の火災時において相互に火熱による防火上有害な影響を及ぼさない建築物の二以上の部分の構造方法を定める件	texts/mlit-2020-522.txt
+mlit-2020-663	2020-06-10	2020	mlit	enactment	ok	6632	令和２年国土交通省告示第663号	通常の火災時において相互に煙又はガスによる避難上有害な影響を及ぼさない建築物の二以上の部分の構造方法を定める件	texts/mlit-2020-663.txt
+mlit-2020-821	2020-08-28	2020	mlit	amendment	image_pdf	0	令和２年国土交通省告示第821号	構造耐力上主要な部分である柱及び横架材に使用する集成材その他の木材の品質の強度及び耐久性に関する基準を定める件等の一部を改正する告示	
+mlit-2020-1435	2020-12-07	2020	mlit	amendment	ok	3614	令和２年国土交通省告示第1435号	屋根ふき材、外装材及び屋外に面する帳壁の構造方法を定める件の一部を改正する件	texts/mlit-2020-1435.txt
+mlit-2020-1436	2020-12-07	2020	mlit	amendment	ok	6962	令和２年国土交通省告示第1436号	建築物の倒壊及び崩落、屋根ふき材、特定天井、外装材及び屋外に面する帳壁の脱落並びにエレベーターの籠の落下及びエスカレーターの脱落のおそれがない建築物の構造方法に関する基準並びに建築物の基礎の補強に関する基準を定める件の一部を改正する件	texts/mlit-2020-1436.txt
+mlit-2020-1437	2020-12-07	2020	mlit	amendment	ok	2897	令和２年国土交通省告示第1437号	Ｅの数値を算出する方法並びにＶ０及び風力係数の数値を定める件の一部を改正する件	texts/mlit-2020-1437.txt
+mlit-2020-1593	2020-12-28	2020	mlit	amendment	ok	25868	令和２年国土交通省告示第1593号	準不燃材料でした内装の仕上げに準ずる仕上げを定める件の一部を改正する件	texts/mlit-2020-1593.txt
+fdma-2021-3	2021-01-22	2021	fdma	enactment	metadata_only	0	消防庁告示第3号	消防法施行規則第四条の二の四第一項ただし書及び第三十一条の六第四項の規定に基づき消防庁長官が定める事由及び期間	
+mlit-2021-126	2021-02-26	2021	mlit	amendment	ok	5364	令和３年国土交通省告示第126号	建築物の定期調査報告における調査及び定期点検における点検の項目、方法及び結果の判定基準並びに調査結果表を定める件の一部を改正する件	texts/mlit-2021-126.txt
+mlit-2021-132	2021-02-26	2021	mlit	amendment	ok	1976	令和３年国土交通省告示第132号	建築物の基礎、主要構造部等に使用する建築材料並びにこれらの建築材料が適合すべき日本産業規格又は日本農林規格及び品質に関する技術的基準を定める件の一部を改正する件の一部を改正する件	texts/mlit-2021-132.txt
+mlit-2021-134	2021-02-26	2021	mlit	amendment	ok	3177	令和３年国土交通省告示第134号	平成17年国土交通省告示第359号及び平成26年国土交通省告示第1203号の一部を改正する件	texts/mlit-2021-134.txt
+mlit-2021-286	2021-03-31	2021	mlit	amendment	short	742	令和３年国土交通省告示第286号	平成26年国土交通省告示第417号の一部を改正する件	texts/mlit-2021-286.txt
+mlit-2021-378	2021-04-21	2021	mlit	amendment	metadata_only	0	国土交通省告示第378号	賃貸住宅の管理業務等の適正化に関する法律施行規則の一部を改正する省令附則第二条の賃貸住宅の管理業務等の適正化に関する法律第十二条第四項の知識及び能力に関する要件	
+mlit-2021-379	2021-04-21	2021	mlit	amendment	metadata_only	0	国土交通省告示第379号	賃貸住宅の管理業務等の適正化に関する法律施行規則の一部を改正する省令附則第二条の講習に相当する講習	
+mlit-2021-380	2021-04-21	2021	mlit	amendment	metadata_only	0	国土交通省告示第380号	賃貸住宅の管理業務等の適正化に関する法律施行規則の一部を改正する省令による改正後の賃貸住宅の管理業務等の適正化に関する法律施行規則第十四条第二号の講習に相当する講習	
+mlit-2021-474	2021-05-28	2021	mlit	enactment	metadata_only	0	国土交通省告示第474号	火災により生じた煙又はガスの高さに基づく区画避難安全検証法に関する算出方法等を定める件	
+mlit-2021-475	2021-05-28	2021	mlit	enactment	ok	56812	令和３年国土交通省告示第475号	火災により生じた煙又はガスの高さに基づく階避難安全検証法に関する算出方法等を定める件	texts/mlit-2021-475.txt
+mlit-2021-476	2021-05-28	2021	mlit	enactment	ok	69121	令和３年国土交通省告示第476号	火災により生じた煙又はガスの高さに基づく全館避難安全検証法に関する算出方法等を定める件	texts/mlit-2021-476.txt
+mlit-2021-485	2021-05-31	2021	mlit	amendment	metadata_only	0	国土交通省告示第485号	賃貸住宅の管理業務等の適正化に関する法律施行規則の一部を改正する省令附則第二条の講習を指定するための基準等	
+mlit-2021-486	2021-05-31	2021	mlit	enactment	metadata_only	0	国土交通省告示第486号	管理業務に関する実務についての講習を指定するための基準等	
+mlit-2021-513	2021-06-07	2021	mlit	amendment	ok	6646	令和３年国土交通省告示第513号	防火構造の構造方法を定める件の一部を改正する件	texts/mlit-2021-513.txt
+mlit-2021-514	2021-06-07	2021	mlit	amendment	ok	9538	令和３年国土交通省告示第514号	準耐火構造の構造方法を定める件の一部を改正する件	texts/mlit-2021-514.txt
+mlit-2021-546	2021-06-21	2021	mlit	amendment	ok	3849	令和３年国土交通省告示第546号	耐火構造の構造方法を定める件の一部を改正する件	texts/mlit-2021-546.txt
+mlit-2021-749	2021-06-30	2021	mlit	amendment	ok	804	令和３年国土交通省告示第749号	建築基準法施行令第十条第三号ロ及び第四号ロの国土交通大臣の指定する基準を定める件の一部を改正する件	texts/mlit-2021-749.txt
+mlit-2021-750	2021-06-30	2021	mlit	amendment	ok	4395	令和３年国土交通省告示第750号	アルミニウム合金造の建築物又は建築物の構造部分の構造方法に関する安全上必要な技術的基準を定める件の一部を改正する件	texts/mlit-2021-750.txt
+mlit-2021-755	2021-06-30	2021	mlit	amendment	ok	7030	令和３年国土交通省告示第755号	建築物の張り間方向又はけた行方向の規模又は構造に基づく許容応力度等計算と同等以上に安全性を確かめることができる構造計算の基準を定める件の一部を改正する件	texts/mlit-2021-755.txt
+mlit-2021-756	2021-06-30	2021	mlit	amendment	ok	1928	令和３年国土交通省告示第756号	建築基準法施行令第八十二条各号及び同令第八十二条の四に定めるところによる構造計算と同等以上に安全性を確かめることができる構造計算の基準を定める件の一部を改正する件	texts/mlit-2021-756.txt
+mlit-2021-757	2021-06-30	2021	mlit	amendment	ok	3797	令和３年国土交通省告示第757号	確認審査等に関する指針の一部を改正する件	texts/mlit-2021-757.txt
+mlit-2021-758	2021-06-30	2021	mlit	amendment	ok	6304	令和３年国土交通省告示第758号	建築物の張り間方向又は桁行方向の規模又は構造に基づく保有水平耐力計算と同等以上に安全性を確かめることができる構造計算の基準を定める件の一部を改正する件	texts/mlit-2021-758.txt
+mlit-2021-1286	2021-09-28	2021	mlit	enactment	metadata_only	0	国土交通省告示第1286号	マンションの管理の適正化の推進を図るための基本的な方針	
+mlit-2021-1366	2021-10-20	2021	mlit	enactment	metadata_only	0	国土交通省告示第1366号	住宅の品質確保の促進等に関する法律第六条の二第三項の規定による確認のために必要な図書を定める件	
+mlit-2021-1367	2021-10-20	2021	mlit	enactment	metadata_only	0	国土交通省告示第1367号	住宅の品質確保の促進等に関する法律第六条の二第四項の規定による確認のために必要な図書を定める件	
+mlit-2021-1522	2021-12-15	2021	mlit	enactment	metadata_only	0	国土交通省告示第1522号	除却等の必要性に係る認定に関する基準等を定める告示	
+mlit-2022-109	2022-01-18	2022	mlit	amendment	ok	2193	令和4年国土交通省告示第109号	建築物の維持保全に関する準則又は計画の作成に関し必要な指針の一部を改正する件	texts/mlit-2022-109.txt
+mlit-2022-110	2022-01-18	2022	mlit	amendment	ok	3234	令和4年国土交通省告示第110号	建築物の定期調査報告における調査及び定期点検における点検の項目、方法及び結果の判定基準並びに調査結果表を定める件の一部を改正する件	texts/mlit-2022-110.txt
+fdma-2022-2	2022-03-31	2022	fdma	enactment	metadata_only	0	消防庁告示第2号	畜舎等に係る基準の特例の細目	
+mlit-2022-412	2022-03-31	2022	mlit	enactment	metadata_only	0	国土交通省告示第412号	遊戯施設の維持保全に関する準則又は計画の作成に関し必要な指針	
+mlit-2022-741	2022-07-06	2022	mlit	enactment	metadata_only	0	国土交通省告示第741号	建築基準法第六十条第二項の歩廊の柱その他これに類するものを指定する件	
+mlit-2022-836	2022-08-16	2022	mlit	enactment	metadata_only	0	国土交通省告示第836号	長期優良住宅の普及の促進に関する法律第六条第八項の国土交通省令で定める基準としてマンションの管理の適正化の推進に関する法律第五条の十八に規定する認定管理計画に定めるべき点検の時期及び内容	
+fdma-2022-8	2022-09-14	2022	fdma	enactment	ok	2848	令和4年消防庁告示8号	不活性ガス消火設備の閉止弁の基準	texts/fdma-2022-8.txt
+mlit-2022-1024	2022-09-30	2022	mlit	enactment	metadata_only	0	国土交通省告示第1024号	構造及び周囲の状況に関し安全上支障がない鉄筋コンクリート造の柱等の基準を定める件	
+mlit-2022-1106	2022-11-07	2022	mlit	enactment	ok	12056	令和4年国土交通省告示第1106号	住宅部分の外壁、窓等を通しての熱の損失の防止に関する誘導基準及び一次エネルギー消費量に関する誘導基準	texts/mlit-2022-1106.txt
+mlit-2022-1107	2022-11-07	2022	mlit	enactment	ok	3095	令和4年国土交通省告示第1107号	施行日以後認定申請建築物の非住宅部分のうち増築、改築又は修繕等をする部分の一次エネルギー消費量並びに住宅部分のうち増築、改築又は修繕等をする部分の外壁、窓等を通じての熱の損失の防止及び一次エネルギー消費量に関する基準	texts/mlit-2022-1107.txt
+mlit-2023-86	2023-02-07	2023	mlit	amendment	ok	1428	令和５年国土交通省告示第86号	照明設備の設置、有効な採光方法の確保その他これらに準ずる措置の基準等を定める件の一部を改正する件	texts/mlit-2023-86.txt
+mlit-2023-143	2023-02-28	2023	mlit	enactment	ok	1679	令和５年国土交通省告示第143号	安全上、防火上及び衛生上支障がない軒等を定める等の件	texts/mlit-2023-143.txt
+mlit-2023-207	2023-03-20	2023	mlit	amendment	ok	40768	令和５年国土交通省告示第207号	換気設備の構造方法を定める件等の一部を改正する件	texts/mlit-2023-207.txt
+mlit-2023-208	2023-03-20	2023	mlit	enactment	ok	3611	令和５年国土交通省告示第208号	直通階段の一に至る歩行距離に関し建築基準法施行令第百十六条の二第一項第一号に該当する窓その他の開口部を有する居室と同等の規制を受けるものとして避難上支障がない居室の基準を定める件	texts/mlit-2023-208.txt
+mlit-2023-209	2023-03-22	2023	mlit	enactment	metadata_only	0	国土交通省告示第209号	建築基準法施行規則第十条の四の四の国土交通大臣が定める給湯設備を定める件	
+mlit-2023-225	2023-03-24	2023	mlit	amendment	ok	18671	令和５年国土交通省告示第225号	防火設備の構造方法を定める件の一部を改正する件	texts/mlit-2023-225.txt
+mlit-2023-229	2023-03-28	2023	mlit	amendment	ok	7334	令和５年国土交通省告示第229号	床組及び小屋ばり組に木板その他これらに類するものを打ち付ける基準を定める件の一部を改正する件	texts/mlit-2023-229.txt
+mlit-2023-550	2023-05-26	2023	mlit	amendment	ok	7828	令和５年国土交通省告示第550号	煙突、鉄筋コンクリート造の柱等、広告塔又は高架水槽及び擁壁並びに乗用エレベーター又はエスカレーターの構造計算の基準を改める件及び確認審査等に関する指針に従って確認審査等を行ったことを証する書類の様式を定める件の一部を改正する告示	texts/mlit-2023-550.txt
+fdma-2023-7	2023-05-31	2023	fdma	enactment	metadata_only	0	消防庁告示第7号	蓄電池設備の出火防止措置及び延焼防止措置に関する基準	
+mlit-2023-970	2023-09-25	2023	mlit	enactment	ok	13128	令和５年国土交通省告示第970号	建築物のエネルギー消費性能に関し販売事業者等が表示すべき事項及び表示の方法その他建築物のエネルギー消費性能の表示に際して販売事業者等が遵守すべき事項	texts/mlit-2023-970.txt
+mlit-2023-971	2023-09-25	2023	mlit	enactment	ok	20382	令和５年国土交通省告示第971号	建築物のエネルギー消費性能の向上等に関する基本的な方針	texts/mlit-2023-971.txt
+joint-mic-mlit-2023-3	2023-12-13	2023	joint-mic-mlit	enactment	metadata_only	0	総務省、国土交通省告示第3号	空家等に関する施策を総合的かつ計画的に実施するための基本的な指針	
+mlit-2023-1206	2023-12-27	2023	mlit	amendment	ok	1797	令和５年国土交通省告示第1206号	建築物の基礎、主要構造部等に使用する建築材料並びにこれらの建築材料が適合すべき日本産業規格又は日本農林規格及び品質に関する技術的基準を定める件の一部を改正する件	texts/mlit-2023-1206.txt
+mlit-2024-8	2024-01-09	2024	mlit	enactment	metadata_only	0	国土交通省告示第8号	建築士事務所の開設者がその業務に関して請求することのできる報酬の基準	
+mlit-2024-56	2024-01-31	2024	mlit	amendment	ok	7244	令和６年国土交通省告示第56号	用途が特殊なエレベーター及び当該エレベーターのかごの積載荷重を定める件及びエレベーターの制御器の構造方法を定める件の一部を改正する告示	texts/mlit-2024-56.txt
+mlit-2024-57	2024-01-31	2024	mlit	amendment	ok	11622	令和６年国土交通省告示第57号	通常の使用状態において人又は物が挟まれ、又は障害物に衝突することがないようにしたエスカレーターの構造及びエスカレーターの勾配に応じた踏段の定格速度を定める件等の一部を改正する告示	texts/mlit-2024-57.txt
+mlit-2024-150	2024-03-08	2024	mlit	enactment	ok	2274	令和６年国土交通省告示第150号	確認検査の業務と同等以上の知識及び能力を要する業務を定める件	texts/mlit-2024-150.txt
+mlit-2024-151	2024-03-08	2024	mlit	amendment	ok	1312	令和６年国土交通省告示第151号	雷撃によって生ずる電流を建築物に被害を及ぼすことなく安全に地中に流すことができる避雷設備の構造方法を定める件の一部を改正する件	texts/mlit-2024-151.txt
+mlit-2024-152	2024-03-08	2024	mlit	amendment	ok	5749	令和６年国土交通省告示第152号	建築基準法に基づく指定確認検査機関を指定した件及び確認審査等に関する指針の一部を改正する告示	texts/mlit-2024-152.txt
+mlit-2024-176	2024-03-15	2024	mlit	amendment	ok	12031	令和６年国土交通省告示第176号	申請者が工場等において行う試験に立ち会い、又は工場等における指定建築材料の製造、検査若しくは品質管理を実地に確認する必要がある場合及びその費用を定める件の一部を改正する件	texts/mlit-2024-176.txt
+mlit-2024-219	2024-03-25	2024	mlit	enactment	metadata_only	0	国土交通省告示第219号	建築基準法第二条第九号の二イ（２）に規定する性能と同等の性能を有する特定部分の基準を定める件	
+mlit-2024-220	2024-03-25	2024	mlit	enactment	short	769	令和６年国土交通省告示第220号	主要構造部が準耐火構造である特定部分と同等の準耐火性能を有する特定部分の基準を定める件	texts/mlit-2024-220.txt
+mlit-2024-221	2024-03-25	2024	mlit	amendment	ok	297841	令和６年国土交通省告示第221号	防火区画を貫通する風道に設ける防火設備の構造方法を定める件等の一部を改正する告示	texts/mlit-2024-221.txt
+mlit-2024-227	2024-03-26	2024	mlit	enactment	ok	70780	令和６年国土交通省告示第227号	壁等の構造方法を定める件	texts/mlit-2024-227.txt
+mlit-2024-228	2024-03-26	2024	mlit	enactment	ok	7204	令和６年国土交通省告示第228号	壁等の加熱面以外の面のうち防火上支障がないものを定める件	texts/mlit-2024-228.txt
+mlit-2024-229	2024-03-26	2024	mlit	enactment	ok	1618	令和６年国土交通省告示第229号	内装の仕上げを不燃材料でし、かつ、その下地を不燃材料で造ることその他これに準ずる措置の基準等を定める件	texts/mlit-2024-229.txt
+mlit-2024-230	2024-03-26	2024	mlit	enactment	ok	945	令和６年国土交通省告示第230号	建築物の他の部分に防火上有害な変形、亀裂その他の損傷を生じさせないために壁等に必要とされる機能を定める件	texts/mlit-2024-230.txt
+mlit-2024-231	2024-03-26	2024	mlit	enactment	ok	35001	令和６年国土交通省告示第231号	主要構造部のうち防火上及び避難上支障がない部分を区画する床等の構造方法を定める件	texts/mlit-2024-231.txt
+fdma-2024-7	2024-03-29	2024	fdma	enactment	ok	3739	令和6年消防庁告示7号	防火上有効な措置が講じられた壁等の基準	texts/fdma-2024-7.txt
+mlit-2024-273	2024-03-29	2024	mlit	amendment	ok	2867	令和６年国土交通省告示第273号	耐火性能検証法に関する算出方法等を定める件等の一部を改正する告示	texts/mlit-2024-273.txt
+mlit-2024-274	2024-03-29	2024	mlit	enactment	ok	835	令和６年国土交通省告示第274号	階段室、機械室その他の火災の発生のおそれの少ない用途を定める件	texts/mlit-2024-274.txt
+mlit-2024-275	2024-03-29	2024	mlit	enactment	ok	9568	令和６年国土交通省告示第275号	建築基準法第三条第二項の規定により同法第二十一条等の適用を受けない建築物における増築又は改築に係る部分の特定主要構造部の構造方法等を定める件	texts/mlit-2024-275.txt
+mlit-2024-284	2024-03-29	2024	mlit	enactment	ok	14632	令和６年国土交通省告示第284号	建築基準法第二十一条第二項に規定する建築物の部分又は防火設備の構造方法を定める件	texts/mlit-2024-284.txt
+mlit-2024-285	2024-03-29	2024	mlit	enactment	ok	2833	令和６年国土交通省告示第285号	火災による熱量の算出方法等を定める件	texts/mlit-2024-285.txt
+mlit-2024-286	2024-03-29	2024	mlit	enactment	ok	1822	令和６年国土交通省告示第286号	避難上及び消火上必要な機能の確保に支障を及ぼさない周辺高火熱面積の規模を定める件	texts/mlit-2024-286.txt
+mlit-2024-325	2024-03-30	2024	mlit	amendment	ok	1620	令和６年国土交通省告示第325号	平成26年国土交通省告示第417号の一部を改正する件	texts/mlit-2024-325.txt
+mlit-2024-445	2024-05-31	2024	mlit	enactment	ok	2070	令和６年国土交通省告示第445号	学校の木造の校舎の構造方法に関する安全上必要な技術的基準を定める件	texts/mlit-2024-445.txt
+mlit-2024-490	2024-06-10	2024	mlit	amendment	ok	1399	令和６年国土交通省告示第490号	建築基準法施行規則第四条の二十第一項第二号の規定により、登録調査資格者講習として登録した件の一部を改正する件	texts/mlit-2024-490.txt
+mlit-2024-491	2024-06-10	2024	mlit	amendment	ok	1425	令和６年国土交通省告示第491号	建築物の耐震改修の促進に関する法律施行規則の規定により、耐震診断資格者講習として登録した件の一部を改正する件	texts/mlit-2024-491.txt
+mlit-2024-492	2024-06-10	2024	mlit	amendment	ok	1577	令和６年国土交通省告示第492号	構造計算に関する高度の専門的知識及び技術を習得させるための講習を登録した件の一部を改正する件	texts/mlit-2024-492.txt
+mlit-2024-493	2024-06-10	2024	mlit	amendment	ok	1407	令和６年国土交通省告示第493号	登録防火設備検査員講習を登録した件の一部を改正する件	texts/mlit-2024-493.txt
+mlit-2024-955	2024-06-25	2024	mlit	enactment	ok	1385	令和6年国土交通省告示第955号	ボルト接合によることができる安全上支障がない建築物の基準を定める件	texts/mlit-2024-955.txt
+mlit-2024-964	2024-06-27	2024	mlit	amendment	ok	63139	令和6年国土交通省告示第964号	枠組壁工法又は木質プレハブ工法を用いた建築物又は建築物の構造部分の構造方法に関する安全上必要な技術的基準を定める件等の一部を改正する告示	texts/mlit-2024-964.txt
+mlit-2024-973	2024-06-28	2024	mlit	enactment	ok	987	令和6年国土交通省告示第973号	建築基準法施行規則第一条の三第一項第一号イ(2)の国土交通大臣が定める建築基準法令の規定を定める件	texts/mlit-2024-973.txt
+mlit-2024-974	2024-06-28	2024	mlit	amendment	ok	326102	令和6年国土交通省告示第974号	建築物の定期調査報告における調査及び定期点検における点検の項目、方法及び結果の判定基準並びに調査結果表を定める件等の一部を改正する告示	texts/mlit-2024-974.txt
+mlit-2024-977	2024-06-28	2024	mlit	amendment	ok	25279	令和6年国土交通省告示第977号	膜構造の建築物又は建築物の構造部分の構造方法に関する安全上必要な技術的基準を定める等の件等の一部を改正する告示	texts/mlit-2024-977.txt
+mlit-2024-1148	2024-09-09	2024	mlit	enactment	ok	955	令和６年国土交通省告示第1148号	確認等を要しない人が危害を受けるおそれのある事故が発生するおそれの少ないエレベーターを定める件	texts/mlit-2024-1148.txt
+mlit-2024-1167	2024-09-19	2024	mlit	amendment	ok	13824	令和６年国土交通省告示第1167号	プレストレストコンクリート造の建築物又は建築物の構造部分の構造方法に関する安全上必要な技術的基準を定める等の件等の一部を改正する告示	texts/mlit-2024-1167.txt
+mlit-2024-1237	2024-10-25	2024	mlit	amendment	ok	71055	令和６年国土交通省告示第1237号	確認審査等に関する指針等の一部を改正する告示	texts/mlit-2024-1237.txt
+mlit-2025-53	2025-01-29	2025	mlit	amendment	ok	47283	令和７年国土交通省告示第53号	建築物の定期調査報告における調査及び定期点検における点検の項目、方法及び結果の判定基準並びに調査結果表を定める件等の一部を改正する告示	texts/mlit-2025-53.txt
+mlit-2025-103	2025-02-19	2025	mlit	amendment	ok	3091	令和７年国土交通省告示第103号	屎(し)尿浄化槽及び合併処理浄化槽の構造方法を定める件の一部を改正する告示	texts/mlit-2025-103.txt
+mlit-2025-157	2025-02-28	2025	mlit	amendment	ok	66142	令和７年国土交通省告示第157号	耐火性能検証法に関する算出方法等を定める件等の一部を改正する告示	texts/mlit-2025-157.txt
+mlit-2025-215	2025-03-27	2025	mlit	amendment	ok	34221	令和７年国土交通省告示第215号	木造の建築物の軸組の構造方法及び設置の基準を定める件等の一部を改正する告示	texts/mlit-2025-215.txt
+mlit-2025-247	2025-03-31	2025	mlit	amendment	ok	50023	令和７年国土交通省告示第247号	枠組壁工法を用いた建築物又は建築物の構造部分の構造方法に関する安全上必要な技術的基準を定める等の件及びＣＬＴパネル工法を用いた建築物又は建築物の構造部分の構造方法に関する安全上必要な技術的基準を定める等の件の一部を改正する告示	texts/mlit-2025-247.txt
+mlit-2025-250	2025-03-31	2025	mlit	enactment	ok	48975	令和７年国土交通省告示第250号	木質接着パネル工法を用いた建築物又は建築物の構造部分の構造方法に関する安全上必要な技術的基準等を定める件	texts/mlit-2025-250.txt
+mlit-2025-251	2025-03-31	2025	mlit	enactment	ok	12580	令和７年国土交通省告示第251号	建築基準法施行令第八十一条第二項第一号イ又は同項第二号イに規定する国土交通大臣が定める基準に従った構造計算により木質接着パネル工法を用いた建築物又は建築物の構造部分の安全性を確かめた場合の構造計算書を定める件	texts/mlit-2025-251.txt
+mic-2025-137	2025-04-01	2025	mic	enactment	ok	5571	総務省告示第137号	地方財政法施行令（昭和二十三年政令第二百六十七号）第二十条第四項の規定に基づき、令和七年度地方債充当率を次のように定めた	texts/mic-2025-137.txt
+mic-2025-141	2025-04-07	2025	mic	enactment	truncated	12000	総務省告示第141号	消防法（昭和二十三年法律第百八十六号）第二十一条の四第二項の規定により、次の検定対象機械器具等について型式承認をしたので	texts/mic-2025-141.txt
+mlit-2025-280	2025-04-08	2025	mlit	enactment	short	477	国土交通省告示第280号	建設業法施行規則（昭和二十四年建設省令第十四号）第七条の九の規定により、同規則第七条の六第二項第二号から第四号に掲げる事	texts/mlit-2025-280.txt
+mlit-2025-304	2025-04-14	2025	mlit	enactment	ok	1980	国土交通省告示第304号	製材の日本農林規格（令和七年農林水産省告示第百九十五号）の施行に伴い、平成二十九年国土交通省告示第二百七十九号の一部を次	texts/mlit-2025-304.txt
+mlit-2025-305	2025-04-14	2025	mlit	enactment	short	117	国土交通省告示第305号	既存住宅状況調査技術者講習登録規程（平成二十九年国土交通省告示第八十一号）第十九条第二号の規定に基づき、平成二十九年国土	texts/mlit-2025-305.txt
+mlit-2025-306	2025-04-14	2025	mlit	enactment	short	117	国土交通省告示第306号	既存住宅状況調査技術者講習登録規程（平成二十九年国土交通省告示第八十一号）第十九条第二号の規定に基づき、平成二十九年国土	texts/mlit-2025-306.txt
+mlit-2025-316	2025-04-16	2025	mlit	enactment	ok	1394	国土交通省告示第316号	都市計画法（昭和四十三年法律第百号）第五十九条第三項の規定により、都市計画事業の承認をしたので、同法第六十二条第一項の規	texts/mlit-2025-316.txt
+mlit-2025-317	2025-04-16	2025	mlit	enactment	short	220	国土交通省告示第317号	都市計画法（昭和四十三年法律第百号）第五十九条第三項の規定により、都市計画事業の承認をしたので、同法第六十二条第一項の規	texts/mlit-2025-317.txt
+mlit-2025-318	2025-04-16	2025	mlit	enactment	short	115	国土交通省告示第318号	住宅の品質確保の促進等に関する法律（平成十一年法律第八十一号）第五十八条第一項の規定により特別評価方法認定をしたので、同	texts/mlit-2025-318.txt
+mlit-2025-319	2025-04-16	2025	mlit	enactment	short	115	国土交通省告示第319号	住宅の品質確保の促進等に関する法律（平成十一年法律第八十一号）第五十八条第一項の規定により特別評価方法認定をしたので、同	texts/mlit-2025-319.txt
+mlit-2025-340	2025-04-25	2025	mlit	enactment	short	315	国土交通省告示第340号	国土交通省関係住宅宿泊事業法施行規則（平成二十九年国土交通省令第六十五号）第九条の四第一項の規定により、次の機関の行う講	texts/mlit-2025-340.txt
+mlit-2025-364	2025-05-09	2025	mlit	enactment	short	434	国土交通省告示第364号	都市計画法施行規則（昭和四十四年建設省令第四十九号）第十九条の五第一項の規定により、同規則第十九条第一号トの登録講習機関	texts/mlit-2025-364.txt
+mlit-2025-366	2025-05-12	2025	mlit	amendment	ok	1439	令和７年国土交通省告示第366号	建築士法施行規則第十七条の十八の規定に基づき国土交通大臣が定める要件等の一部を改正する告示	texts/mlit-2025-366.txt
+mlit-2025-367	2025-05-12	2025	mlit	enactment	short	268	国土交通省告示第367号	都市再開発法（昭和四十四年法律第三十八号）第五十八条第一項の規定により長岡都市計画事業大手通坂之上町地区第一種市街地再開	texts/mlit-2025-367.txt
+mlit-2025-373	2025-05-13	2025	mlit	enactment	truncated	12000	国土交通省告示第373号	建築基準法（昭和二十五年法律第二百一号）第七十七条の三十九第三項の規定に基づき、平成十二年建設省告示第千八百十二号の一部	texts/mlit-2025-373.txt
+mic-2025-161	2025-05-14	2025	mic	enactment	ok	7095	総務省告示第161号	危険物の規制に関する規則（昭和三十四年総理府令第五十五号）第十六条の二の二第一項第一号の二、第十六条の二の八第三項第六号	texts/mic-2025-161.txt
+mlit-2025-374	2025-05-14	2025	mlit	enactment	ok	2156	国土交通省告示第374号	土地収用法（昭和二十六年法律第二百十九号。以下「法」という。）第二十条の規定に基づき事業の認定をしたので、法第二十六条第	texts/mlit-2025-374.txt
+mlit-2025-386	2025-05-16	2025	mlit	enactment	ok	1378	国土交通省告示第386号	補助事業者等が補助事業等により取得し、又は効用の増加した財産のうち処分を制限する財産及び補助事業等により取得し、又は効用	texts/mlit-2025-386.txt
+mlit-2025-389	2025-05-20	2025	mlit	enactment	truncated	12000	国土交通省告示第389号	住宅の品質確保の促進等に関する法律（平成十一年法律第八十一号）第五十八条第一項の規定により特別評価方法認定をしたので、同	texts/mlit-2025-389.txt
+mlit-2025-397	2025-05-28	2025	mlit	enactment	truncated	12000	国土交通省告示第397号	建築基準法（昭和二十五年法律第二百一号）第七十七条の五十六第二項において準用する同法第七十七条の三十九第三項の規定に基づ	texts/mlit-2025-397.txt
+mlit-2025-426	2025-05-30	2025	mlit	amendment	ok	4048	国土交通省告示第426号	中小企業等経営強化法（平成十一年法律第十八号）第十六条第三項の規定に基づき、建設業分野に係る経営力向上に関する指針（平成	texts/mlit-2025-426.txt
+mlit-2025-452	2025-06-06	2025	mlit	enactment	short	115	国土交通省告示第452号	住宅の品質確保の促進等に関する法律（平成十一年法律第八十一号）第五十八条第一項の規定により特別評価方法認定をしたので、同	texts/mlit-2025-452.txt
+mlit-2025-460	2025-06-11	2025	mlit	enactment	short	206	国土交通省告示第460号	建設業法施行規則（昭和二十四年建設省令第十四号）第七条の九の規定により、同規則第七条の六第二項第二号に掲げる事項の変更の	texts/mlit-2025-460.txt
+mlit-2025-464	2025-06-13	2025	mlit	enactment	ok	1702	国土交通省告示第464号	土地収用法（昭和二十六年法律第二百十九号。以下「法」という。）第二十条の規定に基づき事業の認定をしたので、法第二十六条第	texts/mlit-2025-464.txt
+mic-2025-212	2025-06-16	2025	mic	enactment	short	250	総務省告示第212号	危険物の規制に関する規則（昭和三十四年総理府令第五十五号）第五十八条の十五第六項の規定に基づき、消防法（昭和二十三年法律	texts/mic-2025-212.txt
+mlit-2025-466	2025-06-16	2025	mlit	enactment	ok	1955	国土交通省告示第466号	国家機関の建築物の敷地及び構造の定期点検における点検の項目、事項、方法及び結果の判定基準を定める件（平成二十年国土交通省	texts/mlit-2025-466.txt
+mlit-2025-467	2025-06-16	2025	mlit	enactment	ok	2493	国土交通省告示第467号	国家機関の建築物の昇降機以外の建築設備の定期点検における点検の項目、事項、方法及び結果の判定基準を定める件（平成二十年国	texts/mlit-2025-467.txt
+mlit-2025-470	2025-06-18	2025	mlit	enactment	short	328	国土交通省告示第470号	宅地造成及び特定盛土等規制法施行規則（昭和三十七年建設省令第三号）第十六条第一項の規定により、同規則第十四条第一項の登録	texts/mlit-2025-470.txt
+mlit-2025-473	2025-06-23	2025	mlit	enactment	short	588	国土交通省告示第473号	駐車場法施行規則（平成十二年運輸省建設省令第十二号）第十二条の規定により公益社団法人立体駐車場工業会会長から登録認証機関	texts/mlit-2025-473.txt
+mlit-2025-474	2025-06-23	2025	mlit	enactment	short	117	国土交通省告示第474号	住宅の品質確保の促進等に関する法律（平成十一年法律第八十一号）第五十八条第一項の規定により特別評価方法認定をしたので、同	texts/mlit-2025-474.txt
+mlit-2025-475	2025-06-23	2025	mlit	enactment	short	117	国土交通省告示第475号	住宅の品質確保の促進等に関する法律（平成十一年法律第八十一号）第五十八条第一項の規定により特別評価方法認定をしたので、同	texts/mlit-2025-475.txt
+mlit-2025-509	2025-07-04	2025	mlit	amendment	ok	10855	令和７年国土交通省告示第509号	準耐火構造の防火区画等を貫通する給水管、配電管その他の管の外径を定める件の一部を改正する告示	texts/mlit-2025-509.txt
+mlit-2025-512	2025-07-07	2025	mlit	enactment	short	558	国土交通省告示第512号	水源地域対策特別措置法（昭和四十八年法律第百十八号）第四条第五項において準用する同条第三項の規定に基づき、令和七年六月二	texts/mlit-2025-512.txt
+mlit-2025-535	2025-07-17	2025	mlit	enactment	truncated	12000	国土交通省告示第535号	建築物の耐震改修の促進に関する法律（平成七年法律第百二十三号）第四条第一項の規定に基づき、建築物の耐震診断及び耐震改修の	texts/mlit-2025-535.txt
+mlit-2025-538	2025-07-18	2025	mlit	enactment	short	738	国土交通省告示第538号	高齢者の居住の安定確保に関する法律施行規則（平成十三年国土交通省令第百十五号）第三十七条第一号ニ及び第二号ロの規定に基づ	texts/mlit-2025-538.txt
+mlit-2025-539	2025-07-18	2025	mlit	enactment	ok	6942	国土交通省告示第539号	高齢者の居住の安定確保に関する法律施行規則（平成十三年国土交通省令第百十五号）第三十八条第九号の規定に基づき、高齢者の居	texts/mlit-2025-539.txt
+mlit-2025-540	2025-07-18	2025	mlit	enactment	ok	2631	国土交通省告示第540号	高齢者の居住の安定確保に関する法律施行規則（平成十三年国土交通省令第百十五号）第三十九条の規定に基づき、高齢者の居住の安	texts/mlit-2025-540.txt
+mlit-2025-541	2025-07-18	2025	mlit	enactment	short	744	国土交通省告示第541号	高齢者の居住の安定確保に関する法律施行規則（平成十三年国土交通省令第百十五号）第四十条の規定に基づき、高齢者の居住の安定	texts/mlit-2025-541.txt
+mlit-2025-542	2025-07-18	2025	mlit	amendment	ok	6905	国土交通省告示第542号	住宅確保要配慮者に対する賃貸住宅の供給の促進に関する法律等の一部を改正する法律（令和六年法律第四十三号）及び住宅確保要配	texts/mlit-2025-542.txt
+mlit-2025-751	2025-07-28	2025	mlit	enactment	short	347	国土交通省告示第751号	建設業法施行規則（昭和二十四年建設省令第十四号）第十八条の六の規定により、次の機関の行う講習を登録基幹技能者講習として登	texts/mlit-2025-751.txt
+mlit-2025-752	2025-07-28	2025	mlit	enactment	short	332	国土交通省告示第752号	建設業法施行規則（昭和二十四年建設省令第十四号）第十八条の六の規定により、次の機関の行う講習を登録基幹技能者講習として登	texts/mlit-2025-752.txt
+mlit-2025-753	2025-07-28	2025	mlit	enactment	ok	1217	国土交通省告示第753号	建設業法施行規則（昭和二十四年建設省令第十四号）第十八条の六の規定により、次の機関の行う講習を登録基幹技能者講習として登	texts/mlit-2025-753.txt
+mlit-2025-770	2025-07-30	2025	mlit	enactment	short	215	国土交通省告示第770号	国土交通省関係住宅宿泊事業法施行規則（平成二十九年国土交通省令第六十五号）第九条の七の規定により、同規則第九条第一号イに	texts/mlit-2025-770.txt
+mlit-2025-771	2025-07-30	2025	mlit	amendment	ok	33088	令和７年国土交通省告示第771号	構造耐力上主要な部分である柱及び横架材に使用する集成材その他の木材の品質の強度及び耐久性に関する基準を定める件等の一部を改正する告示	texts/mlit-2025-771.txt
+mlit-2025-813	2025-08-13	2025	mlit	enactment	short	144	国土交通省告示第813号	住宅の品質確保の促進等に関する法律（平成十一年法律第八十一号）第五十八条第一項の規定により特別評価方法認定をしたので、同	texts/mlit-2025-813.txt
+mlit-2025-817	2025-08-19	2025	mlit	enactment	ok	3506	国土交通省告示第817号	土地収用法（昭和二十六年法律第二百十九号。以下「法」という。）第二十条の規定に基づき事業の認定をしたので、法第二十六条第	texts/mlit-2025-817.txt
+mlit-2025-831	2025-08-21	2025	mlit	enactment	short	215	国土交通省告示第831号	建設業法（昭和二十四年法律第百号）第二十七条の三十二において準用する第二十六条の十一の規定により、同法第二十七条の三十一	texts/mlit-2025-831.txt
+mlit-2025-835	2025-08-26	2025	mlit	amendment	ok	2775	国土交通省告示第835号	道路整備特別措置法施行令（昭和三十一年政令第三百十九号）第十一条の規定に基づき、料金を徴収しない車両を定める告示の一部を	texts/mlit-2025-835.txt
+mlit-2025-844	2025-08-29	2025	mlit	enactment	truncated	12000	国土交通省告示第844号	建築基準法（昭和二十五年法律第二百一号）第七十七条の二十一第三項の規定に基づき、平成十一年建設省告示第千二百八十七号の一	texts/mlit-2025-844.txt
+mlit-2025-845	2025-09-01	2025	mlit	enactment	ok	10425	国土交通省告示第845号	住宅の品質確保の促進等に関する法律（平成十一年法律第八十一号）第三条の二第一項の規定に基づき、評価方法基準（平成十三年国	texts/mlit-2025-845.txt
+mlit-2025-850	2025-09-03	2025	mlit	enactment	ok	1156	国土交通省告示第850号	建設業法施行規則（昭和二十四年建設省令第十四号）第十八条の九の規定により、同規則第十八条の六第二項第二号に掲げる事項につ	texts/mlit-2025-850.txt
+mlit-2025-851	2025-09-03	2025	mlit	enactment	short	206	国土交通省告示第851号	建設業法施行規則（昭和二十四年建設省令第十四号）第十八条の九の規定により、同規則第十八条の六第二項第二号に掲げる事項につ	texts/mlit-2025-851.txt
+mlit-2025-852	2025-09-03	2025	mlit	enactment	short	201	国土交通省告示第852号	建設業法施行規則（昭和二十四年建設省令第十四号）第十八条の九の規定により、同規則第十八条の六第二項第二号に掲げる事項につ	texts/mlit-2025-852.txt
+mlit-2025-862	2025-09-08	2025	mlit	enactment	short	326	国土交通省告示第862号	マンションの管理の適正化の推進に関する法律施行規則（平成十三年国土交通省令第百十号）第六十九条第一号の規定により、次の機	texts/mlit-2025-862.txt
+mlit-2025-863	2025-09-08	2025	mlit	enactment	short	291	国土交通省告示第863号	マンションの管理の適正化の推進に関する法律（平成十二年法律第百四十九号）第六十一条の二において準用する第四十一条の二の規	texts/mlit-2025-863.txt
+mlit-2025-866	2025-09-10	2025	mlit	enactment	short	115	国土交通省告示第866号	住宅の品質確保の促進等に関する法律（平成十一年法律第八十一号）第五十八条第一項の規定により特別評価方法認定をしたので、同	texts/mlit-2025-866.txt
+mlit-2025-883	2025-09-12	2025	mlit	enactment	short	299	国土交通省告示第883号	建設業法施行規則（昭和二十四年建設省令第十四号）第七条の九の規定により、同規則第七条の六第二項第二号に掲げる事項の変更の	texts/mlit-2025-883.txt
+mlit-2025-884	2025-09-16	2025	mlit	enactment	short	284	国土交通省告示第884号	建設業法施行規則（昭和二十四年建設省令第十四号）第十八条の九の規定により、同規則第十八条の六第二項第二号に掲げる事項につ	texts/mlit-2025-884.txt
+mlit-2025-894	2025-09-25	2025	mlit	enactment	short	328	国土交通省告示第894号	土地区画整理法（昭和二十九年法律第百十九号）第七十一条の二第一項の規定により、独立行政法人都市再生機構が施行する土地区画	texts/mlit-2025-894.txt
+mlit-2025-901	2025-09-30	2025	mlit	amendment	ok	1554	令和７年国土交通省告示第901号	定期報告を要しない通常の火災時において避難上著しい支障が生ずるおそれの少ない建築物等を定める件の一部を改正する件	texts/mlit-2025-901.txt
+mlit-2025-902	2025-09-30	2025	mlit	enactment	short	495	国土交通省告示第902号	土地区画整理法（昭和二十九年法律第百十九号）第七十一条の三第十五項において準用する同条第四項の規定により、東京都市計画土	texts/mlit-2025-902.txt
+mlit-2025-903	2025-09-30	2025	mlit	enactment	ok	5649	国土交通省告示第903号	令和八年度における公営住宅法（昭和二十六年法律第百九十三号）第十六条第二項の規定による近傍同種の住宅の家賃及び同法第四十	texts/mlit-2025-903.txt
+mlit-2025-904	2025-09-30	2025	mlit	amendment	ok	2104	国土交通省告示第904号	住宅地区改良法（昭和三十五年法律第八十四号）第二十九条第三項の規定によりその例によることとされる公営住宅法の一部を改正す	texts/mlit-2025-904.txt
+mlit-2025-916	2025-10-01	2025	mlit	enactment	short	196	国土交通省告示第916号	建設業法施行規則（昭和二十四年建設省令第十四号）第十八条の九の規定により、同規則第十八条の六第二項第二号に掲げる事項につ	texts/mlit-2025-916.txt
+mlit-2025-922	2025-10-02	2025	mlit	enactment	truncated	12000	国土交通省告示第922号	建築基準法（昭和二十五年法律第二百一号）第七十七条の五十六第二項において準用する同法第七十七条の三十九第三項の規定に基づ	texts/mlit-2025-922.txt
+mlit-2025-927	2025-10-03	2025	mlit	enactment	short	344	国土交通省告示第927号	都市再開発法（昭和四十四年法律第三十八号）第五十八条第一項の規定により愛宕地区第一種市街地再開発事業の事業計画の変更を認	texts/mlit-2025-927.txt
+mlit-2025-938	2025-10-08	2025	mlit	enactment	truncated	12000	国土交通省告示第938号	都市計画法（昭和四十三年法律第百号）第五十九条第三項の規定により、都市計画事業の承認をしたので、同法第六十二条第一項の規	texts/mlit-2025-938.txt
+mlit-2025-949	2025-10-17	2025	mlit	amendment	short	118	国土交通省告示第949号	建設業法施行規則（昭和二十四年建設省令第十四号）第七条の三第三号の規定に基づき、国土交通大臣が認める登録基幹技能者講習を	texts/mlit-2025-949.txt
+mlit-2025-966	2025-10-21	2025	mlit	enactment	short	204	国土交通省告示第966号	建設業法施行規則（昭和二十四年建設省令第十四号）第十八条の九の規定により、同規則第十八条の六第二項第二号に掲げる事項につ	texts/mlit-2025-966.txt
+mlit-2025-971	2025-10-23	2025	mlit	enactment	truncated	12000	国土交通省告示第971号	地すべり等防止法（昭和三十三年法律第三十号）第三条第一項の規定により、次の地域を地すべり防止区域に指定する。令和七年十月	texts/mlit-2025-971.txt
+mlit-2025-976	2025-10-28	2025	mlit	amendment	ok	33397	令和７年国土交通省告示第976号	木造の建築物の軸組の構造方法及び設置の基準を定める件等の一部を改正する告示	texts/mlit-2025-976.txt
+mlit-2025-986	2025-10-31	2025	mlit	enactment	truncated	12000	国土交通省告示第986号	既存住宅状況調査技術者講習登録規程（平成二十九年国土交通省告示第八十一号）第十九条第二号の規定に基づき、平成二十九年国土	texts/mlit-2025-986.txt
+mlit-2025-987	2025-10-31	2025	mlit	amendment	ok	991	国土交通省告示第987号	老朽化マンション等の管理及び再生の円滑化等を図るための建物の区分所有等に関する法律等の一部を改正する法律（令和七年法律第	texts/mlit-2025-987.txt
+mlit-2025-988	2025-10-31	2025	mlit	enactment	ok	2864	令和７年国土交通省告示第988号	壁及び天井の室内に面する部分の仕上げを準不燃材料でし、かつ、その下地を準不燃材料で造ることその他これに準ずる措置の基準を定める件	texts/mlit-2025-988.txt
+mlit-2025-989	2025-10-31	2025	mlit	enactment	ok	2592	令和７年国土交通省告示第989号	壁及び天井の室内に面する部分の仕上げを不燃材料でし、かつ、その下地を不燃材料で造ることその他これに準ずる措置の基準を定める件	texts/mlit-2025-989.txt
+mlit-2025-990	2025-10-31	2025	mlit	enactment	short	616	令和７年国土交通省告示第990号	避難上及び延焼防止上支障がない室及び通路を定める件	texts/mlit-2025-990.txt
+mlit-2025-991	2025-10-31	2025	mlit	enactment	ok	8897	令和７年国土交通省告示第991号	小屋裏に準耐火構造の隔壁を設けること等を要しない避難上及び防火上支障がない建築物の各室及び各通路の基準を定める件	texts/mlit-2025-991.txt
+mlit-2025-992	2025-10-31	2025	mlit	enactment	ok	882	令和７年国土交通省告示第992号	床面から天井までの垂直距離に応じた壁の部分を定める件	texts/mlit-2025-992.txt
+mlit-2025-993	2025-10-31	2025	mlit	enactment	ok	3025	令和７年国土交通省告示第993号	火災時に生ずる煙を有効に排出することができる給気口及び排気口の構造方法等を定める件	texts/mlit-2025-993.txt
+mlit-2025-994	2025-10-31	2025	mlit	enactment	ok	1233	令和７年国土交通省告示第994号	準耐火構造である防煙壁の下端から床面までの垂直距離を定める件	texts/mlit-2025-994.txt
+mlit-2025-995	2025-10-31	2025	mlit	enactment	ok	1225	令和７年国土交通省告示第995号	排煙口を設けた場合に火災時に生ずる煙を有効に排出することができる壁の部分を定める件	texts/mlit-2025-995.txt
+mlit-2025-996	2025-10-31	2025	mlit	enactment	ok	5177	令和７年国土交通省告示第996号	避難上及び消火上支障がない周囲の部分を定める件	texts/mlit-2025-996.txt
+mlit-2025-997	2025-10-31	2025	mlit	enactment	ok	2036	令和７年国土交通省告示第997号	敷地内における通路の避難上及び消火上有効な基準を定める件	texts/mlit-2025-997.txt
+mlit-2025-998	2025-10-31	2025	mlit	amendment	ok	22627	令和７年国土交通省告示第998号	平成六年建設省告示第千八百八十二号等の一部を改正する告示	texts/mlit-2025-998.txt
+mlit-2025-999	2025-10-31	2025	mlit	enactment	ok	936	国土交通省告示第999号	住宅の品質確保の促進等に関する法律（平成十一年法律第八十一号）第六十六条第三項の規定において準用する同法第十条第三項の規	texts/mlit-2025-999.txt
+mlit-2025-1007	2025-11-11	2025	mlit	enactment	short	360	国土交通省告示第1007号	土地区画整理法（昭和二十九年法律第百十九号）第七十一条の三第十四項の規定により、独立行政法人都市再生機構が施行する土地区	texts/mlit-2025-1007.txt
+mlit-2025-1021	2025-11-21	2025	mlit	amendment	truncated	12000	国土交通省告示第1021号	老朽化マンション等の管理及び再生の円滑化等を図るための建物の区分所有等に関する法律等の一部を改正する法律（令和七年法律第	texts/mlit-2025-1021.txt
+mlit-2025-1046	2025-12-05	2025	mlit	enactment	short	115	国土交通省告示第1046号	住宅の品質確保の促進等に関する法律（平成十一年法律第八十一号）第五十八条第一項の規定により特別評価方法認定をしたので、同	texts/mlit-2025-1046.txt
+mlit-2025-1047	2025-12-05	2025	mlit	enactment	short	115	国土交通省告示第1047号	住宅の品質確保の促進等に関する法律（平成十一年法律第八十一号）第五十八条第一項の規定により特別評価方法認定をしたので、同	texts/mlit-2025-1047.txt
+mlit-2025-1048	2025-12-05	2025	mlit	enactment	short	670	国土交通省告示第1048号	住宅の品質確保の促進等に関する法律（平成十一年法律第八十一号）第五十八条第一項の規定により特別評価方法認定をしたので、同	texts/mlit-2025-1048.txt
+mlit-2025-1057	2025-12-09	2025	mlit	enactment	short	371	国土交通省告示第1057号	土地区画整理法（昭和二十九年法律第百十九号）第七十一条の三第十四項の規定により、独立行政法人都市再生機構が施行する土地区	texts/mlit-2025-1057.txt
+mlit-2025-1088	2025-12-26	2025	mlit	enactment	ok	1134	国土交通省告示第1088号	都市計画法（昭和四十三年法律第百号）第五十九条第三項の規定により、都市計画事業の承認をしたので、同法第六十二条第一項の規	texts/mlit-2025-1088.txt
+mlit-2026-2	2026-01-05	2026	mlit	enactment	ok	4631	国土交通省告示第2号	建築基準法（昭和二十五年法律第二百一号）第七十七条の二十一第三項及び第七十七条の二十二第四項の規定に基づき、平成十一年建	texts/mlit-2026-2.txt
+mlit-2026-3	2026-01-05	2026	mlit	enactment	truncated	12000	国土交通省告示第3号	建築基準法（昭和二十五年法律第二百一号）第七十七条の三十五の五第二項の規定による届出があったので、同条第三項の規定に基づ	texts/mlit-2026-3.txt
+mlit-2026-6	2026-01-08	2026	mlit	enactment	short	111	国土交通省告示第6号	住宅の品質確保の促進等に関する法律（平成十一年法律第八十一号）第五十八条第一項の規定により特別評価方法認定をしたので、同	texts/mlit-2026-6.txt
+mlit-2026-7	2026-01-08	2026	mlit	enactment	short	541	国土交通省告示第7号	住宅の品質確保の促進等に関する法律（平成十一年法律第八十一号）第五十八条第一項の規定により特別評価方法認定をしたので、同	texts/mlit-2026-7.txt
+mlit-2026-45	2026-01-19	2026	mlit	enactment	short	118	国土交通省告示第45号	特定住宅瑕疵担保責任の履行の確保等に関する法律（平成十九年法律第六十六号）第十八条第三項の規定に基づき、平成二十四年国土	texts/mlit-2026-45.txt
+mlit-2026-218	2026-01-26	2026	mlit	enactment	short	376	国土交通省告示第218号	土地区画整理法（昭和二十九年法律第百十九号）第七十一条の三第十四項の規定により、独立行政法人都市再生機構が施行する土地区	texts/mlit-2026-218.txt
+mlit-2026-243	2026-02-02	2026	mlit	amendment	ok	6133	国土交通省告示第243号	老朽化マンション等の管理及び再生の円滑化等を図るための建物の区分所有等に関する法律等の一部を改正する法律（令和七年法律第	texts/mlit-2026-243.txt
+mlit-2026-249	2026-02-03	2026	mlit	enactment	short	616	国土交通省告示第249号	都市計画法（昭和四十三年法律第百号）第六十三条第一項の規定により、都市計画事業の事業計画の変更を承認したので、同条第二項	texts/mlit-2026-249.txt
+mlit-2026-253	2026-02-05	2026	mlit	enactment	short	234	国土交通省告示第253号	都市計画法（昭和四十三年法律第百号）第六十三条第一項の規定により、都市計画事業の事業計画の変更を承認したので、同条第二項	texts/mlit-2026-253.txt
+mlit-2026-261	2026-02-06	2026	mlit	enactment	short	240	国土交通省告示第261号	都市計画法（昭和四十三年法律第百号）第六十三条第一項の規定により、都市計画事業の事業計画の変更を承認したので、同条第二項	texts/mlit-2026-261.txt
+mlit-2026-262	2026-02-06	2026	mlit	amendment	truncated	12000	国土交通省告示第262号	建設業法（昭和二十四年法律第百号）第二十七条の二十三第三項並びに建設業法施行規則（昭和二十四年建設省令第十四号）第十九条	texts/mlit-2026-262.txt
+mlit-2026-263	2026-02-10	2026	mlit	enactment	short	376	国土交通省告示第263号	土地区画整理法（昭和二十九年法律第百十九号）第七十一条の三第十四項の規定により、独立行政法人都市再生機構が施行する土地区	texts/mlit-2026-263.txt
+mlit-2026-272	2026-02-16	2026	mlit	enactment	ok	1279	国土交通省告示第272号	特定住宅瑕疵担保責任の履行の確保等に関する法律（平成十九年法律第六十六号）第十八条第三項の規定に基づき、平成二十四年国土	texts/mlit-2026-272.txt
+mlit-2026-280	2026-02-18	2026	mlit	enactment	short	115	国土交通省告示第280号	住宅の品質確保の促進等に関する法律（平成十一年法律第八十一号）第五十八条第一項の規定により特別評価方法認定をしたので、同	texts/mlit-2026-280.txt
+mlit-2026-311	2026-02-25	2026	mlit	enactment	ok	3216	国土交通省告示第311号	土地収用法（昭和二十六年法律第二百十九号。以下「法」という。）第二十条の規定に基づき事業の認定をしたので、法第二十六条第	texts/mlit-2026-311.txt
+mlit-2026-312	2026-02-25	2026	mlit	enactment	ok	3630	国土交通省告示第312号	土地収用法（昭和二十六年法律第二百十九号。以下「法」という。）第二十条の規定に基づき事業の認定をしたので、法第二十六条第	texts/mlit-2026-312.txt
+mlit-2026-324	2026-02-27	2026	mlit	enactment	ok	3366	国土交通省告示第324号	公共工事に関する調査及び設計等の品質確保に資する技術者資格登録規程（平成二十六年国土交通省告示第千百七号）第五条の規定に	texts/mlit-2026-324.txt
+mlit-2026-333	2026-03-03	2026	mlit	enactment	ok	2095	国土交通省告示第333号	貨物自動車運送事業法（平成元年法律第八十三号）第五十八条の二の規定により貨物軽自動車安全管理者講習を行う者を登録したので	texts/mlit-2026-333.txt
+mlit-2026-336	2026-03-03	2026	mlit	amendment	ok	9133	令和８年国土交通省告示第336号	木材の基準強度Fc、Ft、Fb及びFsを定める件及び特殊な許容応力度及び特殊な材料強度を定める件の一部を改正する告示	texts/mlit-2026-336.txt
+fdma-2026-2	2026-03-06	2026	fdma	enactment	ok	1329	令和８年消防庁告示第２号	駐車の用に供される部分に設ける泡消火設備のうち、当該部分における火災の拡大を初期に抑制することができるものの性能等を定める件	texts/fdma-2026-2.txt
+mlit-2026-353	2026-03-11	2026	mlit	enactment	short	250	国土交通省告示第353号	都市計画法（昭和四十三年法律第百号）第六十三条第一項の規定により、都市計画事業の事業計画の変更を承認したので、同条第二項	texts/mlit-2026-353.txt
+mlit-2026-354	2026-03-11	2026	mlit	enactment	ok	2869	国土交通省告示第354号	都市計画法（昭和四十三年法律第百号）第六十三条第一項の規定により、都市計画事業の事業計画の変更を承認したので、同条第二項	texts/mlit-2026-354.txt
+mic-2026-76	2026-03-16	2026	mic	enactment	ok	2247	総務省告示第76号	消防法（昭和二十三年法律第百八十六号）第二十一条の四第二項の規定により、次の検定対象機械器具等について型式承認をしたので	texts/mic-2026-76.txt
+mlit-2026-373	2026-03-16	2026	mlit	enactment	short	120	国土交通省告示第373号	特定住宅瑕疵担保責任の履行の確保等に関する法律（平成十九年法律第六十六号）第十八条第三項の規定に基づき、平成二十四年国土	texts/mlit-2026-373.txt
+mlit-2026-374	2026-03-16	2026	mlit	enactment	ok	1846	国土交通省告示第374号	都市計画法（昭和四十三年法律第百号）第六十三条第一項の規定により、都市計画事業の事業計画の変更を承認したので、同条第二項	texts/mlit-2026-374.txt
+mlit-2026-403	2026-03-19	2026	mlit	enactment	ok	1769	国土交通省告示第403号	独立行政法人都市再生機構法施行令（平成十六年政令第百六十号）第十三条第二項及び第三項（同令附則第十条において準用する場合	texts/mlit-2026-403.txt
+mlit-2026-421	2026-03-27	2026	mlit	enactment	ok	2178	国土交通省告示第421号	土地収用法（昭和二十六年法律第二百十九号。以下「法」という。）第二十条の規定に基づき、事業の認定をしたので、法第二十六条	texts/mlit-2026-421.txt
+mlit-2026-425	2026-03-30	2026	mlit	enactment	short	592	国土交通省告示第425号	都市再開発法（昭和四十四年法律第三十八号）第五十八条第一項の規定により長岡都市計画事業大手通坂之上町地区第一種市街地再開	texts/mlit-2026-425.txt
+mlit-2026-426	2026-03-30	2026	mlit	enactment	short	380	国土交通省告示第426号	都市再開発法（昭和四十四年法律第三十八号）第五十八条第一項の規定により東京都市計画事業北青山三丁目地区第一種市街地再開発	texts/mlit-2026-426.txt
+mlit-2026-430	2026-03-31	2026	mlit	enactment	short	241	国土交通省告示第430号	建設業法（昭和二十四年法律第百号）第二十六条の十三の規定により、登録講習業務の全部の廃止の届出があったので、同法第二十六	texts/mlit-2026-430.txt
+mlit-2026-436	2026-03-31	2026	mlit	enactment	ok	3521	国土交通省告示第436号	住宅の品質確保の促進等に関する法律（平成十一年法律第八十一号）第三条の二第一項の規定に基づき、評価方法基準（平成十三年国	texts/mlit-2026-436.txt
+mlit-2026-438	2026-03-31	2026	mlit	amendment	ok	5078	令和８年国土交通省告示第438号	確認審査等に関する指針の一部を改正する告示	texts/mlit-2026-438.txt
+mlit-2026-439	2026-03-31	2026	mlit	enactment	short	134	国土交通省告示第439号	住宅確保要配慮者に対する賃貸住宅の供給の促進に関する法律施行規則（平成二十九年国土交通省令第六十三号）第三条第十二号の規	texts/mlit-2026-439.txt
+mlit-2026-443	2026-03-31	2026	mlit	amendment	ok	2643	令和８年国土交通省告示第443号	遊戯施設の定期検査報告における検査および定期点検における点検の項目、事項、方法及び結果の判定基準並びに検査結果表を定める件の一部を改正する告示	texts/mlit-2026-443.txt
+mlit-2026-464	2026-03-31	2026	mlit	amendment	short	726	令和８年国土交通省告示第464号	平成26年国土交通省告示第417号の一部を改正する件	texts/mlit-2026-464.txt
+mlit-2026-465	2026-03-31	2026	mlit	enactment	ok	1735	令和８年国土交通省告示第465号	地方税法附則第十五条の十一第一項に規定する基準に適合する旨を証する書類を定める件	texts/mlit-2026-465.txt
+mlit-2026-466	2026-03-31	2026	mlit	amendment	ok	4214	国土交通省告示第466号	地方税法施行令等の一部を改正する政令（令和八年政令第八十三号）の施行に伴い、令和五年国土交通省告示第二百九十一号等の一部	texts/mlit-2026-466.txt
+mlit-2026-475	2026-03-31	2026	mlit	enactment	short	373	国土交通省告示第475号	租税特別措置法施行規則（昭和三十二年大蔵省令第十五号）第十八条の四第六項第二号、第十八条の二十一第八項第一号ヌ、第十八条	texts/mlit-2026-475.txt
+mlit-2026-476	2026-03-31	2026	mlit	enactment	ok	1758	国土交通省告示第476号	租税特別措置法施行規則（昭和三十二年大蔵省令第十五号）第十三条の三第一項第十三号ハ、第十四号ニ及び第十五号ニ並びに第九項	texts/mlit-2026-476.txt
+mlit-2026-477	2026-03-31	2026	mlit	enactment	short	732	国土交通省告示第477号	租税特別措置法施行規則（昭和三十二年大蔵省令第十五号）第十八条の二十一第八項第一号リの規定に基づき、国土交通大臣が財務大	texts/mlit-2026-477.txt
+mlit-2026-478	2026-03-31	2026	mlit	amendment	ok	1103	国土交通省告示第478号	所得税法等の一部を改正する法律（令和八年法律第十二号）及び租税特別措置法施行令の一部を改正する政令（令和八年政令第九十八	texts/mlit-2026-478.txt
+mlit-2026-483	2026-03-31	2026	mlit	amendment	ok	1330	国土交通省告示第483号	租税特別措置法施行令の一部を改正する政令（令和八年政令第九十八号）の施行に伴い、並びに租税特別措置法施行令（昭和三十二年	texts/mlit-2026-483.txt
+mlit-2026-484	2026-03-31	2026	mlit	amendment	ok	2800	国土交通省告示第484号	租税特別措置法施行令の一部を改正する政令（令和八年政令第九十八号）、地方税法施行令等の一部を改正する政令（令和八年政令第	texts/mlit-2026-484.txt
+mlit-2026-485	2026-03-31	2026	mlit	enactment	short	189	国土交通省告示第485号	租税特別措置法施行令（昭和三十二年政令第四十三号）第二十六条の二十八の四第二項の規定に基づき、平成二十一年国土交通省告示	texts/mlit-2026-485.txt
+mlit-2026-490	2026-03-31	2026	mlit	amendment	ok	2013	国土交通省告示第490号	租税特別措置法施行令の一部を改正する政令（令和八年政令第九十八号）の施行に伴い、及び租税特別措置法施行令（昭和三十二年政	texts/mlit-2026-490.txt
+mlit-2026-492	2026-03-31	2026	mlit	amendment	ok	4397	国土交通省告示第492号	租税特別措置法施行令の一部を改正する政令（令和八年政令第九十八号）の施行に伴い、及び租税特別措置法施行令（昭和三十二年政	texts/mlit-2026-492.txt
+mlit-2026-493	2026-03-31	2026	mlit	amendment	short	725	国土交通省告示第493号	租税特別措置法施行令の一部を改正する政令（令和八年政令第九十八号）の施行に伴い、並びに租税特別措置法施行令（昭和三十二年	texts/mlit-2026-493.txt
+mlit-2026-494	2026-03-31	2026	mlit	amendment	ok	1717	国土交通省告示第494号	所得税法等の一部を改正する法律（令和八年法律第十二号）の施行に伴い、並びに租税特別措置法施行規則（昭和三十二年大蔵省令第	texts/mlit-2026-494.txt
+mlit-2026-496	2026-03-31	2026	mlit	amendment	ok	1801	国土交通省告示第496号	所得税法等の一部を改正する法律（令和八年法律第十二号）の施行に伴い、並びに租税特別措置法施行規則（昭和三十二年大蔵省令第	texts/mlit-2026-496.txt
+mlit-2026-497	2026-03-31	2026	mlit	enactment	short	259	国土交通省告示第497号	租税特別措置法施行令（昭和三十二年政令第四十三号）第二十六条の二十八の六第一項の規定に基づき、平成二十一年国土交通省告示	texts/mlit-2026-497.txt
+mlit-2026-502	2026-03-31	2026	mlit	amendment	truncated	12000	国土交通省告示第502号	租税特別措置法施行令の一部を改正する政令（令和八年政令第九十八号）の施行に伴い、平成十四年国土交通省告示第二百七十一号の	texts/mlit-2026-502.txt
+mlit-2026-503	2026-03-31	2026	mlit	amendment	short	320	国土交通省告示第503号	老朽化マンション等の管理及び再生の円滑化等を図るための建物の区分所有等に関する法律等の一部を改正する法律（令和七年法律第	texts/mlit-2026-503.txt
+mic-2026-161	2026-04-01	2026	mic	enactment	ok	3870	総務省告示第161号	地方財政法施行令（昭和二十三年政令第二百六十七号）第二十条第四項の規定に基づき、令和八年度地方債充当率を次のように定めた	texts/mic-2026-161.txt
+mlit-2026-505	2026-04-01	2026	mlit	enactment	short	116	国土交通省告示第505号	既存住宅状況調査技術者講習登録規程（平成二十九年国土交通省告示第八十一号）第十九条第二号の規定に基づき、平成二十九年国土	texts/mlit-2026-505.txt
+mlit-2026-506	2026-04-01	2026	mlit	enactment	short	231	国土交通省告示第506号	建設業法（昭和二十四年法律第百号）第二十六条第五項の規定により、次の機関の行う講習を監理技術者講習として登録したので、同	texts/mlit-2026-506.txt
+mlit-2026-511	2026-04-01	2026	mlit	amendment	ok	1747	国土交通省告示第511号	医療法施行令等の一部を改正する政令（令和八年政令第六十六号）の施行に伴い、及び特定空港周辺航空機騒音対策特別措置法施行令	texts/mlit-2026-511.txt
+mlit-2026-554	2026-04-13	2026	mlit	enactment	short	356	国土交通省告示第554号	測量法（昭和二十四年法律第百八十八号）第五十一条の四第一項の規定により、次の測量に関する専門の養成施設の登録をしたので、	texts/mlit-2026-554.txt
+mlit-2026-557	2026-04-14	2026	mlit	enactment	short	251	国土交通省告示第557号	都市計画法（昭和四十三年法律第百号）第六十三条第一項の規定により、都市計画事業の事業計画の変更を承認したので、同条第二項	texts/mlit-2026-557.txt
+mlit-2026-598	2026-05-01	2026	mlit	enactment	short	118	国土交通省告示第598号	既存住宅状況調査技術者講習登録規程（平成二十九年国土交通省告示第八十一号）第十九条第二号の規定に基づき、平成二十九年国土	texts/mlit-2026-598.txt
+mlit-2026-633	2026-05-21	2026	mlit	enactment	short	117	国土交通省告示第633号	住宅の品質確保の促進等に関する法律（平成十一年法律第八十一号）第五十八条第一項の規定により特別評価方法認定をしたので、同	texts/mlit-2026-633.txt
+mlit-2026-634	2026-05-21	2026	mlit	enactment	short	499	国土交通省告示第634号	住宅の品質確保の促進等に関する法律（平成十一年法律第八十一号）第五十八条第一項の規定により特別評価方法認定をしたので、同	texts/mlit-2026-634.txt
+mlit-2026-636	2026-05-21	2026	mlit	enactment	truncated	12000	国土交通省告示第636号	土砂災害警戒区域等における土砂災害防止対策の推進に関する法律（平成十二年法律第五十七号）第三条第一項の規定に基づき、土砂	texts/mlit-2026-636.txt
+mlit-2026-657	2026-05-29	2026	mlit	enactment	ok	4445	国土交通省告示第657号	指定広域支援ふ頭及び指定地域支援ふ頭の指定基準を次のように定める。令和八年五月二十九日国土交通大臣金子恭之指定広域支援ふ	texts/mlit-2026-657.txt
+mlit-2026-658	2026-05-29	2026	mlit	amendment	ok	5895	令和８年国土交通省告示第658号	現場打コンクリートの型わく及び支柱の取り外しに関する基準等の一部を改正する告示	texts/mlit-2026-658.txt
+mlit-2026-679	2026-06-09	2026	mlit	enactment	short	295	国土交通省告示第679号	土地区画整理法（昭和二十九年法律第百十九号）第七十一条の三第十五項において準用する同条第四項の規定により、南部大阪都市計	texts/mlit-2026-679.txt
+mlit-2026-681	2026-06-10	2026	mlit	enactment	short	115	国土交通省告示第681号	住宅の品質確保の促進等に関する法律（平成十一年法律第八十一号）第五十八条第一項の規定により特別評価方法認定をしたので、同	texts/mlit-2026-681.txt
+mlit-2026-693	2026-06-15	2026	mlit	enactment	ok	8555	令和８年国土交通省告示第693号	積層造形型枠一体型壁式鉄筋コンクリート造の建築物又は建築物の構造部分の構造方法に関する安全上必要な技術的基準等を定める件	texts/mlit-2026-693.txt
+mlit-2026-694	2026-06-16	2026	mlit	enactment	ok	1310	国土交通省告示第694号	地方税法施行規則附則第六条第十五項第三号に規定する運輸大臣の定める構造上の基準（平成八年運輸省告示第百八十一号）は、廃止	texts/mlit-2026-694.txt
+mlit-2026-703	2026-06-18	2026	mlit	enactment	short	117	国土交通省告示第703号	既存住宅状況調査技術者講習登録規程（平成二十九年国土交通省告示第八十一号）第十九条第二号の規定に基づき、平成二十九年国土	texts/mlit-2026-703.txt
+mlit-2026-784	2026-06-23	2026	mlit	enactment	truncated	12000	国土交通省告示第784号	外国人の育成就労の適正な実施及び育成就労外国人の保護に関する法律施行規則（令和七年法務省・厚生労働省令第四号）第十三条第	texts/mlit-2026-784.txt
+joint-env-mhlw-mlit-2026-2	2026-06-30	2026	joint-env-mhlw-mlit	amendment	short	442	令和８年厚生労働省・国土交通省・環境省告示第2号	建築物石綿含有建材調査者講習等登録規程の一部を改正する件	texts/joint-env-mhlw-mlit-2026-2.txt
+mlit-2026-815	2026-07-06	2026	mlit	enactment	short	358	国土交通省告示第815号	賃貸住宅の管理業務等の適正化に関する法律施行規則（令和二年国土交通省令第八十三号）第十八条第二項の規定により、次に掲げる	texts/mlit-2026-815.txt
+mlit-2026-816	2026-07-06	2026	mlit	enactment	ok	1786	国土交通省告示第816号	賃貸住宅の管理業務等の適正化に関する法律施行規則（令和二年国土交通省令第八十三号）第十四条第二号の規定及び管理業務に関す	texts/mlit-2026-816.txt
+mlit-2026-832	2026-07-10	2026	mlit	enactment	truncated	12000	国土交通省告示第832号	建築基準法（昭和二十五年法律第二百一号）第七十七条の二十一第一項及び第三頂並びに第七十七条の二十二第四項の規定に基づき、	texts/mlit-2026-832.txt
+mlit-2026-833	2026-07-13	2026	mlit	enactment	ok	5037	国土交通省告示第833号	土地収用法（昭和二十六年法律第二百十九号。以下「法」という。）第二十条の規定に基づき、事業の認定をしたので、法第二十六条	texts/mlit-2026-833.txt
+mlit-2026-839	2026-07-15	2026	mlit	enactment	short	346	国土交通省告示第839号	建設業法施行規則（昭和二十四年建設省令第十四号）第十八条の六の規定により、次の機関の行う講習を登録基幹技能者講習として登	texts/mlit-2026-839.txt
+mlit-2026-848	2026-07-17	2026	mlit	enactment	ok	1273	国土交通省告示第848号	住宅の品質確保の促進等に関する法律（平成十一年法律第八十一号）第五十八条第一項の規定により特別評価方法認定をしたので、同	texts/mlit-2026-848.txt
+mlit-2026-849	2026-07-17	2026	mlit	enactment	short	116	国土交通省告示第849号	住宅の品質確保の促進等に関する法律（平成十一年法律第八十一号）第五十八条第一項の規定により特別評価方法認定をしたので、同	texts/mlit-2026-849.txt
+mlit-2026-853	2026-07-21	2026	mlit	enactment	short	120	国土交通省告示第853号	既存住宅状況調査技術者講習登録規程（平成二十九年国土交通省告示第八十一号）第十九条第二号の規定に基づき、平成二十九年国土	texts/mlit-2026-853.txt
+mlit-2026-986	2026-07-21	2026	mlit	amendment	truncated	12000	国土交通省告示第986号	高齢者、障害者等の移動等の円滑化の促進に関する法律施行規則（平成十八年国土交通省令第百十号）第六条の三、第六条の四及び第	texts/mlit-2026-986.txt
+mlit-2026-990	2026-07-24	2026	mlit	enactment	short	200	国土交通省告示第990号	建設業法施行規則（昭和二十四年建設省令第十四号）第十八条の九の規定により、同規則第十八条の六第二項第二号に掲げる事項につ	texts/mlit-2026-990.txt
+mlit-2026-1007	2026-07-30	2026	mlit	amendment	truncated	12000	国土交通省告示第1007号	建築基準法（昭和二十五年法律第二百一号）第七十七条の五十六第二項において準用する同法第七十七条の三十九第三項の規定に基づ	texts/mlit-2026-1007.txt
+mlit-2026-1017	2026-07-31	2026	mlit	amendment	truncated	12000	国土交通省告示第1017号	老朽化マンション等の管理及び再生の円滑化等を図るための建物の区分所有等に関する法律等の一部を改正する法律（令和七年法律第	texts/mlit-2026-1017.txt
+mlit-2026-1020	2026-08-03	2026	mlit	enactment	truncated	12000	国土交通省告示第1020号	中部圏開発整備法（昭和四十一年法律第百二号）第十二条第三項において準用する第十一条第三項の規定に基づき、中部圏開発整備計	texts/mlit-2026-1020.txt
+mlit-2026-1037	2026-08-07	2026	mlit	enactment	ok	3579	国土交通省告示第1037号	令和八年熊本地震による災害についての特定非常災害及びこれに対し適用すべき措置の指定に関する政令（令和八年政令第二百六十号	texts/mlit-2026-1037.txt
+mlit-2026-1038	2026-08-10	2026	mlit	enactment	short	220	国土交通省告示第1038号	建設業法施行規則（昭和二十四年建設省令第十四号）第十八条の九の規定により、同規則第十八条の六第二項第二号に掲げる事項につ	texts/mlit-2026-1038.txt
+mlit-2026-1041	2026-08-10	2026	mlit	enactment	short	339	国土交通省告示第1041号	海洋汚染等及び海上災害の防止に関する法律施行規則（昭和四十六年運輸省令第三十八号）第三十七条の十五第二項において準用する	texts/mlit-2026-1041.txt
+mlit-2026-1065	2026-08-18	2026	mlit	enactment	short	319	国土交通省告示第1065号	土地区画整理事業の関係図書を縦覧に供する件	texts/mlit-2026-1065.txt
+mlit-2026-1072	2026-08-20	2026	mlit	enactment	short	315	国土交通省告示第1072号	土地区画整理事業の関係図書を縦覧に供する件	texts/mlit-2026-1072.txt
+mlit-2026-1080	2026-08-21	2026	mlit	enactment	ok	3094	国土交通省告示第1080号	国土交通省関係住宅宿泊事業法施行規則の規定に基づく登録実務講習実施機関の登録事項の変更の件	texts/mlit-2026-1080.txt
+mlit-2026-1091	2026-08-26	2026	mlit	enactment	short	398	国土交通省告示第1091号	土地区画整理事業の事業計画変更を認可した件	texts/mlit-2026-1091.txt
+mlit-2026-1109	2026-09-03	2026	mlit	amendment	short	52	国土交通省告示第1109号	建築基準法第七十七条の二十一第三項の規定に基づき、平成十一年建設省告示第千二百八十七号の一部を改正する件	texts/mlit-2026-1109.txt
+mic-2026-335	2026-09-11	2026	mic	enactment	short	178	総務省告示第335号	消防法第二十一条の四十八第二項に規定する登録検定機関の代表者の氏名の変更に関する件	texts/mic-2026-335.txt
+mic-2026-336	2026-09-11	2026	mic	enactment	short	237	総務省告示第336号	消防法施行規則第四条の二の四第四項に規定する登録講習機関の代表者の氏名の変更に関する件	texts/mic-2026-336.txt
+mic-2026-337	2026-09-11	2026	mic	enactment	short	229	総務省告示第337号	消防法施行規則第四条の二の十二第二項に規定する登録講習機関の代表者の氏名の変更に関する件	texts/mic-2026-337.txt
+mic-2026-338	2026-09-11	2026	mic	enactment	short	240	総務省告示第338号	消防法施行規則第五十一条の十三第二項に規定する登録講習機関の代表者の氏名の変更に関する件	texts/mic-2026-338.txt
+mlit-2026-1168	2026-09-28	2026	mlit	enactment	ok	2453	国土交通省告示第1168号	都市計画に関する件	texts/mlit-2026-1168.txt
+mlit-2026-1172	2026-09-29	2026	mlit	enactment	short	192	国土交通省告示第1172号	建設業法に基づく登録監理技術者講習実施機関の登録事項の変更の届出があった件	texts/mlit-2026-1172.txt
+mlit-2026-1180	2026-09-30	2026	mlit	enactment	no_text_found	0	国土交通省告示第1180号	令和九年度における公営住宅法第十六条第二項の規定による近傍同種の住宅の家賃及び同法第四十四条第一項の規定による譲渡の対価に係る公営住宅法施行規則第二十三条に基づき国土交通大臣が地域別に定める率を定める件	
+mlit-2026-1181	2026-09-30	2026	mlit	enactment	no_text_found	0	国土交通省告示第1181号	改良住宅の家賃の変更に係る率並びに改良住宅の家賃の変更に係る修繕費及び管理事務費に係る率を定める告示	
+mlit-2026-117	2026-10-01	2026	mlit	enactment	no_text_found	0	国土交通省告示第117号	浄化槽の型式の認定を更新した件	
+mlit-2026-1213	2026-10-09	2026	mlit	enactment	short	463	国土交通省告示第1213号	土地区画整理事業の事業計画変更を認可した件	texts/mlit-2026-1213.txt
+mlit-2026-1214	2026-10-09	2026	mlit	enactment	ok	5486	国土交通省告示第1214号	都市計画に関する件	texts/mlit-2026-1214.txt
+mlit-2026-1220	2026-10-14	2026	mlit	enactment	short	80	国土交通省告示第1220号	住宅の品質確保の促進等に関する法律の規定に基づく指定住宅紛争処理機関の住所等を変更する件	texts/mlit-2026-1220.txt
+mlit-2026-1291	2026-10-22	2026	mlit	enactment	short	504	国土交通省告示第1291号	土地区画整理事業の施行規程及び事業計画の変更を認可した件	texts/mlit-2026-1291.txt
+mlit-2026-1304	2026-10-27	2026	mlit	enactment	ok	4539	国土交通省告示第1304号	土地区画整理事業の施行規程及び事業計画の変更を認可した件	texts/mlit-2026-1304.txt
+mlit-2026-1311	2026-10-29	2026	mlit	enactment	short	189	国土交通省告示第1311号	建設業法に基づく登録監理技術者講習実施機関の登録事項の変更の届出があった件	texts/mlit-2026-1311.txt
+mlit-2026-1316	2026-10-30	2026	mlit	enactment	ok	804	令和８年国土交通省告示第1316号	採光のための窓その他の開口部を設けることを要しない衛生上支障がない建築物を定める件	texts/mlit-2026-1316.txt
+mlit-2026-1325	2026-10-30	2026	mlit	amendment	ok	5608	令和８年国土交通省告示第1325号	建築基準法施行令第百三十六条の二の十一第一号イ(2)等の国土交通大臣の指定する構造方法を定める件等の一部を改正する告示	texts/mlit-2026-1325.txt
+mlit-2026-1326	2026-10-30	2026	mlit	amendment	short	769	国土交通省告示第1326号	建築基準法施行令第百三十六条の二の十一第一号イ⑵等の国土交通大臣の指定する構造方法を定める件等の一部を改正する告示	texts/mlit-2026-1326.txt
+mlit-2026-1332	2026-11-06	2026	mlit	enactment	short	209	国土交通省告示第1332号	賃貸住宅の管理業務等の適正化に関する法律施行規則第十四条第一号の登録証明事業にかかる登録証明事業登録簿に掲げる事項の変更の届出があった件	texts/mlit-2026-1332.txt
+mlit-2026-1333	2026-11-06	2026	mlit	enactment	short	44	国土交通省告示第1333号	賃貸住宅の管理業務等の適正化に関する法律施行規則第十四条第二号の指定講習にかかる指定簿に掲げる事項の変更の届出があった件	texts/mlit-2026-1333.txt
+mlit-2026-1352	2026-11-17	2026	mlit	amendment	short	139	国土交通省告示第1352号	建築基準法第七十七条の二十一第三項並びに第七十七条の二十二第四項の規定に基づき、平成十一年建設省告示第千二百八十七号の一部を改正する件	texts/mlit-2026-1352.txt
+mlit-2026-1353	2026-11-18	2026	mlit	enactment	short	611	国土交通省告示第1353号	地上部分の層間変形角を百五十分の一以内とすることを要しない建築物を定める件	texts/mlit-2026-1353.txt
+mlit-2026-1354	2026-11-18	2026	mlit	enactment	short	609	国土交通省告示第1354号	防火区画を設けることを要しない建築物を定める件	texts/mlit-2026-1354.txt

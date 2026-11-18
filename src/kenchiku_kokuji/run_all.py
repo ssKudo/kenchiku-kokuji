@@ -123,6 +123,8 @@ def main() -> None:
     (data_dir / "stats.md").write_text("\n".join(stats) + "\n", encoding="utf-8")
     (data_dir / "missing_texts.md").write_text(
         build_mod.format_missing_texts_report(records), encoding="utf-8")
+    (data_dir / "index.tsv").write_text(
+        build_mod.format_index_tsv(records), encoding="utf-8")
     print("\n".join(stats[:7]))
 
 

@@ -230,6 +230,30 @@ def format_missing_texts_report(records: list[dict]) -> str:
     return "\n".join(lines)
 
 
+INDEX_TSV_COLS = (
+    "id", "date", "year", "issuer", "kind",
+    "text_status", "text_chars", "number_raw", "title", "text_file",
+)
+
+
+def _tsv_cell(val: object) -> str:
+    if val is None:
+        return ""
+    return re.sub(r"[\t\r\n]+", " ", str(val)).strip()
+
+
+def format_index_tsv(notices: list[dict]) -> str:
+    """AIエージェント・高速検索向けの1行1告示TSVインデックスを生成する。"""
+    lines = ["\t".join(INDEX_TSV_COLS)]
+    for r in notices:
+        row = []
+        for col in INDEX_TSV_COLS:
+            val = compute_text_status(r) if col == "text_status" and not r.get("text_status") else r.get(col, "")
+            row.append(_tsv_cell(val))
+        lines.append("\t".join(row))
+    return "\n".join(lines) + "\n"
+
+
 def extract_pdf_text(data: bytes) -> tuple[str, int]:
     import pymupdf
 

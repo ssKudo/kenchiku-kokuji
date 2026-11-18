@@ -7,7 +7,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
 from kenchiku_kokuji.build import (  # noqa: E402
-    build, cleanup_orphan_texts, compute_text_status,
+    build, cleanup_orphan_texts, compute_text_status, format_index_tsv,
     format_missing_texts_report, merge, repair_and_prune,
     synthesize_missing_base_stubs)
 from kenchiku_kokuji.common import load_domain, parse_notice_number  # noqa: E402
@@ -168,6 +168,32 @@ class TestCompleteMapAndStubs(unittest.TestCase):
             self.assertEqual(removed, 1)
             self.assertTrue((tdir / "fdma-54.txt").exists())
             self.assertFalse((tdir / "kensetsu-1987-60.txt").exists())
+
+    def test_format_index_tsv_sanitizes_tabs_and_newlines(self):
+        recs = [{
+            "id": "mlit-2026-1",
+            "date": "2026-01-05",
+            "year": 2026,
+            "issuer": "mlit",
+            "kind": "enactment",
+            "text_status": "ok",
+            "text_chars": 1500,
+            "number_raw": "国土交通省告示\t第1号",
+            "title": "建築基準法\nに基づく\r\n告示",
+            "text_file": "texts/mlit-2026-1.txt",
+        }]
+        tsv = format_index_tsv(recs)
+        lines = tsv.splitlines()
+        self.assertEqual(len(lines), 2)
+        self.assertEqual(
+            lines[0],
+            "id\tdate\tyear\tissuer\tkind\ttext_status\ttext_chars\tnumber_raw\ttitle\ttext_file",
+        )
+        cols = lines[1].split("\t")
+        self.assertEqual(len(cols), 10)
+        self.assertEqual(cols[0], "mlit-2026-1")
+        self.assertEqual(cols[7], "国土交通省告示 第1号")
+        self.assertEqual(cols[8], "建築基準法 に基づく 告示")
 
 
 class TestShoeneWebParser(unittest.TestCase):
