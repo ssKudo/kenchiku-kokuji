@@ -13,7 +13,7 @@ import time
 from pathlib import Path
 from urllib.parse import urljoin
 
-from .common import fetch
+from .common import fetch, is_excluded, make_id, parse_notice_number
 from .source_kanpo import extract_amend_targets
 
 DELAY_SEC = 0.3
@@ -56,11 +56,53 @@ def merge(*inventories: list[dict]) -> list[dict]:
                 cur["title"] = rec["title"]
             elif cur.get("title", "").startswith("（未取得") and rec.get("title"):
                 cur["title"] = rec["title"]
+            if not cur.get("text_file") and rec.get("text_file"):
+                for tk in ("text_file", "text_chars", "text_sha256", "text_how", "text_status"):
+                    if tk in rec:
+                        cur[tk] = rec[tk]
             cur["attachments"].extend(
                 a for a in rec.get("attachments", []) if a not in cur["attachments"])
             for list_key in ("basis_laws", "amends", "amended_by"):
                 _merge_list_field(cur, rec, list_key)
     return sorted(by_id.values(), key=lambda r: (r["date"] or "", r["id"]))
+
+
+def repair_and_prune(records: list[dict], domain: dict) -> list[dict]:
+    """欠損year/IDを修復し、非建築ノイズを除外して重複IDを統合する。"""
+    repaired: list[dict] = []
+    for rec in records:
+        if is_excluded(rec.get("title", ""), domain):
+            continue
+        r = dict(rec)
+        if (r.get("year") is None or r.get("issuer") == "unknown") and r.get("number_raw"):
+            p = parse_notice_number(r["number_raw"], r.get("date"))
+            if p["year"] is not None and p["number"] is not None and p["issuer"] != "unknown":
+                r["issuer"] = p["issuer"]
+                r["year"] = p["year"]
+                r["number"] = p["number"]
+                r["id"] = make_id(p["issuer"], p["year"], p["number"], r["id"])
+        repaired.append(r)
+    merged = merge(repaired)
+    valid_ids = {r["id"] for r in merged}
+    for r in merged:
+        for key in ("amends", "amended_by"):
+            if key in r:
+                r[key] = [tid for tid in r[key] if tid in valid_ids]
+    return merged
+
+
+def cleanup_orphan_texts(records: list[dict], data_dir: Path) -> int:
+    """台帳に存在しない孤立テキストファイル(除外・統合済み)を削除する。"""
+    texts_dir = data_dir / "texts"
+    if not texts_dir.exists():
+        return 0
+    keep = {Path(r["text_file"]).name for r in records if r.get("text_file")}
+    removed = 0
+    for p in texts_dir.glob("*.txt"):
+        if p.name not in keep:
+            p.unlink()
+            removed += 1
+    return removed
 
 
 def compute_text_status(rec: dict) -> str:

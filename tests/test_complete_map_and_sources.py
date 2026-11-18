@@ -7,7 +7,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
 from kenchiku_kokuji.build import (  # noqa: E402
-    build, compute_text_status, format_missing_texts_report, merge,
+    build, cleanup_orphan_texts, compute_text_status,
+    format_missing_texts_report, merge, repair_and_prune,
     synthesize_missing_base_stubs)
 from kenchiku_kokuji.common import load_domain, parse_notice_number  # noqa: E402
 from kenchiku_kokuji.source_fdma import parse_fdma_html  # noqa: E402
@@ -89,6 +90,84 @@ class TestCompleteMapAndStubs(unittest.TestCase):
         self.assertEqual(rec["basis_laws"], ["建築基準法"])
         self.assertEqual(rec["amended_by"], ["mlit-2026-1109"])
         self.assertIn("hourei.ndl.go.jp", rec["ndl_url"])
+
+    def test_repair_and_prune_and_cleanup_orphans(self):
+        p = parse_notice_number("昭和50.年消防庁告示7", None)
+        self.assertEqual((p["issuer"], p["year"], p["number"]), ("fdma", 1975, 7))
+
+        domain = load_domain()
+        recs = [
+            {
+                "id": "fdma-54",
+                "title": "キュービクル式非常電源専用受電設備の基準",
+                "number_raw": "昭和50.年消防庁告示7",
+                "issuer": "fdma",
+                "year": None,
+                "number": 7,
+                "date": None,
+                "org": "消防庁",
+                "document_url": "https://example.com/1",
+                "sources": [{"type": "fdma", "page_url": "https://example.com"}],
+                "attachments": [],
+                "text_file": "texts/fdma-54.txt",
+                "text_chars": 1000,
+                "text_sha256": "abc",
+                "text_how": "pdf",
+            },
+            {
+                "id": "fdma-1975-7",
+                "title": "キュービクル式非常電源専用受電設備の基準",
+                "number_raw": "消防庁告示第7号",
+                "issuer": "fdma",
+                "year": 1975,
+                "number": 7,
+                "date": "1975-05-01",
+                "org": "",
+                "document_url": "",
+                "sources": [{"type": "ndl", "page_url": "https://hourei.ndl.go.jp/1"}],
+                "attachments": [],
+            },
+            {
+                "id": "kensetsu-1987-60",
+                "title": "ダム工事総括管理業務に関する知識及び技術の審査・証明事業認定規程",
+                "number_raw": "建設省告示第60号",
+                "issuer": "kensetsu",
+                "year": 1987,
+                "number": 60,
+                "date": "1987-01-01",
+                "org": "",
+                "document_url": "",
+                "sources": [{"type": "ndl", "page_url": "https://hourei.ndl.go.jp/2"}],
+                "attachments": [],
+            },
+            {
+                "id": "fdma-2008-27",
+                "title": "特定施設水道連結型スプリンクラー設備の基準",
+                "number_raw": "消防庁告示第27号",
+                "issuer": "fdma",
+                "year": 2008,
+                "number": 27,
+                "date": "2008-01-01",
+                "org": "消防庁",
+                "document_url": "",
+                "sources": [{"type": "fdma", "page_url": "https://example.com"}],
+                "attachments": [],
+            },
+        ]
+        cleaned = repair_and_prune(recs, domain)
+        ids = [r["id"] for r in cleaned]
+        self.assertEqual(ids, ["fdma-1975-7", "fdma-2008-27"])
+        self.assertEqual(cleaned[0]["text_file"], "texts/fdma-54.txt")
+
+        with tempfile.TemporaryDirectory() as td:
+            tdir = Path(td) / "texts"
+            tdir.mkdir()
+            (tdir / "fdma-54.txt").write_text("keep", encoding="utf-8")
+            (tdir / "kensetsu-1987-60.txt").write_text("orphan", encoding="utf-8")
+            removed = cleanup_orphan_texts(cleaned, Path(td))
+            self.assertEqual(removed, 1)
+            self.assertTrue((tdir / "fdma-54.txt").exists())
+            self.assertFalse((tdir / "kensetsu-1987-60.txt").exists())
 
 
 class TestShoeneWebParser(unittest.TestCase):

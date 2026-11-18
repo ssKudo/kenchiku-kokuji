@@ -109,7 +109,7 @@ def parse_notice_number(number_raw: str, date_iso: str | None) -> dict:
     number = kanji_to_int(m.group(1)) if m else None
 
     year = None
-    em = re.search(r"(明治|大正|昭和|平成|令和)(元|\d+)年", raw)
+    em = re.search(r"(明治|大正|昭和|平成|令和)(元|\d+)\.?年", raw)
     if em:
         y = 1 if em.group(2) == "元" else int(em.group(2))
         year = era_to_gregorian(em.group(1), y)
