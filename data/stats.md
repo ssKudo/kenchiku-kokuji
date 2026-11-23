@@ -4,7 +4,7 @@
 - 本文テキスト取得済み: 731 (82%)
 - 本文状態の内訳: {'ok': 505, 'metadata_only': 160, 'short': 205, 'image_pdf': 2, 'truncated': 21, 'no_text_found': 3}
 - 本文の総文字数: 4,818,044
-- 情報源の内訳: {'fdma': 80, 'amend_ref': 21, 'excel': 311, 'ndl': 516, 'web': 153, 'web_shoene': 14, 'kanpo_archive': 176, 'kanpo': 27}
+- 情報源の内訳: {'fdma': 80, 'amend_ref': 21, 'excel': 311, 'ndl': 516, 'web': 155, 'web_shoene': 14, 'kanpo_archive': 176, 'kanpo': 27}
 - 種別: {'enactment': 774, 'amendment': 122}
 
 ## 年別件数
